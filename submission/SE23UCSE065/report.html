@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<style>
+  @page { size:A4; margin:0; }
+  :root {
+    --ink:#0b1d33; --ink2:#162d4d; --body:#33475e; --muted:#73839d; --faint:#9aa8c0;
+    --accent:#1a5cff; --accent2:#3b7cff; --accentSoft:#eaf0ff; --accentLine:#c9d9ff;
+    --line:#e6ebf0; --soft:#f4f7fb; --soft2:#eef3ff;
+    --code:#0e243d; --code2:#143152;
+    --ok:#0e8a5a; --warn:#b77900; --bad:#c0392b;
+    --yellow:#ffd84d;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,"SF Pro Display","Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--body);font-size:10.4px;line-height:1.6;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .page{padding:44px 52px 36px;page-break-after:always;position:relative}
+  .page:last-child{page-break-after:auto}
+  h1,h2,h3,h4{color:var(--ink);line-height:1.18;margin:0}
+  h1{font-size:22px;letter-spacing:-.025em}
+  h2{font-size:15px}
+  h3{font-size:11.5px}
+  p{margin:0 0 8px}
+  ul,ol{margin:0 0 8px;padding-left:16px}
+  li{margin-bottom:3px}
+  small{color:var(--muted)}
+  a{color:var(--accent)}
+  /* cover */
+  .cover{height:100vh;display:flex;flex-direction:column;justify-content:space-between;background:var(--ink);color:#fff;padding:0;overflow:hidden}
+  .cover-top{padding:44px 52px 0;display:flex;justify-content:space-between;align-items:flex-start}
+  .pill{display:inline-flex;align-items:center;gap:6px;border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:5px 12px;font-size:8.5px;letter-spacing:.08em;text-transform:uppercase;color:#cfe0ff}
+  .pill b{width:6px;height:6px;border-radius:50%;background:var(--yellow);display:inline-block}
+  .cover-mid{padding:0 52px}
+  .kicker{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#8fb0ff;font-weight:700}
+  .cover h1{color:#fff;font-size:46px;line-height:.98;letter-spacing:-.04em;margin:10px 0 12px}
+  .cover h1 i{font-style:normal;color:#7fb0ff}
+  .cover .sub{font-size:13.5px;color:#cbdaf0;max-width:560px;line-height:1.5}
+  .cover-stats{display:flex;gap:14px;margin-top:22px}
+  .cstat{border:1px solid rgba(255,255,255,.18);border-radius:10px;padding:10px 14px;min-width:108px;background:rgba(255,255,255,.06)}
+  .cstat b{color:#fff;font-size:18px;display:block;line-height:1}
+  .cstat span{font-size:8.5px;color:#9fb5d6;letter-spacing:.06em;text-transform:uppercase}
+  .cover-btm{border-top:1px solid rgba(255,255,255,.12);padding:16px 52px 22px;display:flex;justify-content:space-between;gap:24px;background:linear-gradient(180deg,rgba(255,255,255,.04),transparent)}
+  .cover-btm div{font-size:9px;color:#9fb5d6;line-height:1.7}
+  .cover-btm strong{color:#e6efff}
+  /* utilities */
+  .eyebrow{font-size:8.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--accent);margin-bottom:6px}
+  .eyebrow.dark{color:#4a6a9a}
+  .rule{height:2px;background:var(--accentSoft);margin:8px 0 14px;border-radius:2px}
+  .rule.accent{background:linear-gradient(90deg,var(--accent),#7fb0ff)}
+  table{width:100%;border-collapse:collapse;margin:8px 0 10px;font-size:9.8px}
+  th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:var(--soft2);color:var(--ink);font-weight:650;font-size:9px;letter-spacing:.04em;text-transform:uppercase}
+  pre{background:var(--code);color:#dce8f7;border-radius:10px;padding:12px 14px;overflow:auto;font-size:9.2px;line-height:1.55;font-family:"SF Mono",Menlo,Consolas,monospace;border:1px solid #1a3352}
+  code{background:var(--soft2);border:1px solid var(--line);border-radius:4px;padding:0 4px;font-size:9.4px;color:var(--ink2);font-family:"SF Mono",Menlo,Consolas,monospace}
+  .box{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#fff;margin:8px 0}
+  .box.blue{background:var(--accentSoft);border-color:var(--accentLine)}
+  .box.dark{background:var(--ink);color:#cfe0f5;border-color:#1a3352}
+  .box.dark h3,.box.dark h4{color:#fff}
+  .box.dark p{color:#9fb5d6}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+  .grid4{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:10px}
+  .kpi{border:1px solid var(--line);border-radius:12px;padding:12px;background:#fff}
+  .kpi b{font-size:19px;color:var(--ink);display:block;line-height:1}
+  .kpi span{font-size:8.5px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+  .kpi em{font-style:normal;font-size:9px;color:var(--accent);font-weight:600}
+  .warn{border-left:3px solid var(--accent);background:#f6f8ff;padding:9px 12px;border-radius:8px;margin:8px 0;font-size:9.8px}
+  .warn.amber{border-left-color:var(--warn);background:#fff9e6}
+  .tag{display:inline-flex;align-items:center;font-size:8px;letter-spacing:.06em;text-transform:uppercase;font-weight:700;padding:3px 8px;border-radius:999px;background:var(--accentSoft);color:var(--accent);border:1px solid var(--accentLine);margin:2px 4px 2px 0}
+  .tag.green{background:#e6f5ef;color:var(--ok);border-color:#bfe8d6}
+  .tag.amber{background:#fff4d6;color:#8a6a00;border-color:#ffe9a8}
+  .tag.red{background:#fde8e6;color:var(--bad);border-color:#f5c2bd}
+  .arch{border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:10px 0;background:#fff}
+  .arch-head{background:var(--ink);color:#cfe0f5;padding:10px 16px;display:flex;justify-content:space-between;align-items:center}
+  .arch-head b{color:#fff;font-size:11px}
+  .arch-head span{font-size:8.5px;letter-spacing:.08em;text-transform:uppercase;color:#8fb0ff}
+  .arch-body{padding:14px;display:grid;grid-template-columns:1.25fr .9fr 1fr;gap:12px}
+  .arch-col{border:1px solid var(--line);border-radius:10px;padding:10px 11px;background:var(--soft)}
+  .arch-col h4{font-size:10px;margin-bottom:4px}
+  .arch-col p{font-size:9px;color:var(--muted);margin:0}
+  .flow{display:flex;gap:6px;margin:10px 0}
+  .stage{flex:1;border:1px solid var(--line);border-radius:10px;padding:10px;background:#fff;position:relative}
+  .stage .n{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:7px;background:var(--ink);color:#fff;font-weight:700;font-size:10px;margin-bottom:6px}
+  .stage h4{font-size:10px;margin:0 0 2px}
+  .stage p{font-size:8.8px;color:var(--muted);margin:0;line-height:1.45}
+  .stage:after{content:"›";position:absolute;right:-8px;top:50%;transform:translateY(-50%);color:var(--faint);font-size:14px}
+  .stage:last-child:after{display:none}
+  .tree{font-family:"SF Mono",Menlo,Consolas,monospace;font-size:8.7px;line-height:1.45;background:var(--code);color:#cfe0f5;border-radius:10px;padding:12px 14px;white-space:pre;overflow:auto;border:1px solid #1a3352}
+  .shot{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;margin:8px 0}
+  .shot img{width:100%;display:block}
+  .shot-cap{padding:8px 12px;font-size:8.8px;color:var(--muted);border-top:1px solid var(--line);background:var(--soft)}
+  .shot-cap b{color:var(--ink)}
+  .matrix td:first-child{font-weight:600;color:var(--ink)}
+  .foot{margin-top:12px;font-size:8.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:8px;display:flex;justify-content:space-between}
+  .toc{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--soft);margin:10px 0}
+  .toc a{color:var(--ink);text-decoration:none;font-size:9.5px;display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px dashed var(--line)}
+  .toc a:last-child{border:0}
+  .toc a span:last-child{color:var(--muted)}
+  .quote{border-left:3px solid var(--yellow);padding:6px 12px;background:#fffef3;border-radius:0 8px 8px 0;margin:8px 0;font-size:10px;color:var(--ink2);font-style:italic}
+  .check{color:var(--ok)} .cross{color:var(--muted)}
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<section class="page cover">
+  <div class="cover-top">
+    <div style="display:flex;gap:10px;align-items:center">
+      <div style="width:28px;height:28px;border-radius:8px;background:#fff;display:grid;place-items:center;color:var(--ink);font-weight:800;font-size:12px">N</div>
+      <div style="line-height:1.1"><div style="font-size:11px;font-weight:700;letter-spacing:-.02em">NexCredit <span style="color:#7fb0ff">AI</span></div><div style="font-size:7px;letter-spacing:.14em;text-transform:uppercase;color:#8fb0ff">Credit Operations</div></div>
+    </div>
+    <div class="pill"><b></b> Synchrony Hackathon 2026 · PS-3</div>
+  </div>
+  <div class="cover-mid">
+    <div class="kicker">Next-Gen Credit Intelligence — New-to-Credit & Thin-File Underwriting</div>
+    <h1>Contextual <i>credit</i><br/>decisioning,<br/>built for review.</h1>
+    <div class="sub">A deterministic, explainable, human-in-the-loop underwriting workbench for applicants with no bureau footprint — Spring Boot · React · PostgreSQL + pgvector · Apache Tika.</div>
+    <div class="cover-stats">
+      <div class="cstat"><b>3</b><span>tiers</span></div>
+      <div class="cstat"><b>12</b><span>endpoints</span></div>
+      <div class="cstat"><b>0</b><span>models trained</span></div>
+      <div class="cstat"><b>100%</b><span>audit-trailed</span></div>
+    </div>
+  </div>
+  <div class="cover-btm">
+    <div>
+      <strong>Gavinolla Hrishikesh Reddy — SE23UCSE065</strong> · Mahindra University<br/>
+      Java 17 · Spring Boot 3.3.5 · React 18 · PostgreSQL 16 + pgvector 0.1.6 · Tika 2.9.2<br/>
+      <span style="color:#7fb0ff">Deterministic · explainable · human-in-the-loop · graceful degradation</span>
+    </div>
+    <div style="text-align:right">
+      <strong style="color:#fff">Deliverables</strong><br/>
+      SE23UCSE065.pdf — this report<br/>
+      SE23UCSE065.zip — demo video + source<br/>
+      github.com/hrishikesh-reddi/synchrony-nexcredit
+    </div>
+  </div>
+</section>
+
+<!-- TOC + HOW TO READ -->
+<section class="page">
+  <div class="eyebrow">Inside this report</div>
+  <h1>How to read this project</h1>
+  <div class="rule accent"></div>
+  <p style="max-width:640px">Follow the product path — <b>why Synchrony → what PS-3 asks → how we answer → how one decision is made → how it is governed → how to run it</b>. Every claim points to code you can open.</p>
+  <div class="grid2">
+    <div class="toc">
+      <a><span><b>01</b> &nbsp; Executive summary</span><span>§01</span></a>
+      <a><span><b>02</b> &nbsp; Why Synchrony · Business framing</span><span>§02</span></a>
+      <a><span><b>03</b> &nbsp; PS-3 deconstructed</span><span>§03</span></a>
+      <a><span><b>04</b> &nbsp; Traceability matrix</span><span>§04</span></a>
+      <a><span><b>05</b> &nbsp; System architecture</span><span>§05</span></a>
+      <a><span><b>06</b> &nbsp; Stack & integration</span><span>§06</span></a>
+      <a><span><b>07</b> &nbsp; Data model</span><span>§07</span></a>
+      <a><span><b>08</b> &nbsp; Decision engine</span><span>§08</span></a>
+      <a><span><b>09</b> &nbsp; Evidence & vector pipeline</span><span>§09</span></a>
+      <a><span><b>10</b> &nbsp; Security & ops</span><span>§10</span></a>
+      <a><span><b>11</b> &nbsp; API reference</span><span>§11</span></a>
+      <a><span><b>12</b> &nbsp; Frontend & design system</span><span>§12</span></a>
+      <a><span><b>13</b> &nbsp; Product walkthrough</span><span>§13</span></a>
+      <a><span><b>14</b> &nbsp; Explainability & comparisons</span><span>§14</span></a>
+      <a><span><b>15</b> &nbsp; Iteration · what shipped</span><span>§15</span></a>
+      <a><span><b>16</b> &nbsp; Responsible AI & governance</span><span>§16</span></a>
+      <a><span><b>17</b> &nbsp; Build & run</span><span>§17</span></a>
+      <a><span><b>18</b> &nbsp; Repository map</span><span>§18</span></a>
+      <a><span><b>19</b> &nbsp; Roadmap</span><span>§19</span></a>
+      <a><span><b>20</b> &nbsp; Submission</span><span>§20</span></a>
+    </div>
+    <div>
+      <div class="box blue"><h3>Reviewer shortcut</h3><p style="font-size:9.5px">Short on time? Read <b>§1 → §4 → §5 → §8 → §14 → §16</b>. Those six pages give you the full decision trace, architecture, and governance story in under five minutes.</p></div>
+      <div class="box"><h3>Truthfulness note</h3><p style="font-size:9.5px">The engine is <b>deterministic</b> (no model is trained). "Stages" are a workflow visualisation, not autonomous agents. The optional OpenAI-compatible layer is <b>off by default</b> (<code>nexcredit.ai.enabled=false</code>).</p></div>
+      <div class="quote">"Designed so a reviewer sees <em>why</em>, not just <em>what</em>." — every decision carries reasoning, confidence, fraud band, and an audit record.</div>
+    </div>
+  </div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>2 — How to read</span></div>
+</section>
+
+<!-- 00 DOCUMENT CONTROL -->
+<section class="page">
+  <div class="eyebrow">00 — Document control</div>
+  <h1>Scope, evidence &amp; review guide</h1>
+  <div class="rule accent"></div>
+  <p>This document is the technical report for <b>NexCredit AI</b>, submitted for Synchrony Hackathon Problem Statement 3. It is written for a reviewer who needs to understand not only what the interface shows, but also why the system was designed this way, which parts are implemented, and where the prototype deliberately stops.</p>
+  <div class="grid2">
+    <div class="box blue"><h3>0.1 Purpose</h3><p>Describe the product decision, the engineering choices behind it, and the evidence that the repository contains a runnable implementation rather than a static mock-up.</p></div>
+    <div class="box"><h3>0.2 Intended audience</h3><p>Synchrony hiring reviewers, credit-operations stakeholders, engineers, and responsible-AI reviewers who may inspect the source after the demo.</p></div>
+    <div class="box"><h3>0.3 Evidence basis</h3><p>Claims are grounded in the current source tree, automated tests, the recorded walkthrough, and the generated roll-numbered submission archive. Synthetic applicant data is used throughout.</p></div>
+    <div class="box blue"><h3>0.4 Reading convention</h3><p>“Shipped” means implemented in the current code path. “Optional” means disabled unless configured. “Roadmap” means a production extension, not a claim about the current demo.</p></div>
+  </div>
+  <h3>0.5 Review sequence</h3>
+  <ol>
+    <li><b>Start with §01–§04:</b> understand the business problem and map each requirement to a feature and source file.</li>
+    <li><b>Continue with §05–§11:</b> follow one application through the API, policy, evidence, security, and audit layers.</li>
+    <li><b>Finish with §12–§20:</b> inspect the workbench, governance boundaries, local run path, repository structure, roadmap, and final deliverables.</li>
+  </ol>
+  <div class="warn amber"><b>Important boundary:</b> this is a decision-support prototype, not a production credit model. It does not claim bureau access, trained ML, autonomous agents, device tracking, or production regulatory approval. Those boundaries are explicit so the implementation remains credible.</div>
+  <div class="shot"><img src="nexcredit-underwriting-preview.gif" alt="Animated underwriting preview showing the decision detail workflow."/><div class="shot-cap"><b>Workflow preview.</b> The same animated GIF is available in the Drive videos folder and the ZIP; the PDF renderer captures a portable representative frame.</div></div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>0 — Document control</span></div>
+</section>
+
+<!-- 01 EXEC SUMMARY -->
+<section class="page">
+  <div class="eyebrow">01 — Executive summary</div>
+  <h1>The workbench, not the black box</h1>
+  <div class="rule"></div>
+  <p>NexCredit AI is a <b>working full-stack prototype</b> that underwrites New-to-Credit and thin-file applicants — people a bureau scorecard would silently decline. It ingests consented alternative-data signals (mobile engagement, transaction behaviour, social signal) plus income/employment and optional document proofs, runs a <b>fixed, inspectable scoring function</b>, and either decides or <b>refers to a human</b> with the evidence needed to make the final call.</p>
+  <div class="grid4">
+    <div class="kpi"><b>3 alt-signals</b><span>mobile · transaction · social</span><em>+ income & employment</em></div>
+    <div class="kpi"><b>3 outcomes</b><span>approved · rejected · pending</span><em>never silent auto-yes on uncertainty</em></div>
+    <div class="kpi"><b>5 stages</b><span>visualised workflow</span><em>not autonomous agents</em></div>
+    <div class="kpi"><b>Every decision</b><span>audit-trailed</span><em>who / when / what</em></div>
+  </div>
+  <div class="grid2" style="margin-top:10px">
+    <div class="box blue"><h3>What it proves</h3><ul>
+      <li>Alternative data can support a <b>governed</b> credit workflow, not a black-box approve/reject.</li>
+      <li>Uncertain or high-fraud cases are <b>never auto-approved</b> — they wait for a human in Review & Governance.</li>
+      <li>Document evidence is <b>parsed locally (Tika)</b> and made searchable (pgvector) — it informs the reviewer, never silently flips a decision.</li>
+    </ul></div>
+    <div class="box"><h3>How it is built</h3><ul>
+      <li>Backend: Spring Boot 3.3.5 (Java 17) · Spring Security (JJWT 0.12.6) · Spring Data JPA</li>
+      <li>Data: PostgreSQL 16 + pgvector 0.1.6 · Apache Tika 2.9.2 · Lombok · JavaFaker</li>
+      <li>Frontend: React 18 · Ant Design · Apache ECharts · <code>nexcredit-ui.css</code> design system</li>
+      <li>Infra: Docker Compose (postgres/backend/frontend) · Maven wrapper · CI on <code>main</code></li>
+    </ul></div>
+  </div>
+  <div class="warn"><b>Scope:</b> deterministic & inspectable. No model is trained; the same inputs always yield the same decision and explanation. The optional AI layer (embeddings + explanation drafting) is disabled by default and falls back to local hashing + rule text.</div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>3</span></div>
+</section>
+
+<!-- 02 WHY SYNCHRONY -->
+<section class="page">
+  <div class="eyebrow">02 — Why Synchrony</div>
+  <h1>Why this problem, why this sponsor</h1>
+  <div class="rule"></div>
+  <div class="grid2">
+    <div>
+      <p>Synchrony underwrites millions of <b>store-card and co-brand</b> applicants — many are young, first-job, or gig-economy borrowers who have <b>no bureau footprint</b>. A traditional scorecard returns "no hit" and the application is declined by default. That is a lost customer and a missed inclusion opportunity.</p>
+      <div class="box blue"><h3>The NTC gap, in one line</h3><p><b>No history ≠ high risk</b> — but without bureau data, legacy systems treat them the same. Alternative signals (consented mobile engagement, transaction behaviour, income adequacy) can separate <em>thin-file but steady</em> from <em>thin-file and fragile</em> — if the workflow is explainable and governable.</p></div>
+      <h3>What Synchrony gains</h3>
+      <table>
+        <tr><th>Synchrony priority</th><th>NexCredit answer</th></tr>
+        <tr><td>Grow NTC approvals safely</td><td>Deterministic bands + confidence + fraud routing — approve the steady, refer the uncertain</td></tr>
+        <tr><td>Keep risk & compliance happy</td><td>Every decision is reasoned, confidence-scored, and audit-logged; age guardrail prevents auto-decline on age alone</td></tr>
+        <tr><td>Reviewer efficiency</td><td>Evidence (Tika) + semantic search (pgvector) surfaces the proof the reviewer needs — no tab-hopping</td></tr>
+        <tr><td>No rip-and-replace</td><td>Stateless REST API + Postgres — drops into existing underwriting ops as a governed workbench</td></tr>
+      </table>
+    </div>
+    <div>
+      <div class="box dark"><h3>Design principle</h3><p style="font-size:10px">We optimised for <b style="color:#fff">reviewer trust</b>, not model cleverness. A regulator and a credit-ops lead should be able to read the decision trace and defend it.</p><div style="margin-top:10px;display:flex;gap:6px;flex-wrap:wrap"><span class="tag">explainable</span><span class="tag">reproducible</span><span class="tag green">bias guardrail</span><span class="tag green">human-in-the-loop</span><span class="tag">audit-trailed</span></div></div>
+      <h3>Who it serves</h3>
+      <div class="grid2">
+        <div class="kpi"><b>Applicants</b><span>students · gig workers · first-job salaried</span></div>
+        <div class="kpi"><b>Reviewers</b><span>underwriters who need evidence, not just a score</span></div>
+      </div>
+      <div class="quote" style="margin-top:10px">Traditional: bureau miss → silent decline.<br/>NexCredit: alternative data → decision <b>or</b> referred with reasoning + evidence → human decides → audit.</div>
+      <p><small>All alternative-data use is framed as <b>consented and synthetic</b> in this prototype — a real deployment would add explicit consent capture, retention, and right-to-explanation flows (see §16).</small></p>
+    </div>
+  </div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>4</span></div>
+</section>
+
+<!-- 03 PS-3 DECONSTRUCTED -->
+<section class="page">
+  <div class="eyebrow">03 — PS-3 deconstructed</div>
+  <h1>What the problem statement asks</h1>
+  <div class="rule"></div>
+  <p><b>Synchrony PS-3: "Next-Gen Credit Intelligence — Building a Real-Time, Multi-Modal Underwriting Engine."</b> The brief asks for a system that can assess NTC/thin-file applicants in real time, using multiple data modalities, with explainability and governance. Here's our reading and answer:</p>
+  <table class="matrix">
+    <tr><th>PS-3 asks for</th><th>What it means in practice</th><th>NexCredit answer (shipped)</th></tr>
+    <tr><td>Real-time</td><td>Decision during the application session, not batch</td><td>Synchronous <code>POST /api/credit/analyze</code> — validated → scored → reasoned in one request</td></tr>
+    <tr><td>Multi-signal</td><td>Evidence beyond bureau: documents + behaviour</td><td>3 alt-signals + income/employment + document proofs (Tika → pgvector search)</td></tr>
+    <tr><td>Explainable</td><td>Reviewer/regulator can read <em>why</em></td><td>Per-decision reasoning string + confidence + fraud band + stage trace + Risk Radar</td></tr>
+    <tr><td>Governed</td><td>Human oversight, no silent auto-yes on uncertainty</td><td><code>PENDING_REVIEW</code> routing + one-click review queue + <code>audit_logs</code></td></tr>
+    <tr><td>Inclusive (NTC)</td><td>Don't punish "no history"</td><td>Banded scoring + age guardrail (under-21 rejections → human, never auto-decline on age)</td></tr>
+  </table>
+  <div class="warn amber"><b>Language note:</b> we describe the system as <b>"document + alternative-data"</b> rather than "multi-modal" to stay precise. Document evidence (Tika) plus three alternative-data signals is genuinely multi-signal, but we avoid implying image/audio/video modalities we don't process.</div>
+  <div class="grid2">
+    <div class="box"><h3>Not in scope (intentionally)</h3><p>A trained risk model, bureau pulls, device/location tracking, or autonomous approval. Those would need governance that a hackathon prototype cannot credibly claim.</p></div>
+    <div class="box blue"><h3>Hard requirement honoured</h3><p><b>Age guardrail:</b> any under-21 rejection is escalated to <code>PENDING</code> with <code>PENDING_REVIEW</code> — the system cannot reject on age alone. Verified by <code>CreditUnderwritingBiasGuardrailTest</code>.</p></div>
+  </div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>5</span></div>
+</section>
+
+<!-- 04 TRACEABILITY MATRIX -->
+<section class="page">
+  <div class="eyebrow">04 — Traceability</div>
+  <h1>Requirement → feature → code</h1>
+  <div class="rule"></div>
+  <p>Every PS-3 requirement maps to a shipped feature and a file you can open. No slide-ware.</p>
+  <table>
+    <tr><th>#</th><th>Requirement</th><th>Feature</th><th>Where to look</th></tr>
+    <tr><td>R1</td><td>Real-time decision</td><td><code>POST /api/credit/analyze</code> — validate → score → persist → audit → return</td><td><code>CreditUnderwritingService.evaluate()</code> · <code>CreditController</code></td></tr>
+    <tr><td>R2</td><td>Alternative-data scoring</td><td>3 alt-signals (0–100) + income/employment → banded decision, confidence, fraud band</td><td><code>CreditUnderwritingService</code> · <code>CreditApplication</code></td></tr>
+    <tr><td>R3</td><td>Document evidence</td><td>Upload → Tika parse → bounded preview → vector index → search</td><td><code>DocumentEvidenceService</code> · <code>VectorStore</code> · <code>EmbeddingService</code></td></tr>
+    <tr><td>R4</td><td>Semantic search</td><td>pgvector L2 search (<code>&lt;-&gt;</code>) with token fallback</td><td><code>VectorStore</code> · <code>POST /api/credit/evidence/search</code></td></tr>
+    <tr><td>R5</td><td>Explainability</td><td>Reasoning string + confidence + Risk Radar + comparison view</td><td><code>ExplanationService</code> · <code>DecisionCard</code> · <code>RiskRadar</code></td></tr>
+    <tr><td>R6</td><td>Human-in-the-loop</td><td><code>PENDING_REVIEW</code> queue + one-click approve/reject + reviewer notes</td><td><code>CreditController.review</code> · <code>WorkspacePages</code> Review view</td></tr>
+    <tr><td>R7</td><td>Bias guardrail</td><td>Age-based rejection → escalate to human</td><td><code>CreditUnderwritingService</code> (guardrail block)</td></tr>
+    <tr><td>R8</td><td>Audit & governance</td><td>Every analyze/review appends <code>AuditLog</code>; filterable timeline</td><td><code>AuditLogService</code> · <code>GET /api/audit/logs</code></td></tr>
+    <tr><td>R9</td><td>Ops workbench</td><td>5 connected views, chip nav, ⌘K palette, application drawer</td><td><code>WorkspacePages.js</code> · <code>AtlasUI.js</code> · <code>App.js</code></td></tr>
+    <tr><td>R10</td><td>Deployable</td><td>Docker Compose (pgvector/backend/frontend) · CI · reproducible submission zip</td><td><code>Dockerfile</code> · <code>docker-compose.yml</code> · <code>build-submission.sh</code></td></tr>
+  </table>
+  <div class="box" style="display:flex;gap:12px;align-items:center"><div style="flex:1"><h3>How to verify in 60 seconds</h3><p><code>./mvnw test</code> — 9 backend test classes green. <code>cd src/frontend && npm test</code> — App + NewComponents green. Open <code>src/main/java/.../credit/CreditUnderwritingService.java</code> — the entire decision function fits on one screen.</p></div><div style="border-left:1px solid var(--line);padding-left:12px"><span class="tag green">deterministic</span><br/><span class="tag">reproducible</span><br/><span class="tag">audited</span></div></div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>6</span></div>
+</section>
+
+<!-- 05 ARCHITECTURE -->
+<section class="page">
+  <div class="eyebrow">05 — System architecture</div>
+  <h1>Three tiers, one request path</h1>
+  <div class="rule"></div>
+  <div class="arch">
+    <div class="arch-head"><b>Architecture</b><span>React SPA ↔ Spring Boot API ↔ PostgreSQL + pgvector</span></div>
+    <div class="arch-body">
+      <div class="arch-col"><h4>① React 18 SPA</h4><p><b>Workspace</b> — 5 views, header (brand + search), chip nav, application & detail drawers, ⌘K palette.<br/><b>Client</b> — <code>Client.js</code> attaches <code>Bearer</code> JWT; <code>seedData.js</code> offline fallback.<br/><b>Design system</b> — <code>nexcredit-ui.css</code> + <code>AtlasUI.js</code> (KPI, Sparkline, Donut, Trend, LiveStream).</p></div>
+      <div class="arch-col" style="background:#fff"><h4>② Spring Boot 3.3.5 API</h4><p><code>CreditController</code> → <code>CreditUnderwritingService</code> (deterministic) → <code>CreditApplicationRepository</code><br/><code>DocumentEvidenceService</code> (Tika) → <code>VectorStore</code> (pgvector)<br/><code>JwtAuthenticationFilter</code> (JJWT 0.12.6) · <code>AuditLogService</code></p></div>
+      <div class="arch-col"><h4>③ PostgreSQL 16 + pgvector 0.1.6</h4><p>Tables: <code>credit_applications</code> · <code>audit_logs</code> · <code>document_evidence</code> · <code>evidence_embedding(vector 1536)</code><br/>DDL auto-update. Vector index: L2 (<code>&lt;-&gt;</code>) search; token fallback when disabled.</p></div>
+    </div>
+  </div>
+  <h3>One request, end to end</h3>
+  <div class="flow">
+    <div class="stage"><div class="n">1</div><h4>Auth</h4><p><code>POST /api/auth/login</code><br/>→ JWT (HS256, 1h)</p></div>
+    <div class="stage"><div class="n">2</div><h4>Create</h4><p><code>POST /api/credit/applications</code><br/>validated entity</p></div>
+    <div class="stage"><div class="n">3</div><h4>Analyze</h4><p><code>POST /api/credit/analyze</code><br/>→ decision + audit</p></div>
+    <div class="stage"><div class="n">4</div><h4>Evidence</h4><p><code>POST /api/credit/upload</code><br/>Tika → pgvector</p></div>
+    <div class="stage"><div class="n">5</div><h4>Review</h4><p><code>POST /api/credit/review/{id}</code><br/>human → audit</p></div>
+    <div class="stage"><div class="n">6</div><h4>Audit</h4><p><code>GET /api/audit/logs</code><br/><code>audit_logs</code> ledger</p></div>
+  </div>
+  <div class="grid2">
+    <div class="box"><h3>Why three tiers?</h3><p>Stateless API + relational store is the simplest thing a bank can actually run and audit. pgvector lives <b>in the same Postgres</b> — no separate vector service to operate.</p></div>
+    <div class="box blue"><h3>Production transport</h3><p>Demo uses HTTP locally; production would terminate TLS at the frontend (nginx) and run the API behind it. JWT is stateless; no session store.</p></div>
+  </div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>7</span></div>
+</section>
+
+<!-- 06 STACK -->
+<section class="page">
+  <div class="eyebrow">06 — Stack & integration</div>
+  <h1>What we chose, and why</h1>
+  <div class="rule"></div>
+  <p>Every dependency earns its place by making the system <b>reproducible and auditable</b> without an opaque external service.</p>
+  <table>
+    <tr><th>Layer</th><th>Choice</th><th>Version</th><th>Why it was integrated</th></tr>
+    <tr><td>Framework</td><td>Spring Boot</td><td>3.3.5 · Java 17</td><td>REST + JPA + Security in one opinionated stack; fast to audit.</td></tr>
+    <tr><td>Persistence</td><td>Spring Data JPA</td><td>—</td><td>Relational store for applications/audit; sequences for IDs.</td></tr>
+    <tr><td>Database</td><td>PostgreSQL + pgvector</td><td>16 · 0.1.6</td><td>Same DB for relational + vector — L2 distance (<code>&lt;-&gt;</code>) without a sidecar.</td></tr>
+    <tr><td>Document parsing</td><td>Apache Tika</td><td>2.9.2</td><td>Local text extraction from proofs; bounded preview for reviewer evidence.</td></tr>
+    <tr><td>Security</td><td>Spring Security + JJWT</td><td>0.12.6</td><td>Stateless JWT (HS256, 1h); in-memory users from config — no external IdP.</td></tr>
+    <tr><td>Optional AI</td><td>OpenAI-compatible REST</td><td>—</td><td><b>Off by default.</b> Embeddings + explanation drafting when enabled; otherwise local hashing + rule text.</td></tr>
+    <tr><td>Frontend</td><td>React + Ant Design + ECharts</td><td>18 · 5 · —</td><td>Dense, professional workbench; charts for KPIs/donuts/trends.</td></tr>
+    <tr><td>Build</td><td>Maven · Lombok · JavaFaker</td><td>—</td><td>Backend build + boilerplate reduction + seed data.</td></tr>
+    <tr><td>Infra</td><td>Docker Compose · nginx</td><td>—</td><td>postgres/backend/frontend as one <code>docker compose up</code>.</td></tr>
+  </table>
+  <div class="warn"><b>AI layer — optional and off by default.</b> With <code>NEXCREDIT_AI_ENABLED=false</code> the system uses a deterministic local embedding (hashing into a 1536-dim unit vector) and rule-based reasoning — fully functional with <b>zero external calls</b>. Set <code>NEXCREDIT_AI_ENABLED=true</code> + <code>OPENAI_API_KEY</code> to use a remote endpoint.</div>
+  <div class="grid3">
+    <div class="kpi"><b>pgvector in Postgres</b><span>no sidecar to operate</span></div>
+    <div class="kpi"><b>Tika locally</b><span>no doc leaves the box</span></div>
+    <div class="kpi"><b>JWT stateless</b><span>no session store</span></div>
+  </div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>8</span></div>
+</section>
+
+<!-- 07 DATA MODEL -->
+<section class="page">
+  <div class="eyebrow">07 — Data model</div>
+  <h1>Entities → tables</h1>
+  <div class="rule"></div>
+  <div class="grid3">
+    <div class="kpi"><b>credit_applications</b><span>JPA: CreditApplication</span><em>one row per applicant + decision</em></div>
+    <div class="kpi"><b>audit_logs</b><span>JPA: AuditLog</span><em>append-only ledger</em></div>
+    <div class="kpi"><b>document_evidence + evidence_embedding</b><span>JPA + pgvector</span><em>proofs & vectors</em></div>
+  </div>
+  <h3 style="margin-top:12px"><code>CreditApplication</code> → <code>credit_applications</code></h3>
+  <table>
+    <tr><th>Field</th><th>Type</th><th>Constraint / note</th></tr>
+    <tr><td>id</td><td>Long (seq)</td><td>PK</td></tr>
+    <tr><td>applicantName</td><td>String</td><td>@NotBlank</td></tr>
+    <tr><td>age</td><td>Integer</td><td>@Min(18) — guardrail input</td></tr>
+    <tr><td>annualIncome</td><td>BigDecimal</td><td>income adequacy signal</td></tr>
+    <tr><td>employmentType</td><td>enum</td><td>SALARIED / GIG_WORKER / STUDENT</td></tr>
+    <tr><td>mobileUsageScore</td><td>Integer 0–100</td><td>alt-data signal</td></tr>
+    <tr><td>transactionBehaviorScore</td><td>Integer 0–100</td><td>alt-data signal</td></tr>
+    <tr><td>socialSignalScore</td><td>Integer 0–100</td><td>alt-data signal</td></tr>
+    <tr><td>creditDecision</td><td>String</td><td>APPROVED / REJECTED / PENDING</td></tr>
+    <tr><td>confidenceScore</td><td>Integer</td><td>engine confidence (60–92)</td></tr>
+    <tr><td>reasoning</td><td>String(1000)</td><td>human-readable explanation</td></tr>
+    <tr><td>fraudRisk</td><td>String</td><td>LOW / MEDIUM / HIGH</td></tr>
+    <tr><td>reviewStatus</td><td>enum</td><td>AUTO_APPROVED / AUTO_REJECTED / PENDING_REVIEW</td></tr>
+    <tr><td>reviewerNotes</td><td>String(1000)</td><td>human reviewer input</td></tr>
+    <tr><td>documentPath</td><td>String(500)</td><td>uploaded proof path</td></tr>
+    <tr><td>createdAt</td><td>Timestamp</td><td>@PrePersist</td></tr>
+  </table>
+  <div class="grid2">
+    <div class="box"><h3><code>AuditLog</code> → <code>audit_logs</code></h3><p><b>id</b> · <b>applicationId</b> · <b>decision</b> · <b>reasoning(1000)</b> · <b>timestamp</b><br/>Appended on every <code>analyze</code> and <code>review</code> — the compliance source of truth. Surfaced in Review & Governance as a filterable timeline.</p></div>
+    <div class="box"><h3><code>DocumentEvidence</code> → <code>document_evidence</code></h3><p><b>id</b> · <b>applicationId</b> · <b>originalFileName</b> · <b>extractionStatus</b> · <b>textPreview(4000)</b> · <b>createdAt</b><br/>Produced by Tika parse. Joined to <code>evidence_embedding(vector 1536)</code> for search.</p></div>
+  </div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>9</span></div>
+</section>
+
+<!-- 08 DECISION ENGINE -->
+<section class="page">
+  <div class="eyebrow">08 — The deterministic engine</div>
+  <h1>One function. Same inputs → same decision.</h1>
+  <div class="rule"></div>
+  <p><code>CreditUnderwritingService.evaluate()</code> is a <b>fixed function of the inputs</b> — no weights are learned, so the same application always yields the same decision, confidence, fraud band, and reasoning. This is what makes it defensible to a regulator and an auditor.</p>
+  <div class="grid2">
+    <div>
+      <pre>int total = mobileUsageScore
+          + transactionBehaviorScore
+          + socialSignalScore;
+
+if (mobileUsageScore &lt; 25
+ || transactionBehaviorScore &lt; 25) {
+  decision = REJECTED;
+  confidence = 92;  fraudRisk = HIGH;
+} else if (total &gt; 210
+        && annualIncome &gt; 300000) {
+  decision = APPROVED;
+  confidence = 88;  fraudRisk = LOW;
+} else if (total &gt; 180) {
+  decision = APPROVED;
+  confidence = 76;  fraudRisk = LOW;
+} else {
+  decision = PENDING;   // refer
+  confidence = 65;  fraudRisk = MEDIUM;
+}
+
+// — BIAS GUARDRAIL —
+if (age &lt; 21 && decision == REJECTED) {
+  decision = PENDING; confidence = 60;
+  reasoning +=
+   "[BIAS GUARDRAIL: escalated to human review]";
+}
+
+// — REVIEW ROUTING —
+if (confidence &lt; 70 || fraudRisk == HIGH
+ || (age &lt; 21 && wasRejected))
+  reviewStatus = PENDING_REVIEW;
+else reviewStatus = AUTO_APPROVED / AUTO_REJECTED;</pre>
+    </div>
+    <div>
+      <h3>Thresholds & bands</h3>
+      <table>
+        <tr><th>Condition</th><th>Decision</th><th>Conf</th><th>Fraud</th></tr>
+        <tr><td>any alt-score &lt; 25</td><td>REJECTED</td><td>92</td><td><span class="tag red">high</span></td></tr>
+        <tr><td>total &gt; 210 &amp; income &gt; 300k</td><td>APPROVED</td><td>88</td><td><span class="tag green">low</span></td></tr>
+        <tr><td>total &gt; 180</td><td>APPROVED</td><td>76</td><td><span class="tag green">low</span></td></tr>
+        <tr><td>otherwise</td><td>PENDING</td><td>65</td><td><span class="tag amber">med</span></td></tr>
+        <tr><td colspan="4" style="background:var(--soft2);font-size:9px"><b>Guardrail:</b> under-21 + REJECTED → PENDING (60) · <b>Routing:</b> conf&lt;70 or fraud HIGH → PENDING_REVIEW</td></tr>
+      </table>
+      <div class="warn" style="margin-top:10px"><b>Never silent auto-yes on uncertainty:</b> low-confidence or high-fraud cases become <code>PENDING_REVIEW</code> and wait for a human in the Review & Governance view.</div>
+      <div class="box" style="background:var(--soft)"><h3>Why deterministic?</h3><p style="font-size:9.5px">Reproducible, explainable on day one, low regulatory risk. If ML is introduced later it can run as <b>shadow scoring</b> behind this gate (see §18).</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>10</span></div>
+</section>
+
+<!-- 09 EVIDENCE PIPELINE -->
+<section class="page">
+  <div class="eyebrow">09 — Evidence & vector pipeline</div>
+  <h1>Proofs, parsed and searchable</h1>
+  <div class="rule"></div>
+  <p>Uploaded proofs are parsed locally and made searchable. The pipeline <b>degrades gracefully</b>: if pgvector or the embedding API is unavailable, it falls back to token text search — the app never hard-fails.</p>
+  <div class="grid2">
+    <div>
+      <pre>POST /api/credit/upload
+  (applicationId, file)
+  → store file on disk (≤10 MB)
+  → DocumentEvidenceService
+      .extractAndStore()      // Tika
+      → textPreview (≤4000)
+  → VectorStore
+      .indexEvidence(id, type, name, text)
+      → EmbeddingService.embed(text)
+          if NEXCREDIT_AI_ENABLED && key:
+            POST /embeddings
+            (text-embedding-3-small, 1536-d)
+          else:
+            local hashing → unit vector
+      → INSERT INTO evidence_embedding
+          (id, source, type, content,
+           embedding vector(1536))
+        ON CONFLICT (id) DO UPDATE ...
+
+POST /api/credit/evidence/search
+  { "query": "...", "k": 5 }
+  → if pgvector available:
+      SELECT ...,
+        1 - (embedding &lt;-&gt; ?::vector)
+        AS score
+      FROM evidence_embedding
+      ORDER BY embedding &lt;-&gt; ?
+      LIMIT k
+  → else: fallbackTextSearch()
+      // token-overlap scoring</pre>
+    </div>
+    <div>
+      <h3>What the reviewer sees</h3>
+      <div class="box blue"><h3>Six proof types</h3><p>Income · Bank statement · Identity/KYC · Utility · Employment · Tax. Each extracted field is shown next to the decision it supports in the Evidence Intelligence view.</p>
+        <div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap"><span class="tag">income</span><span class="tag">bank</span><span class="tag">kyc</span><span class="tag">utility</span><span class="tag">employment</span><span class="tag">tax</span></div>
+      </div>
+      <div class="box"><h3>Graceful degradation</h3>
+        <table style="margin:4px 0 0">
+          <tr><th>Component</th><th>When unavailable</th></tr>
+          <tr><td>pgvector</td><td>token text search</td></tr>
+          <tr><td>Embedding API</td><td>local hashing embed</td></tr>
+          <tr><td>Tika</td><td>bounded preview empty; decision unaffected</td></tr>
+        </table>
+        <p style="font-size:9px;color:var(--muted);margin-top:6px">Documents inform the reviewer; they never silently flip a decision.</p>
+      </div>
+      <div class="box dark" style="padding:10px 12px"><h4 style="font-size:10px">Config</h4><p style="font-size:9px"><code style="background:rgba(255,255,255,.14);color:#cfe0f5;border-color:rgba(255,255,255,.18)">nexcredit.vector.enabled</code> · <code style="background:rgba(255,255,255,.14);color:#cfe0f5;border-color:rgba(255,255,255,.18)">nexcredit.ai.enabled</code> · <code style="background:rgba(255,255,255,.14);color:#cfe0f5;border-color:rgba(255,255,255,.18)">nexcredit.ai.embedding-dim=1536</code></p></div>
+    </div>
+  </div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>11</span></div>
+</section>
+
+<!-- 10 SECURITY -->
+<section class="page">
+  <div class="eyebrow">10 — Security & ops</div>
+  <h1>Stateless, scoped, and env-driven</h1>
+  <div class="rule"></div>
+  <div class="grid2">
+    <div>
+      <h3>Auth</h3>
+      <ul>
+        <li><b>Login:</b> <code>POST /api/auth/login</code> → JWT (JJWT 0.12.6, HS256, 1h expiry) via <code>AuthController</code>.</li>
+        <li><b>Users (in-memory, from config):</b><br/><code>underwriter:underwriter123:UNDERWRITER</code><br/><code>admin:admin123:ADMIN</code><br/><code>applicant:applicant123:APPLICANT</code></li>
+        <li><b>Filter:</b> stateless <code>JwtAuthenticationFilter</code> validates <code>Authorization: Bearer</code> on each request.</li>
+        <li><b>Client:</b> <code>Client.js</code> attaches the bearer token; the demo auto-authenticates as <code>underwriter</code> so the workbench always has a token (no login UI to keep the header clean).</li>
+      </ul>
+      <h3>Validation & files</h3>
+      <ul>
+        <li>Jakarta validation on the entity (<code>@NotBlank</code>, <code>@Min(18)</code>, score 0–100).</li>
+        <li>Uploads ≤10 MB, filename normalised, stored outside version control (<code>uploads/</code> gitignored).</li>
+        <li>Extracted text is bounded (4000 chars) and cannot auto-change a decision.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="box blue"><h3>Secrets — env, not code</h3><table>
+        <tr><th>Secret</th><th>Source</th><th>Default</th></tr>
+        <tr><td><code>JWT_SECRET</code></td><td>env</td><td>dev placeholder (replace in prod)</td></tr>
+        <tr><td><code>DB_PASSWORD</code></td><td><code>.env</code> (gitignored)</td><td>— (required)</td></tr>
+        <tr><td><code>OPENAI_API_KEY</code></td><td>env</td><td>— (optional)</td></tr>
+      </table><p style="font-size:9px;color:var(--muted)">Template: <code>.env.example</code>. Never commit <code>.env</code>.</p></div>
+      <div class="box"><h3>What a real deployment adds</h3><p>External IdP (OAuth/OIDC), TLS termination at nginx, encryption at rest, explicit alt-data consent capture, retention & right-to-explanation flows, rate limiting, and audit export. The prototype isolates the decisioning so these can be layered without changing the engine.</p></div>
+      <div class="warn"><b>Production note:</b> the prototype uses in-memory users for demo speed. Replace <code>UsersConfig</code> with a real user store before launch.</div>
+    </div>
+  </div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>12</span></div>
+</section>
+
+<!-- 11 API -->
+<section class="page">
+  <div class="eyebrow">11 — API reference</div>
+  <h1>12 endpoints, one workbench</h1>
+  <div class="rule"></div>
+  <table>
+    <tr><th>Method & path</th><th>Auth</th><th>Purpose</th></tr>
+    <tr><td><code>GET /api/health</code></td><td>public</td><td>Liveness probe</td></tr>
+    <tr><td><code>POST /api/auth/login</code></td><td>public</td><td><code>{username,password}</code> → JWT</td></tr>
+    <tr><td><code>GET /api/credit/applications</code></td><td>public</td><td>List all applications</td></tr>
+    <tr><td><code>GET /api/credit/pending-review</code></td><td>public</td><td>Referred queue</td></tr>
+    <tr><td><code>POST /api/credit/applications</code></td><td>public</td><td>Create application (validated)</td></tr>
+    <tr><td><code>POST /api/credit/analyze</code></td><td>public</td><td>Application → <code>CreditDecision</code> (decision + audit)</td></tr>
+    <tr><td><code>POST /api/credit/review/{id}</code></td><td>UNDERWRITER/ADMIN</td><td><code>{decision, reviewerNotes}</code> → reviewed</td></tr>
+    <tr><td><code>POST /api/credit/upload</code></td><td>UNDERWRITER/ADMIN</td><td>multipart(file) + applicationId → parsed evidence</td></tr>
+    <tr><td><code>GET /api/credit/evidence/{id}</code></td><td>public</td><td>Latest document evidence for an application</td></tr>
+    <tr><td><code>POST /api/credit/evidence/search</code></td><td>public</td><td><code>{query, k}</code> → semantic/text hits</td></tr>
+    <tr><td><code>POST /api/credit/explanation</code></td><td>public</td><td>Application → explanation DTO</td></tr>
+    <tr><td><code>GET /api/audit/logs</code></td><td>public</td><td>Full audit ledger</td></tr>
+  </table>
+  <div class="grid2">
+    <div>
+      <h3>Example: analyze</h3>
+      <pre>POST /api/credit/analyze
+{
+  "applicantName": "Amit Patel",
+  "age": 19,
+  "annualIncome": 150000,
+  "employmentType": "STUDENT",
+  "mobileUsageScore": 40,
+  "transactionBehaviorScore": 35,
+  "socialSignalScore": 30
+}
+
+→ {
+  "applicationId": 3,
+  "creditDecision": "PENDING",
+  "confidenceScore": 65,
+  "fraudRisk": "MEDIUM",
+  "reviewStatus": "PENDING_REVIEW",
+  "reasoning":
+   "Alternative data is inconclusive. "
+   "Recommend human underwriter review."
+}</pre>
+    </div>
+    <div>
+      <h3>Example: evidence search</h3>
+      <pre>POST /api/credit/evidence/search
+{ "query": "income proof salaried", "k": 5 }
+
+→ [
+  {
+    "applicationId": 7,
+    "textPreview": "Salary slip ...",
+    "score": 0.82
+  },
+  ...
+]</pre>
+      <div class="box" style="margin-top:10px"><h3>Client</h3><p><code>src/frontend/src/Client.js</code> wraps every call, attaches the JWT, and surfaces errors via <code>Notification.js</code>. No endpoint is called without a token except <code>/health</code> and <code>/auth/login</code>.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>13</span></div>
+</section>
+
+<!-- 12 FRONTEND -->
+<section class="page">
+  <div class="eyebrow">12 — Frontend</div>
+  <h1>Workbench architecture & design system</h1>
+  <div class="rule"></div>
+  <div class="grid2">
+    <div>
+      <h3>Shell owns state</h3>
+      <p><code>App.js</code> holds all state (applications, audit, active view, drawers, ⌘K) and renders the <code>WorkspacePages</code> shell. Children are presentational and fed props — easy to test, easy to reason about.</p>
+      <table>
+        <tr><th>File</th><th>Role</th></tr>
+        <tr><td><code>App.js</code></td><td>Shell, header (brand + search), state, routing</td></tr>
+        <tr><td><code>WorkspacePages.js</code></td><td>5 views: Command Center · Underwriting Studio · Evidence Intelligence · Review & Governance · Architecture</td></tr>
+        <tr><td><code>AtlasUI.js</code></td><td>KpiCard · Sparkline · Donut · FilterChips · LiveStream · ActivityFeed · ProofTypeGrid · ReviewQueue · TrendChart</td></tr>
+        <tr><td><code>CreditApplicationForm.js</code></td><td>Guided intake drawer → analyze → DecisionCard</td></tr>
+        <tr><td><code>Client.js</code></td><td>Fetch wrapper + bearer auth</td></tr>
+        <tr><td><code>seedData.js</code></td><td>13-app offline fallback (UI never empty)</td></tr>
+        <tr><td><code>nexcredit-ui.css</code></td><td>Design system — tokens, cards, nav chips, KPIs</td></tr>
+      </table>
+    </div>
+    <div>
+      <div class="box dark"><h3>Design system</h3><p>Light banking theme — ink <code style="background:rgba(255,255,255,.14);color:#fff;border-color:rgba(255,255,255,.18)">#0b1d33</code> · accent <code style="background:rgba(255,255,255,.14);color:#fff;border-color:rgba(255,255,255,.18)">#1a5cff</code> · white surface · soft blue tints. No "AI-slop" tells (no blinking dots, no tracked-caps stat boxes). Single chip nav above the heading; header shows <b style="color:#fff">only brand + search</b>.</p><div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap"><span class="tag" style="background:rgba(255,255,255,.14);color:#fff;border-color:rgba(255,255,255,.2)">KpiCard</span><span class="tag" style="background:rgba(255,255,255,.14);color:#fff;border-color:rgba(255,255,255,.2)">Sparkline</span><span class="tag" style="background:rgba(255,255,255,.14);color:#fff;border-color:rgba(255,255,255,.2)">Donut</span><span class="tag" style="background:rgba(255,255,255,.14);color:#fff;border-color:rgba(255,255,255,.2)">TrendChart</span><span class="tag" style="background:rgba(255,255,255,.14);color:#fff;border-color:rgba(255,255,255,.2)">LiveStream</span></div></div>
+      <h3>State & data flow</h3>
+      <div class="box" style="background:var(--soft)"><p style="font-size:9.5px"><b>App.js</b> fetches <code>/applications</code> + <code>/audit/logs</code> on load (with <code>seedData.js</code> fallback). Selecting a row sets <code>selectedApplication</code> → inline Risk Radar + decision pill + full-drawer link. Creating an application calls <code>POST /analyze</code> and appends the result. Review calls <code>POST /review/{id}</code> and refreshes the queue. All via <code>Client.js</code> with JWT.</p></div>
+      <p><small>Tests: <code>App.test.js</code> (shell) · <code>__tests__/NewComponents.test.js</code>. Run: <code>npm test</code>.</small></p>
+    </div>
+  </div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>14</span></div>
+</section>
+
+<!-- 13 WALKTHROUGH -->
+<section class="page">
+  <div class="eyebrow">13 — Product walkthrough</div>
+  <h1>Five views, one flow</h1>
+  <div class="rule"></div>
+  <p>Frames captured from the submitted demo video. The workbench is dense but calm — built for an underwriter who lives in it all day.</p>
+  <div class="grid2">
+    <div class="shot"><img src="../../docs/screenshots/video-landing-hero.png" alt="Landing hero"/><div class="shot-cap"><b>① Landing</b> — contextual hero, product promise, and <em>Start application</em> entry. No dashboard jargon above the fold.</div></div>
+    <div class="shot"><img src="../../docs/screenshots/video-workbench.png" alt="Command Center"/><div class="shot-cap"><b>② Command Center</b> — KPIs, live activity, portfolio donut, and decision detail on row selection. <em>Start application</em> lives here too.</div></div>
+  </div>
+  <div class="grid2">
+    <div class="shot"><img src="../../docs/screenshots/video-evidence.png" alt="Evidence Intelligence"/><div class="shot-cap"><b>③ Evidence Intelligence</b> — six proof types, Tika-extracted fields, and semantic search (pgvector) — evidence next to the decision it supports.</div></div>
+    <div class="shot"><img src="../../docs/screenshots/video-governance.png" alt="Review & Governance"/><div class="shot-cap"><b>④ Review & Governance</b> — one-click review queue + filterable audit timeline. Every analyze/review is an <code>audit_logs</code> row.</div></div>
+  </div>
+  <div class="box blue" style="display:flex;gap:12px;align-items:center"><div style="flex:1"><h3>The fifth view — Architecture</h3><p>Platform Architecture renders the system diagram and stack inside the product itself — so a reviewer or judge sees the engineering without leaving the workbench.</p></div><div><span class="tag">5 views</span><span class="tag">chip nav</span><span class="tag">header: brand + search only</span></div></div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>15</span></div>
+</section>
+
+<!-- 14 WALKTHROUGH CONT + FLOW -->
+<section class="page">
+  <div class="eyebrow">13 — Product walkthrough · continued</div>
+  <h1>How an application moves</h1>
+  <div class="rule"></div>
+  <div class="grid2">
+    <div class="shot"><img src="../../docs/screenshots/video-underwriting.png" alt="Underwriting Studio"/><div class="shot-cap"><b>Underwriting Studio</b> — the application table, inline Risk Radar, and decision pill. Selecting a row opens the full decision drawer.</div></div>
+    <div>
+      <h3>End-to-end in the UI</h3>
+      <div class="flow" style="flex-direction:column">
+        <div class="stage" style="display:flex;gap:10px;align-items:center"><div class="n">1</div><div><h4>Start application</h4><p>Command Center or landing → guided drawer (name, age, income, employment, 3 alt-scores)</p></div></div>
+        <div class="stage" style="display:flex;gap:10px;align-items:center"><div class="n">2</div><div><h4>Analyze</h4><p>Drawer calls <code>POST /api/credit/analyze</code> → decision card (reasoning, confidence, fraud band)</p></div></div>
+        <div class="stage" style="display:flex;gap:10px;align-items:center"><div class="n">3</div><div><h4>Attach proof (optional)</h4><p>Upload → Tika parse → preview + vector index — shown in Evidence Intelligence</p></div></div>
+        <div class="stage" style="display:flex;gap:10px;align-items:center"><div class="n">4</div><div><h4>Review if referred</h4><p>PENDING_REVIEW appears in Review & Governance → one-click approve/reject + notes → audit</p></div></div>
+        <div class="stage" style="display:flex;gap:10px;align-items:center"><div class="n">5</div><div><h4>Audit</h4><p>Every step appends <code>audit_logs</code> — filterable timeline for ops and compliance</p></div></div>
+      </div>
+      <div class="warn"><b>Resilient demo:</b> if the backend is down, <code>seedData.js</code> (13 apps + 12 audit entries, mirrored from <code>CreditSeedData</code>) keeps the workbench populated — a reviewer never sees an empty state.</div>
+    </div>
+  </div>
+  <div class="shot" style="margin-top:10px"><img src="../../docs/screenshots/video-landing.png" alt="Landing full"/><div class="shot-cap"><b>Landing — full context</b> — the narrative above the workbench: problem, approach, and entry points. The header stays clean (brand + search only); the chip nav sits above the heading.</div></div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>16</span></div>
+</section>
+
+<!-- 14 EXPLAINABILITY -->
+<section class="page">
+  <div class="eyebrow">14 — Explainability</div>
+  <h1>Why this beats a black box</h1>
+  <div class="rule"></div>
+  <div class="grid2">
+    <div>
+      <h3>Traditional thin-file handling vs NexCredit</h3>
+      <table>
+        <tr><th>Traditional</th><th>NexCredit AI</th></tr>
+        <tr><td>No bureau → silent decline</td><td>Alt-data → decision <b>or</b> refer, with reasoning</td></tr>
+        <tr><td>Single opaque cut-off</td><td>Three outcomes + confidence + fraud band</td></tr>
+        <tr><td>No human path</td><td>Uncertain/high-fraud → human review</td></tr>
+        <tr><td>Untraceable</td><td>Every event in <code>audit_logs</code></td></tr>
+        <tr><td>One-size scoring</td><td>Age guardrail; employment-aware bands</td></tr>
+      </table>
+      <h3 style="margin-top:10px">What the reviewer actually sees</h3>
+      <div class="box"><p>Each decision renders with its <b>reasoning string</b>, a <b>Risk Radar</b> of the three alt-signals, a <b>fraud heatmap</b>, and a <b>TraditionalComparison</b> against a bureau-only baseline — so the reviewer sees <em>why</em>, not just <em>what</em>.</p></div>
+    </div>
+    <div>
+      <h3>Deterministic vs ML — honest trade-off</h3>
+      <table>
+        <tr><th></th><th>Deterministic (shipped)</th><th>ML (future)</th></tr>
+        <tr><td>Explainable now</td><td><span class="check">✔</span> fixed rules</td><td><span class="cross">—</span> needs SHAP/attribution</td></tr>
+        <tr><td>Reproducible</td><td><span class="check">✔</span> always</td><td><span class="cross">—</span> seed/version dependent</td></tr>
+        <tr><td>Learns patterns</td><td><span class="cross">—</span> no</td><td><span class="check">✔</span> yes</td></tr>
+        <tr><td>Regulatory risk</td><td><span class="check">✔</span> low</td><td><span class="cross">—</span> requires governance</td></tr>
+        <tr><td>Time to value</td><td><span class="check">✔</span> day one</td><td><span class="cross">—</span> data + training</td></tr>
+      </table>
+      <div class="box blue"><h3>Our stance</h3><p>Ship deterministic, prove the workflow, then <b>introduce ML as shadow scoring</b> behind the same gate — with fairness testing and rollback (see §18). The workbench doesn't change; the engine gets smarter under governance.</p></div>
+    </div>
+  </div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>17</span></div>
+</section>
+
+<!-- 15 ITERATION -->
+<section class="page">
+  <div class="eyebrow">15 — This iteration</div>
+  <h1>What shipped since the last cut</h1>
+  <div class="rule"></div>
+  <p>A focused pass to make the workbench feel like a <b>real banking product</b> — premium, calm, and honest — not an AI demo.</p>
+  <table>
+    <tr><th>Area</th><th>What changed</th><th>Why</th></tr>
+    <tr><td>Design system</td><td><code>nexcredit-ui.css</code> (tokens, cards, nav chips, KPIs) + <code>AtlasUI.js</code> (KpiCard, Sparkline, Donut, TrendChart, LiveStream, ActivityFeed, ProofTypeGrid, ReviewQueue)</td><td>Premium, consistent surface — no "AI-slop" tells</td></tr>
+    <tr><td>Workspace</td><td>5 connected views with live data, charts, inline Risk Radar + decision pill on row selection</td><td>One workbench, not five disconnected pages</td></tr>
+    <tr><td>Navigation</td><td>Single chip nav above the heading; header reduced to <b>brand + search only</b></td><td>Remove duplicate nav; keep chrome minimal</td></tr>
+    <tr><td>Entry</td><td><em>Start application</em> in Command Center (mirrors landing)</td><td>Reviewer can start from where they work</td></tr>
+    <tr><td>Resilience</td><td><code>seedData.js</code> — 13 apps + 12 audit entries mirrored from backend seed</td><td>Workbench never empty, even offline</td></tr>
+    <tr><td>Evidence</td><td>Six proof types + semantic (pgvector) / text search</td><td>Evidence next to the decision it supports</td></tr>
+    <tr><td>Governance</td><td>One-click review queue + filterable audit timeline</td><td>Human-in-the-loop, tangible</td></tr>
+    <tr><td>Report</td><td>This document — PB-3 mapping, Synchrony framing, full source map</td><td>Judge can trace any claim to code</td></tr>
+  </table>
+  <div class="box" style="background:var(--soft)"><h3>What we deliberately did not do</h3><p>We did not add an autonomous agent runtime, a trained model, or a claim of "real bureau integration." The prototype is stronger for being honest about its boundary — and the roadmap (§18) shows how to cross it with governance.</p></div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>18</span></div>
+</section>
+
+<!-- 16 RESPONSIBLE AI -->
+<section class="page">
+  <div class="eyebrow">16 — Responsible AI & governance</div>
+  <h1>Governed by design</h1>
+  <div class="rule"></div>
+  <div class="grid2">
+    <div>
+      <h3>Principles</h3>
+      <table>
+        <tr><th>Principle</th><th>How it's enforced</th></tr>
+        <tr><td>Explainable, not autonomous</td><td>Reasoning string + confidence + fraud band on every decision; final approval is human when uncertain</td></tr>
+        <tr><td>Bias guardrail</td><td>Age-based rejection (&lt;21) → <code>PENDING_REVIEW</code>; tested in <code>CreditUnderwritingBiasGuardrailTest</code></td></tr>
+        <tr><td>No silent auto-yes</td><td>Low-confidence or high-fraud → <code>PENDING_REVIEW</code>, never auto-approve</td></tr>
+        <tr><td>Auditability</td><td>Every analyze/review → <code>audit_logs</code> (who/when/what), filterable in the product</td></tr>
+        <tr><td>Consent posture</td><td>Prototype uses synthetic, consented signals; real deployment adds explicit consent, retention, right-to-explanation</td></tr>
+        <tr><td>Graceful degradation</td><td>pgvector/LLM unavailable → local fallback; app never hard-fails</td></tr>
+      </table>
+    </div>
+    <div>
+      <div class="box dark"><h3>What "human-in-the-loop" actually means here</h3><p>Not a slogan. Uncertain cases appear in a <b style="color:#fff">review queue</b> with the applicant's signals, reasoning, fraud band, and evidence preview. The reviewer clicks <b style="color:#fff">Approve/Reject + notes</b> → the decision and notes are persisted and audit-logged. No decision is made without a trace.</p></div>
+      <h3>Truthfulness & scope</h3>
+      <table>
+        <tr><th>True</th><th>Not claimed</th></tr>
+        <tr><td><span class="check">✔</span> Deterministic, explainable</td><td><span class="cross">✘</span> Trained production risk model</td></tr>
+        <tr><td><span class="check">✔</span> One visualised workflow (5 stages)</td><td><span class="cross">✘</span> Autonomous multi-agent runtime</td></tr>
+        <tr><td><span class="check">✔</span> Local fallback, no model required</td><td><span class="cross">✘</span> Remote LLM always-on</td></tr>
+        <tr><td><span class="check">✔</span> Score-based fraud routing</td><td><span class="cross">✘</span> Device/graph/velocity detection</td></tr>
+      </table>
+      <div class="warn">The "stages" are a workflow visualisation for the operator. Nothing executes without the deterministic engine and, where required, a human reviewer.</div>
+    </div>
+  </div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>19</span></div>
+</section>
+
+<!-- 17 BUILD & RUN -->
+<section class="page">
+  <div class="eyebrow">17 — Build & run</div>
+  <h1>From clone to workbench</h1>
+  <div class="rule"></div>
+  <div class="grid2">
+    <div>
+      <h3>Option A — Docker (recommended)</h3>
+      <pre>cp .env.example .env
+# set POSTGRES_PASSWORD
+docker compose up --build
+# postgres :5433  backend :8081
+# frontend :3001
+open http://localhost:3001</pre>
+      <h3>Option B — Local dev</h3>
+      <pre># Terminal 1 — Postgres + pgvector
+docker run -e POSTGRES_USER=admin \
+  -e POSTGRES_PASSWORD=admin \
+  -e POSTGRES_DB=creditdb \
+  -p 5433:5432 pgvector/pgvector:pg16
+
+# Terminal 2 — Backend
+export DB_PASSWORD=admin
+./mvnw -P'!bundle-backend-and-frontend' \
+  spring-boot:run   # :8081
+
+# Terminal 3 — Frontend
+cd src/frontend && npm install
+npm start           # :3000 → proxies to :8081</pre>
+      <p><small>Demo account (auto-used): <code>underwriter / underwriter123</code> · Seed: 13 apps + 12 audit entries via <code>CreditSeedData</code>.</small></p>
+    </div>
+    <div>
+      <h3>Tests</h3>
+      <pre># Backend — JUnit 5 (9 classes)
+./mvnw test
+
+# Frontend
+cd src/frontend
+npm test            # App.test.js
+                    # __tests__/NewComponents.test.js
+CI=true npm run build   # production build</pre>
+      <h3>Environment</h3>
+      <table>
+        <tr><th>Var</th><th>Default</th><th>Note</th></tr>
+        <tr><td><code>DB_PASSWORD</code></td><td>—</td><td>required (via <code>.env</code>)</td></tr>
+        <tr><td><code>JWT_SECRET</code></td><td>dev placeholder</td><td>replace in prod</td></tr>
+        <tr><td><code>NEXCREDIT_AI_ENABLED</code></td><td><code>false</code></td><td>remote embeddings/explanations off</td></tr>
+        <tr><td><code>NEXCREDIT_VECTOR_ENABLED</code></td><td><code>true</code></td><td>pgvector search</td></tr>
+        <tr><td><code>OPENAI_API_KEY</code></td><td>—</td><td>optional, when AI enabled</td></tr>
+      </table>
+      <div class="box" style="background:var(--soft)"><h3>Reproducible submission</h3><pre style="margin:6px 0 0">bash build-submission.sh
+# → submission/SE23UCSE065.zip
+# validates MP4, excludes secrets/
+# build artefacts, deterministic zip
+bash test/build-submission-test.sh</pre></div>
+    </div>
+  </div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>20</span></div>
+</section>
+
+<!-- 18 REPO MAP -->
+<section class="page">
+  <div class="eyebrow">18 — Repository map</div>
+  <h1>Where everything lives</h1>
+  <div class="rule"></div>
+  <div class="grid2">
+    <div><h3>Root & build</h3><table>
+      <tr><td><code>pom.xml</code></td><td>Maven — Spring Boot 3.3.5, pgvector, JJWT, Tika, tests</td></tr>
+      <tr><td><code>Dockerfile</code></td><td>Multi-stage: maven:3.9-temurin-17 → eclipse-temurin:17-jre</td></tr>
+      <tr><td><code>docker-compose.yml</code></td><td>postgres(pgvector) :5433 · backend :8081 · frontend :3001</td></tr>
+      <tr><td><code>build-submission.sh</code></td><td>Roll-numbered ZIP (validates MP4, excludes secrets)</td></tr>
+      <tr><td><code>.github/workflows/build.yml</code></td><td>CI: JDK 17 · <code>./mvnw test</code></td></tr>
+    </table>
+    <h3>Docs & submission</h3><table>
+      <tr><td><code>README.md</code></td><td>Product overview + run instructions (public face)</td></tr>
+      <tr><td><code>docs/architecture.md</code></td><td>Deep-dive architecture & decision lifecycle</td></tr>
+      <tr><td><code>submission/SE23UCSE065/</code></td><td>Graded package: this PDF (source <code>report.html</code>) + MP4 + screenshots</td></tr>
+    </table></div>
+    <div>
+      <h3>Backend <code>src/main/java/com/synchrony/nexcredit/</code></h3>
+      <div class="tree">NexCreditApplication.java       # entry
+HealthController.java          # GET /api/health
+credit/
+  CreditController.java         # 12 REST endpoints
+  CreditUnderwritingService.java# deterministic engine
+  CreditApplication(.java)      # entity + repo + service
+  CreditSeedData.java           # 13 seed apps
+  DocumentEvidence(.java)       # Tika entity + service
+  AuditLog(.java)               # audit entity + service
+  ReviewRequest / EmploymentType / ReviewStatus
+ai/
+  EmbeddingService.java         # remote or local (hashing)
+  VectorStore.java              # pgvector + fallback
+  ExplanationService.java       # rule-based (or LLM)
+  AiProperties / SearchHit / EvidenceSearchRequest
+security/
+  AuthController / JwtUtil / JwtAuthenticationFilter
+  SecurityConfig / UsersConfig</div>
+      <h3 style="margin-top:10px">Frontend <code>src/frontend/src/</code></h3>
+      <div class="tree">App.js / WorkspacePages.js / AtlasUI.js
+CreditApplicationForm.js / Client.js
+DecisionCard / RiskRadar / FraudHeatmap
+TraditionalComparison / AgentPipeline
+DocumentScanPreview / Notification
+seedData.js / nexcredit-ui.css
+__tests__/  public/  Dockerfile  nginx.conf</div>
+    </div>
+  </div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>21</span></div>
+</section>
+
+<!-- 19 ROADMAP -->
+<section class="page">
+  <div class="eyebrow">19 — Roadmap</div>
+  <h1>From prototype to production</h1>
+  <div class="rule"></div>
+  <p>The workbench is the stable surface. The engine evolves underneath it — with governance at each step.</p>
+  <div class="grid2">
+    <div class="box"><h3>Next 30 days</h3><ul>
+      <li>Explicit alt-data <b>consent capture</b> + retention + right-to-explanation</li>
+      <li>External IdP (OAuth/OIDC) replacing in-memory users</li>
+      <li>TLS everywhere + encryption at rest; rate limiting</li>
+    </ul></div>
+    <div class="box"><h3>Next quarter</h3><ul>
+      <li>Shadow ML scoring behind the deterministic gate; fairness testing</li>
+      <li>Per-decision <b>SHAP-style attribution</b> behind the current trace</li>
+      <li>Audit export (CSV/PDF) + reviewer SLAs</li>
+    </ul></div>
+    <div class="box"><h3>Next half</h3><ul>
+      <li>Device intelligence, graph linkage, velocity signals feeding fraud routing</li>
+      <li>Bureau enrichment (where available) as an additional signal — not a gate</li>
+      <li>Multi-tenant ops (region, product, risk appetite)</li>
+    </ul></div>
+    <div class="box blue"><h3>Principle</h3><p>Deterministic today, learned tomorrow — <b>under the same workbench</b>. The UI doesn't change when the engine gets smarter; governance does.</p><div style="margin-top:8px"><span class="tag green">shadow scoring</span><span class="tag">fairness tests</span><span class="tag">rollback</span></div></div>
+  </div>
+  <div class="warn" style="margin-top:10px"><b>What we will not do:</b> ship a black-box auto-approve. Every uncertain case stays human-reviewed — even after ML is introduced.</div>
+  <div class="foot"><span>SE23UCSE065 · NexCredit AI</span><span>22</span></div>
+</section>
+
+<!-- 20 SUBMISSION -->
+<section class="page">
+  <div class="eyebrow">20 — Submission</div>
+  <h1>What you're grading</h1>
+  <div class="rule"></div>
+  <div class="grid2">
+    <div>
+      <table>
+        <tr><th>Artefact</th><th>What it is</th></tr>
+        <tr><td><b>SE23UCSE065.pdf</b></td><td>This report — architecture, integration, source map, decision trace, governance. Source: <code>submission/SE23UCSE065/report.html</code>.</td></tr>
+        <tr><td><b>SE23UCSE065.zip</b></td><td>Recorded MP4 walkthrough + current frontend/backend source. Secrets and build artefacts excluded; ZIP is deterministic.</td></tr>
+        <tr><td><b>SE23UCSE065.mp4</b></td><td>Demo video inside the ZIP (also at <code>submission/SE23UCSE065/SE23UCSE065.mp4</code>).</td></tr>
+        <tr><td><b>GitHub</b></td><td><code>github.com/hrishikesh-reddi/synchrony-nexcredit</code> — branch <code>main</code>, CI green.</td></tr>
+      </table>
+      <div class="box"><h3>How to verify</h3>
+        <pre>unzip -l submission/SE23UCSE065.zip | head
+./mvnw test
+cd src/frontend && npm test
+docker compose up --build  # :3001</pre>
+      </div>
+    </div>
+    <div>
+      <div class="box dark"><h3 style="color:#fff">Candidate</h3><p style="font-size:11px;color:#fff"><b style="color:#fff">Gavinolla Hrishikesh Reddy</b> — SE23UCSE065</p><p>Mahindra University · B.Tech CSE · Hyderabad<br/>github.com/hrishikesh-reddi · linkedin.com/in/gavinolla-hrishikesh-reddy-b3b800277</p><p style="margin-top:8px;font-size:9px;color:#8fb0ff">Built for Synchrony PS-3 · Next-Gen Credit Intelligence</p></div>
+      <div class="box blue"><h3>Contact for submission</h3><p><code>Technologyinterns@syf.com</code><br/><small>Per hackathon instructions — ZIP + PDF to the Synchrony technology interns mailbox.</small></p></div>
+      <p style="font-size:9px;color:var(--muted)">All screenshots in this report are frames from the submitted MP4. The MP4 is the primary demo artefact; the report's strips keep the PDF portable.</p>
+    </div>
+  </div>
+  <div style="margin-top:16px;border-top:2px solid var(--ink);padding-top:10px;display:flex;justify-content:space-between;align-items:center">
+    <div style="font-size:9px;color:var(--muted)">NexCredit AI · Synchrony Hackathon 2026 · PS-3 — contextual credit decisioning for New-to-Credit / thin-file applicants. Deterministic · explainable · human-in-the-loop.</div>
+    <div style="font-size:8px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint)">SE23UCSE065</div>
+  </div>
+</section>
+
+</body>
+</html>

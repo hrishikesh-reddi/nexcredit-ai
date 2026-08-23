@@ -1,0 +1,19 @@
+[     510ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://127.0.0.1:3000/static/js/bundle.js:129875
+[     644ms] [ERROR] Warning: Instance created by `useForm` is not connected to any Form element. Forget to pass `form` prop? @ http://127.0.0.1:3000/static/js/bundle.js:102636
+[   23790ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3000/api/credit/applications/39/cashflow-features:0
+[  697936ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://127.0.0.1:3000/static/js/bundle.js:129968
+[  698106ms] [ERROR] Warning: Instance created by `useForm` is not connected to any Form element. Forget to pass `form` prop? @ http://127.0.0.1:3000/static/js/bundle.js:102729
+[ 2840793ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://127.0.0.1:3000/static/js/bundle.js:129974
+[ 2840995ms] [ERROR] Warning: Instance created by `useForm` is not connected to any Form element. Forget to pass `form` prop? @ http://127.0.0.1:3000/static/js/bundle.js:102735
+[ 7243187ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:3000/api/credit/applications/39/transactions/ingest?provider=local:0
+[ 7243197ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:3000/api/credit/applications/39/cashflow-features:0
+[ 7246008ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:3000/api/credit/applications/39/transactions/ingest?provider=local:0
+[ 7246039ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:3000/api/credit/applications/39/cashflow-features:0
+[ 7246624ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:3000/api/credit/applications/39/transactions/ingest?provider=local:0
+[ 7246635ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:3000/api/credit/applications/39/cashflow-features:0
+[ 7250572ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:3000/api/credit/applications/37/transactions/ingest?provider=local:0
+[ 7250579ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:3000/api/credit/applications/37/cashflow-features:0
+[ 7252008ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:3000/api/credit/applications/37/transactions/ingest?provider=local:0
+[ 7252032ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:3000/api/credit/applications/37/cashflow-features:0
+[ 7252550ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:3000/api/credit/applications/37/transactions/ingest?provider=local:0
+[ 7252557ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://127.0.0.1:3000/api/credit/applications/37/cashflow-features:0

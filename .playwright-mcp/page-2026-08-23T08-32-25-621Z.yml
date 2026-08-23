@@ -1,0 +1,199 @@
+- generic [ref=e1]:
+  - generic [ref=e118]:
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - button "NexCredit NexCredit AI" [ref=e121] [cursor=pointer]:
+          - generic [ref=e122]:
+            - img "NexCredit" [ref=e123]
+            - generic [ref=e127]:
+              - text: NexCredit
+              - generic [ref=e128]: AI
+        - generic [ref=e129]: CREDIT OPERATIONS
+      - button "file-search Search ⌘K" [ref=e131] [cursor=pointer]:
+        - img "file-search" [ref=e132]
+        - generic [ref=e135]: Search
+        - generic [ref=e136]: ⌘K
+    - main [ref=e137]:
+      - generic [ref=e138]:
+        - navigation "Workbench navigation" [ref=e139]:
+          - button "Command Center" [ref=e140] [cursor=pointer]
+          - button "Underwriting Studio" [ref=e141] [cursor=pointer]
+          - button "Evidence Intelligence" [active] [ref=e142] [cursor=pointer]
+          - button "Cash-flow Intelligence" [ref=e143] [cursor=pointer]
+          - button "Review & Governance" [ref=e144] [cursor=pointer]
+          - button "Strategy Lab" [ref=e145] [cursor=pointer]
+          - button "Platform Architecture" [ref=e146] [cursor=pointer]
+        - generic [ref=e609]:
+          - generic [ref=e610]:
+            - generic [ref=e611]:
+              - heading "Evidence Intelligence" [level=1] [ref=e612]
+              - paragraph [ref=e613]: Document-grounded underwriting evidence. Inspect what each proof class proves, then run retrieval across the indexed corpus.
+            - generic [ref=e614]:
+              - generic [ref=e615]: Evidence index · 9 documents · 7 proof classes
+              - generic [ref=e616]: "latest applicant: Meera Iyer"
+          - generic [ref=e617]:
+            - generic [ref=e618]:
+              - heading "Proof classes" [level=3] [ref=e619]
+              - generic [ref=e620]: sample corpus is illustrative · live uploads extract through Tika
+            - generic [ref=e622]:
+              - button "Salary slip 2 PDFs Tika · pgvector indexed" [ref=e623] [cursor=pointer]:
+                - generic [ref=e629]: Salary slip
+                - generic [ref=e630]:
+                  - generic [ref=e631]: 2 PDFs
+                  - generic [ref=e632]: Tika · pgvector indexed
+              - button "Bank statement 2 PDFs Tika · pgvector indexed" [ref=e633] [cursor=pointer]:
+                - generic [ref=e639]: Bank statement
+                - generic [ref=e640]:
+                  - generic [ref=e641]: 2 PDFs
+                  - generic [ref=e642]: Tika · pgvector indexed
+              - button "KYC / Identity 1 PDF Tika · pgvector indexed" [ref=e643] [cursor=pointer]:
+                - generic [ref=e650]: KYC / Identity
+                - generic [ref=e651]:
+                  - generic [ref=e652]: 1 PDF
+                  - generic [ref=e653]: Tika · pgvector indexed
+              - button "Utility bill 1 PDF Tika · pgvector indexed" [ref=e654] [cursor=pointer]:
+                - generic [ref=e660]: Utility bill
+                - generic [ref=e661]:
+                  - generic [ref=e662]: 1 PDF
+                  - generic [ref=e663]: Tika · pgvector indexed
+              - button "Employment letter 1 PDF Tika · pgvector indexed" [ref=e664] [cursor=pointer]:
+                - generic [ref=e671]: Employment letter
+                - generic [ref=e672]:
+                  - generic [ref=e673]: 1 PDF
+                  - generic [ref=e674]: Tika · pgvector indexed
+              - button "Tax return 1 PDF Tika · pgvector indexed" [ref=e675] [cursor=pointer]:
+                - generic [ref=e683]: Tax return
+                - generic [ref=e684]:
+                  - generic [ref=e685]: 1 PDF
+                  - generic [ref=e686]: Tika · pgvector indexed
+              - button "GST return 1 PDF Tika · pgvector indexed" [ref=e687] [cursor=pointer]:
+                - generic [ref=e695]: GST return
+                - generic [ref=e696]:
+                  - generic [ref=e697]: 1 PDF
+                  - generic [ref=e698]: Tika · pgvector indexed
+          - generic [ref=e699]:
+            - generic [ref=e700]:
+              - heading "Salary slip — extracted fields" [level=3] [ref=e701]
+              - generic [ref=e703]:
+                - generic [ref=e704] [cursor=pointer]:
+                  - radio "salary-slip-aug2026.pdf" [checked]
+                  - generic "salary-slip-aug2026.pdf" [ref=e705]
+                - generic [ref=e706] [cursor=pointer]:
+                  - radio "salary-slip-jul2026.pdf"
+                  - generic "salary-slip-jul2026.pdf" [ref=e707]
+            - generic [ref=e708]:
+              - generic [ref=e709]:
+                - alert [ref=e710]:
+                  - img "info-circle" [ref=e711]
+                  - generic [ref=e714]: "Why this evidence matters: Verifies declared income and pay regularity — the single strongest income-stability driver in the risk model."
+                - generic [ref=e718]:
+                  - generic [ref=e719]:
+                    - img [ref=e720]:
+                      - generic [ref=e724]: PDF
+                    - generic [ref=e725]:
+                      - generic [ref=e726]: salary-slip-aug2026.pdf
+                      - generic [ref=e727]: 1 page · Aug 2026
+                    - generic [ref=e728]: PDF · Tika parsed
+                  - generic [ref=e735]:
+                    - generic [ref=e736]: Acme Retail Pvt Ltd
+                    - generic [ref=e737]: Salary slip
+                  - generic [ref=e739]:
+                    - generic [ref=e740]:
+                      - generic [ref=e741]:
+                        - generic [ref=e742]: Earnings
+                        - generic [ref=e743]:
+                          - generic [ref=e744]: Gross monthly salary
+                          - generic [ref=e745]: ₹55,000
+                          - generic "Field extraction confidence 94%" [ref=e746]: 94%
+                      - generic [ref=e747]:
+                        - generic [ref=e748]: Deductions
+                        - generic [ref=e749]:
+                          - generic [ref=e750]: Deductions
+                          - generic [ref=e751]: ₹8,400
+                          - generic "Field extraction confidence 89%" [ref=e752]: 89%
+                    - generic [ref=e753]:
+                      - generic [ref=e754]: Net payable
+                      - generic [ref=e755]: ₹46,600
+                    - generic [ref=e756]:
+                      - text: Employee
+                      - generic [ref=e757]: Meera Iyer
+                    - generic [ref=e758]:
+                      - generic [ref=e759]: ✓
+                      - text: Verified against declared income · divergence check passed
+                  - generic [ref=e760]:
+                    - generic [ref=e761]:
+                      - generic [ref=e762]: ≡
+                      - text: salary-slip-aug2026.pdf · 1 page
+                    - generic [ref=e763]: 2 on file for this class
+                    - generic [ref=e764]: Indexed for retrieval
+                  - generic [ref=e766]:
+                    - generic [ref=e767]: Extracted by NexCredit Document AI · advisory evidence
+                    - generic [ref=e768]: salary-slip-aug2026.pdf
+              - generic [ref=e769]:
+                - table [ref=e776]:
+                  - rowgroup [ref=e781]:
+                    - row [ref=e782]:
+                      - columnheader "Field" [ref=e783]
+                      - columnheader "Value" [ref=e784]
+                      - columnheader "Confidence" [ref=e785]
+                  - rowgroup [ref=e786]:
+                    - row [ref=e787]:
+                      - cell "Gross monthly salary" [ref=e788]
+                      - cell "₹55,000" [ref=e789]
+                      - cell "94%" [ref=e790]:
+                        - generic [ref=e791]:
+                          - progressbar [ref=e792]
+                          - generic [ref=e796]: 94%
+                    - row [ref=e797]:
+                      - cell "Net pay" [ref=e798]
+                      - cell "₹46,600" [ref=e799]
+                      - cell "91%" [ref=e800]:
+                        - generic [ref=e801]:
+                          - progressbar [ref=e802]
+                          - generic [ref=e806]: 91%
+                    - row [ref=e807]:
+                      - cell "Employer" [ref=e808]
+                      - cell "Acme Retail Pvt Ltd" [ref=e809]
+                      - cell "98%" [ref=e810]:
+                        - generic [ref=e811]:
+                          - progressbar [ref=e812]
+                          - generic [ref=e816]: 98%
+                    - row [ref=e817]:
+                      - cell "Pay period" [ref=e818]
+                      - cell "Aug 2026" [ref=e819]
+                      - cell "99%" [ref=e820]:
+                        - generic [ref=e821]:
+                          - progressbar [ref=e822]
+                          - generic [ref=e826]: 99%
+                    - row [ref=e827]:
+                      - cell "Deductions (PF + TDS)" [ref=e828]
+                      - cell "₹8,400" [ref=e829]
+                      - cell "89%" [ref=e830]:
+                        - generic [ref=e831]:
+                          - progressbar [ref=e832]
+                          - generic [ref=e836]: 89%
+                - text: Extracted fields are reviewer evidence only — they never silently change a decision. Upload a real document via a new application to see live Tika extraction and divergence checks.
+          - generic [ref=e837]:
+            - heading [level=3] [ref=e839]:
+              - img "file-search" [ref=e840]
+              - text: Semantic search across the evidence corpus
+            - generic [ref=e844]:
+              - generic [ref=e845]:
+                - 'textbox "Try: salary credit · income divergence · address proof" [ref=e846]': monthly salary credit
+                - button [ref=e848] [cursor=pointer]:
+                  - img "close-circle" [ref=e849]
+              - generic [ref=e852]:
+                - generic [ref=e853]: Top-K
+                - generic [ref=e855]:
+                  - generic [ref=e856] [cursor=pointer]:
+                    - radio "3"
+                    - generic "3" [ref=e857]
+                  - generic [ref=e858] [cursor=pointer]:
+                    - radio "5" [checked]
+                    - generic "5" [ref=e859]
+                  - generic [ref=e860] [cursor=pointer]:
+                    - radio "8"
+                    - generic "8" [ref=e861]
+              - button "Search" [ref=e862] [cursor=pointer]
+    - generic [ref=e440]: NexCredit AI · Synchrony Hackathon 2026
+  - generic [ref=e441]: Approved

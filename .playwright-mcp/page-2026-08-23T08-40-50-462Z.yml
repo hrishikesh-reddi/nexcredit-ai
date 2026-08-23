@@ -1,0 +1,77 @@
+- generic [ref=e1]:
+  - generic [ref=e118]:
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - button "NexCredit NexCredit AI" [ref=e121] [cursor=pointer]:
+          - generic [ref=e122]:
+            - img "NexCredit" [ref=e123]
+            - generic [ref=e127]:
+              - text: NexCredit
+              - generic [ref=e128]: AI
+        - generic [ref=e129]: CREDIT OPERATIONS
+      - button "file-search Search ⌘K" [ref=e131] [cursor=pointer]:
+        - img "file-search" [ref=e132]
+        - generic [ref=e135]: Search
+        - generic [ref=e136]: ⌘K
+    - main [ref=e137]:
+      - generic [ref=e138]:
+        - navigation "Workbench navigation" [ref=e139]:
+          - button "Command Center" [ref=e140] [cursor=pointer]
+          - button "Underwriting Studio" [ref=e141] [cursor=pointer]
+          - button "Evidence Intelligence" [ref=e142] [cursor=pointer]
+          - button "Cash-flow Intelligence" [ref=e143] [cursor=pointer]
+          - button "Review & Governance" [ref=e144] [cursor=pointer]
+          - button "Strategy Lab" [ref=e145] [cursor=pointer]
+          - button "Platform Architecture" [active] [ref=e146] [cursor=pointer]
+        - generic [ref=e1428]:
+          - generic [ref=e1430]:
+            - heading "Platform Architecture" [level=1] [ref=e1431]
+            - paragraph [ref=e1432]: What runs live today, and the production evolution path. The governed core is fully implemented and demoable end-to-end.
+          - generic [ref=e1433]:
+            - generic [ref=e1434]:
+              - generic [ref=e1435]:
+                - heading "Live governed core" [level=3] [ref=e1436]
+                - generic [ref=e1437]: running in this build
+              - generic [ref=e1438]:
+                - generic [ref=e1439]: React workspace on Ant Design
+                - generic [ref=e1445]: Spring Boot API · JWT auth · role-based review
+                - generic [ref=e1451]: PostgreSQL persistence · pgvector semantic search with token fallback
+                - generic [ref=e1457]: Trained logistic-regression scorer with deterministic rule fallback
+                - generic [ref=e1463]: Document evidence via Tika extraction and income reconciliation
+                - generic [ref=e1469]: Six-stage underwriting pipeline, each step audited
+                - generic [ref=e1475]: Agentic copilot with tool calling (any OpenAI-compatible provider)
+                - generic [ref=e1481]: Consented cash-flow overlay, what-if lab and model transparency card
+            - generic [ref=e1487]:
+              - generic [ref=e1488]:
+                - heading "Production evolution" [level=3] [ref=e1489]
+                - generic [ref=e1490]: designed, staged by intent
+              - generic [ref=e1491]:
+                - generic [ref=e1492]: Streaming consented signals (Plaid and Account Aggregator production connectors)
+                - generic [ref=e1500]: Versioned policy engine with per-partner credit strategies
+                - generic [ref=e1508]: Secondary lender routing for declined-but-creditworthy applicants
+                - generic [ref=e1516]: Model registry with drift monitoring and champion/challenger retraining
+                - generic [ref=e1524]: Cloud deployment with managed secrets and observability
+          - generic [ref=e1532]: "Provider note: guarded LLM explanation and the agentic copilot already run against any OpenAI-compatible endpoint (Groq free tier or OpenRouter today); an AWS Bedrock adapter is a configuration swap, not a rewrite."
+          - generic [ref=e1534]:
+            - generic [ref=e1535]:
+              - heading "Connected integrations" [level=3] [ref=e1536]
+              - generic [ref=e1537]: live data sources and agent tooling
+            - generic [ref=e1539]:
+              - generic [ref=e1540]:
+                - generic [ref=e1541]: Plaid
+                - generic [ref=e1544]: MOCK / NOT CONFIGURED
+                - generic [ref=e1545]: backend offline
+              - generic [ref=e1546]:
+                - generic [ref=e1547]: FingerprintJS
+                - generic [ref=e1550]: MOCK / NOT CONFIGURED
+                - generic [ref=e1551]: backend offline
+              - generic [ref=e1552]:
+                - generic [ref=e1553]: RapidAPI Bureau
+                - generic [ref=e1556]: MOCK / NOT CONFIGURED
+                - generic [ref=e1557]: backend offline
+              - generic [ref=e1558]:
+                - generic [ref=e1559]: Groq Copilot
+                - generic [ref=e1562]: MOCK / NOT CONFIGURED
+                - generic [ref=e1563]: backend offline
+    - generic [ref=e440]: NexCredit AI · Synchrony Hackathon 2026
+  - generic [ref=e441]: Approved

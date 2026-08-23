@@ -1,0 +1,682 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e8]:
+      - paragraph [ref=e12]: BankConnect
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - heading "Bank statement analyser" [level=1] [ref=e16]
+          - heading "for speed and precision" [level=1] [ref=e18]
+        - paragraph [ref=e22]: Analyse bank statement data with our AI-driven platform to boost underwriting and improve conversions
+      - link [ref=e25] [cursor=pointer]:
+        - /url: ../contact-us
+        - paragraph [ref=e27]: Request demo
+    - generic [ref=e28]:
+      - paragraph [ref=e61]: "A/c No: 534323252"
+      - paragraph [ref=e74]: Rent Payment
+      - paragraph [ref=e87]: Other Income
+      - paragraph [ref=e99]: Salary Income
+      - generic [ref=e109]:
+        - paragraph [ref=e121]: INR 50,000
+        - paragraph [ref=e123]: Credited to your account
+      - generic [ref=e126]:
+        - paragraph [ref=e138]: INR 10,000
+        - paragraph [ref=e140]: Debited from your account
+      - generic [ref=e143]:
+        - paragraph [ref=e155]: INR 15,000
+        - paragraph [ref=e158]: Credited to your a/c
+  - generic [ref=e174]:
+    - paragraph [ref=e176]: Trusted by
+    - list [ref=e179]:
+      - listitem [ref=e180]
+      - listitem [ref=e220]
+      - listitem [ref=e260]
+  - generic [ref=e302]:
+    - generic [ref=e306]:
+      - paragraph [ref=e308]:
+        - strong [ref=e309]: Came for FinBox? Stay for the intelligence.
+        - text: Explore our AI library of research, industry data and lending insights.
+      - paragraph [ref=e311]:
+        - link "Read more" [ref=e312] [cursor=pointer]:
+          - /url: https://research.finbox.in/?utm="topbanner"
+    - generic [ref=e313]:
+      - link [ref=e314] [cursor=pointer]:
+        - /url: ../
+      - generic [ref=e318]:
+        - paragraph [ref=e323] [cursor=pointer]: Solutions
+        - paragraph [ref=e334] [cursor=pointer]: Products
+        - paragraph [ref=e345] [cursor=pointer]: Resources
+      - link [ref=e353] [cursor=pointer]:
+        - /url: ../contact-us
+        - paragraph [ref=e355]: Request demo
+  - generic [ref=e357]:
+    - generic [ref=e358]:
+      - img "0%+" [ref=e364]:
+        - generic [ref=e365]: "0"
+        - generic [ref=e370]: "%+"
+      - paragraph [ref=e374]: Detect 40% more transactions with advanced analytics
+    - generic [ref=e375]:
+      - img "0%" [ref=e381]:
+        - generic [ref=e382]: "0"
+        - generic [ref=e387]: "%"
+      - paragraph [ref=e391]: More conversions with reduced drop-offs
+    - generic [ref=e392]:
+      - img "0%" [ref=e398]:
+        - generic [ref=e399]: "0"
+        - generic [ref=e404]: "%"
+      - paragraph [ref=e408]: Faster response times than other products
+  - generic [ref=e409]:
+    - generic [ref=e411]:
+      - heading "Actionable insights for accurate decisioning" [level=3] [ref=e414]
+      - paragraph [ref=e417]:
+        - generic [ref=e418]:
+          - generic [ref=e419]: D
+          - generic [ref=e420]: e
+          - generic [ref=e421]: t
+          - generic [ref=e422]: e
+          - generic [ref=e423]: c
+          - generic [ref=e424]: t
+        - generic [ref=e425]:
+          - generic [ref=e426]: e
+          - generic [ref=e427]: x
+          - generic [ref=e428]: p
+          - generic [ref=e429]: e
+          - generic [ref=e430]: "n"
+          - generic [ref=e431]: s
+          - generic [ref=e432]: e
+          - generic [ref=e433]: s
+          - generic [ref=e434]: ","
+        - generic [ref=e435]:
+          - generic [ref=e436]: i
+          - generic [ref=e437]: "n"
+          - generic [ref=e438]: c
+          - generic [ref=e439]: o
+          - generic [ref=e440]: m
+          - generic [ref=e441]: e
+          - generic [ref=e442]: ","
+        - generic [ref=e443]:
+          - generic [ref=e444]: o
+          - generic [ref=e445]: b
+          - generic [ref=e446]: l
+          - generic [ref=e447]: i
+          - generic [ref=e448]: g
+          - generic [ref=e449]: a
+          - generic [ref=e450]: t
+          - generic [ref=e451]: i
+          - generic [ref=e452]: o
+          - generic [ref=e453]: "n"
+          - generic [ref=e454]: s
+        - generic [ref=e455]:
+          - generic [ref=e456]: a
+          - generic [ref=e457]: "n"
+          - generic [ref=e458]: d
+        - generic [ref=e459]:
+          - generic [ref=e460]: e
+          - generic [ref=e461]: v
+          - generic [ref=e462]: e
+          - generic [ref=e463]: "n"
+        - generic [ref=e464]:
+          - generic [ref=e465]: m
+          - generic [ref=e466]: e
+          - generic [ref=e467]: r
+          - generic [ref=e468]: c
+          - generic [ref=e469]: h
+          - generic [ref=e470]: a
+          - generic [ref=e471]: "n"
+          - generic [ref=e472]: t
+        - generic [ref=e473]:
+          - generic [ref=e474]: c
+          - generic [ref=e475]: a
+          - generic [ref=e476]: t
+          - generic [ref=e477]: e
+          - generic [ref=e478]: g
+          - generic [ref=e479]: o
+          - generic [ref=e480]: r
+          - generic [ref=e481]: "y"
+        - generic [ref=e482]:
+          - generic [ref=e483]: s
+          - generic [ref=e484]: p
+          - generic [ref=e485]: e
+          - generic [ref=e486]: "n"
+          - generic [ref=e487]: d
+          - generic [ref=e488]: s
+        - generic [ref=e489]:
+          - generic [ref=e490]: t
+          - generic [ref=e491]: o
+        - generic [ref=e492]:
+          - generic [ref=e493]: b
+          - generic [ref=e494]: u
+          - generic [ref=e495]: i
+          - generic [ref=e496]: l
+          - generic [ref=e497]: d
+        - generic [ref=e498]: a
+        - generic [ref=e500]:
+          - generic [ref=e501]: h
+          - generic [ref=e502]: o
+          - generic [ref=e503]: l
+          - generic [ref=e504]: i
+          - generic [ref=e505]: s
+          - generic [ref=e506]: t
+          - generic [ref=e507]: i
+          - generic [ref=e508]: c
+        - generic [ref=e509]:
+          - generic [ref=e510]: c
+          - generic [ref=e511]: u
+          - generic [ref=e512]: s
+          - generic [ref=e513]: t
+          - generic [ref=e514]: o
+          - generic [ref=e515]: m
+          - generic [ref=e516]: e
+          - generic [ref=e517]: r
+        - generic [ref=e518]:
+          - generic [ref=e519]: p
+          - generic [ref=e520]: r
+          - generic [ref=e521]: o
+          - generic [ref=e522]: f
+          - generic [ref=e523]: i
+          - generic [ref=e524]: l
+          - generic [ref=e525]: e
+        - generic [ref=e526]:
+          - generic [ref=e527]: f
+          - generic [ref=e528]: o
+          - generic [ref=e529]: r
+        - generic [ref=e530]:
+          - generic [ref=e531]: p
+          - generic [ref=e532]: r
+          - generic [ref=e533]: e
+          - generic [ref=e534]: c
+          - generic [ref=e535]: i
+          - generic [ref=e536]: s
+          - generic [ref=e537]: e
+        - generic [ref=e538]:
+          - generic [ref=e539]: d
+          - generic [ref=e540]: e
+          - generic [ref=e541]: c
+          - generic [ref=e542]: i
+          - generic [ref=e543]: s
+          - generic [ref=e544]: i
+          - generic [ref=e545]: o
+          - generic [ref=e546]: "n"
+          - generic [ref=e547]: s
+        - generic [ref=e548]:
+          - generic [ref=e549]: t
+          - generic [ref=e550]: h
+          - generic [ref=e551]: a
+          - generic [ref=e552]: t
+        - generic [ref=e553]:
+          - generic [ref=e554]: h
+          - generic [ref=e555]: e
+          - generic [ref=e556]: l
+          - generic [ref=e557]: p
+        - generic [ref=e558]:
+          - generic [ref=e559]: "y"
+          - generic [ref=e560]: o
+          - generic [ref=e561]: u
+        - generic [ref=e562]:
+          - generic [ref=e563]: u
+          - generic [ref=e564]: "n"
+          - generic [ref=e565]: d
+          - generic [ref=e566]: e
+          - generic [ref=e567]: r
+          - generic [ref=e568]: w
+          - generic [ref=e569]: r
+          - generic [ref=e570]: i
+          - generic [ref=e571]: t
+          - generic [ref=e572]: e
+        - generic [ref=e573]:
+          - generic [ref=e574]: c
+          - generic [ref=e575]: o
+          - generic [ref=e576]: "n"
+          - generic [ref=e577]: f
+          - generic [ref=e578]: i
+          - generic [ref=e579]: d
+          - generic [ref=e580]: e
+          - generic [ref=e581]: "n"
+          - generic [ref=e582]: t
+          - generic [ref=e583]: l
+          - generic [ref=e584]: "y"
+          - generic [ref=e585]: .
+    - generic [ref=e588]:
+      - generic [ref=e589]:
+        - paragraph [ref=e591]: "72"
+        - paragraph [ref=e593]: Credit worthy score
+      - paragraph [ref=e595]: Spend analysis
+      - generic [ref=e596]:
+        - generic [ref=e597]:
+          - generic [ref=e605]:
+            - paragraph [ref=e607]: Shopping
+            - paragraph [ref=e609]: ₹12,450
+          - generic [ref=e617]:
+            - paragraph [ref=e619]: Food
+            - paragraph [ref=e621]: ₹3,200
+          - generic [ref=e631]:
+            - paragraph [ref=e633]: Travel
+            - paragraph [ref=e635]: ₹7,899
+        - generic [ref=e639]:
+          - generic [ref=e648]:
+            - paragraph [ref=e650]: EMI Bounce
+            - paragraph [ref=e652]: ₹18,000
+          - generic [ref=e661]:
+            - paragraph [ref=e663]: Suspicion
+            - paragraph [ref=e665]: ₹8,500
+          - generic [ref=e673]:
+            - paragraph [ref=e675]: Small RTGS
+            - paragraph [ref=e677]: ₹2,400
+  - generic [ref=e716]:
+    - generic [ref=e717]:
+      - heading "Underwriting doesn't wait. Neither should your team." [level=3] [ref=e720]
+      - generic [ref=e721]:
+        - paragraph [ref=e726] [cursor=pointer]: Personal Finance
+        - paragraph [ref=e731] [cursor=pointer]: Underwriting
+    - generic [ref=e733]:
+      - generic [ref=e734]:
+        - paragraph [ref=e736]: Build PFM offerings that drive revenue
+        - paragraph [ref=e738]: Detect income, expenses, merchants and obligations with ease. Build comprehensive customer profiles to enable smart recommendations that lead to upsell.
+      - generic [ref=e739]:
+        - generic [ref=e740]:
+          - paragraph [ref=e742]: 37%
+          - paragraph [ref=e746]: more non-salaried earnings uncovered
+        - generic [ref=e747]:
+          - paragraph [ref=e749]: 54%
+          - paragraph [ref=e753]: better income detection
+        - generic [ref=e754]:
+          - paragraph [ref=e756]: 71%
+          - paragraph [ref=e760]: users prefer sharing their financial information via Account Aggregator
+  - generic [ref=e763]:
+    - heading "Trusted by 100s of enterprises" [level=3] [ref=e767]
+    - list [ref=e774]:
+      - listitem [ref=e775]:
+        - generic [ref=e778] [cursor=pointer]:
+          - heading "At IIFL, FinBox’s BankConnect cut costs by 30% and boosted MSME loan approvals by 17%, with smarter fraud detection and 41% conversions." [level=5] [ref=e783]
+          - heading "At IIFL, FinBox’s BankConnect cut costs by 30% and boosted MSME loan approvals by 17%, with smarter fraud detection and 41% conversions." [level=6] [ref=e788]
+          - generic [ref=e789]:
+            - img "Young man in baseball caps wearing glasses" [ref=e792]
+            - generic [ref=e793]:
+              - heading "Rahul Sanklecha" [level=5] [ref=e796]
+              - generic [ref=e797]:
+                - heading "Head of Projects" [level=6] [ref=e799]
+                - heading "IIFL Finance" [level=6] [ref=e801]
+      - listitem [ref=e802]:
+        - generic [ref=e805] [cursor=pointer]:
+          - heading "As a founder, I love how Sentinel gives real-time visibility, lets me spot drop-offs, and debug issues without engineering. It’s fast, intuitive, and empowering" [level=5] [ref=e810]
+          - heading "As a founder, I love how Sentinel gives real-time visibility, lets me spot drop-offs, and debug issues without engineering. It’s fast, intuitive, and empowering" [level=6] [ref=e815]
+          - generic [ref=e816]:
+            - img "Young Asian woman smiling" [ref=e819]
+            - generic [ref=e820]:
+              - heading "Karan Mehta" [level=5] [ref=e823]
+              - generic [ref=e824]:
+                - heading "CTO and Co-Founder" [level=6] [ref=e826]
+                - heading "Ring (formerly Kissht)" [level=6] [ref=e828]
+      - listitem [ref=e829]:
+        - generic [ref=e832] [cursor=pointer]:
+          - heading "With our complex lending ops, moving to centralized rules was a must. Choosing Sentinel was easy—it’s more than a rules engine; it’s a full lending system." [level=5] [ref=e837]
+          - heading "With our complex lending ops, moving to centralized rules was a must. Choosing Sentinel was easy—it’s more than a rules engine; it’s a full lending system." [level=6] [ref=e842]
+          - generic [ref=e843]:
+            - img "Young man in glasses smiling at the camera" [ref=e846]
+            - generic [ref=e847]:
+              - heading "Mehekka Oberoi" [level=5] [ref=e850]
+              - generic [ref=e851]:
+                - heading "Director" [level=6] [ref=e853]
+                - heading "IIFL Open Neobank" [level=6] [ref=e855]
+      - listitem [ref=e856]:
+        - generic [ref=e859] [cursor=pointer]:
+          - heading "Sentinel supports our MSME credit vision by enabling fast policy changes, improving efficiency, and expanding credit access." [level=5] [ref=e864]
+          - heading "Sentinel supports our MSME credit vision by enabling fast policy changes, improving efficiency, and expanding credit access." [level=6] [ref=e869]
+          - generic [ref=e870]:
+            - img "Young girl smiling at the camera" [ref=e873]
+            - generic [ref=e874]:
+              - heading "Saurabh Jha" [level=5] [ref=e877]
+              - generic [ref=e878]:
+                - heading "Policy Head" [level=6] [ref=e880]
+                - heading "Muthoot FinCorp ONE" [level=6] [ref=e882]
+      - listitem [ref=e883]:
+        - generic [ref=e886] [cursor=pointer]:
+          - heading [level=5] [ref=e891]: At IIFL, FinBox’s BankConnect cut costs by 30% and boosted MSME loan approvals by 17%, with smarter fraud detection and 41% conversions.
+          - heading [level=6] [ref=e896]: At IIFL, FinBox’s BankConnect cut costs by 30% and boosted MSME loan approvals by 17%, with smarter fraud detection and 41% conversions.
+          - generic [ref=e901]:
+            - heading [level=5] [ref=e904]: Rahul Sanklecha
+            - generic [ref=e905]:
+              - heading [level=6] [ref=e907]: Head of Projects
+              - heading [level=6] [ref=e909]: IIFL Finance
+      - listitem [ref=e910]:
+        - generic [ref=e913] [cursor=pointer]:
+          - heading [level=5] [ref=e918]: As a founder, I love how Sentinel gives real-time visibility, lets me spot drop-offs, and debug issues without engineering. It’s fast, intuitive, and empowering
+          - heading [level=6] [ref=e923]: As a founder, I love how Sentinel gives real-time visibility, lets me spot drop-offs, and debug issues without engineering. It’s fast, intuitive, and empowering
+          - generic [ref=e928]:
+            - heading [level=5] [ref=e931]: Karan Mehta
+            - generic [ref=e932]:
+              - heading [level=6] [ref=e934]: CTO and Co-Founder
+              - heading [level=6] [ref=e936]: Ring (formerly Kissht)
+      - listitem [ref=e937]:
+        - generic [ref=e940] [cursor=pointer]:
+          - heading [level=5] [ref=e945]: With our complex lending ops, moving to centralized rules was a must. Choosing Sentinel was easy—it’s more than a rules engine; it’s a full lending system.
+          - heading [level=6] [ref=e950]: With our complex lending ops, moving to centralized rules was a must. Choosing Sentinel was easy—it’s more than a rules engine; it’s a full lending system.
+          - generic [ref=e955]:
+            - heading [level=5] [ref=e958]: Mehekka Oberoi
+            - generic [ref=e959]:
+              - heading [level=6] [ref=e961]: Director
+              - heading [level=6] [ref=e963]: IIFL Open Neobank
+      - listitem [ref=e964]:
+        - generic [ref=e967] [cursor=pointer]:
+          - heading [level=5] [ref=e972]: Sentinel supports our MSME credit vision by enabling fast policy changes, improving efficiency, and expanding credit access.
+          - heading [level=6] [ref=e977]: Sentinel supports our MSME credit vision by enabling fast policy changes, improving efficiency, and expanding credit access.
+          - generic [ref=e982]:
+            - heading [level=5] [ref=e985]: Saurabh Jha
+            - generic [ref=e986]:
+              - heading [level=6] [ref=e988]: Policy Head
+              - heading [level=6] [ref=e990]: Muthoot FinCorp ONE
+      - listitem [ref=e991]:
+        - generic [ref=e994] [cursor=pointer]:
+          - heading [level=5] [ref=e999]: At IIFL, FinBox’s BankConnect cut costs by 30% and boosted MSME loan approvals by 17%, with smarter fraud detection and 41% conversions.
+          - heading [level=6] [ref=e1004]: At IIFL, FinBox’s BankConnect cut costs by 30% and boosted MSME loan approvals by 17%, with smarter fraud detection and 41% conversions.
+          - generic [ref=e1009]:
+            - heading [level=5] [ref=e1012]: Rahul Sanklecha
+            - generic [ref=e1013]:
+              - heading [level=6] [ref=e1015]: Head of Projects
+              - heading [level=6] [ref=e1017]: IIFL Finance
+      - listitem [ref=e1018]:
+        - generic [ref=e1021] [cursor=pointer]:
+          - heading [level=5] [ref=e1026]: As a founder, I love how Sentinel gives real-time visibility, lets me spot drop-offs, and debug issues without engineering. It’s fast, intuitive, and empowering
+          - heading [level=6] [ref=e1031]: As a founder, I love how Sentinel gives real-time visibility, lets me spot drop-offs, and debug issues without engineering. It’s fast, intuitive, and empowering
+          - generic [ref=e1036]:
+            - heading [level=5] [ref=e1039]: Karan Mehta
+            - generic [ref=e1040]:
+              - heading [level=6] [ref=e1042]: CTO and Co-Founder
+              - heading [level=6] [ref=e1044]: Ring (formerly Kissht)
+      - listitem [ref=e1045]:
+        - generic [ref=e1048] [cursor=pointer]:
+          - heading [level=5] [ref=e1053]: With our complex lending ops, moving to centralized rules was a must. Choosing Sentinel was easy—it’s more than a rules engine; it’s a full lending system.
+          - heading [level=6] [ref=e1058]: With our complex lending ops, moving to centralized rules was a must. Choosing Sentinel was easy—it’s more than a rules engine; it’s a full lending system.
+          - generic [ref=e1063]:
+            - heading [level=5] [ref=e1066]: Mehekka Oberoi
+            - generic [ref=e1067]:
+              - heading [level=6] [ref=e1069]: Director
+              - heading [level=6] [ref=e1071]: IIFL Open Neobank
+      - listitem [ref=e1072]:
+        - generic [ref=e1075] [cursor=pointer]:
+          - heading [level=5] [ref=e1080]: Sentinel supports our MSME credit vision by enabling fast policy changes, improving efficiency, and expanding credit access.
+          - heading [level=6] [ref=e1085]: Sentinel supports our MSME credit vision by enabling fast policy changes, improving efficiency, and expanding credit access.
+          - generic [ref=e1090]:
+            - heading [level=5] [ref=e1093]: Saurabh Jha
+            - generic [ref=e1094]:
+              - heading [level=6] [ref=e1096]: Policy Head
+              - heading [level=6] [ref=e1098]: Muthoot FinCorp ONE
+    - list [ref=e1104]:
+      - listitem [ref=e1105]
+      - listitem [ref=e1108]
+      - listitem [ref=e1111]
+      - listitem [ref=e1114]
+  - generic [ref=e1117]:
+    - generic [ref=e1118]:
+      - heading "Resources and publications" [level=3] [ref=e1121]
+      - link [ref=e1124] [cursor=pointer]:
+        - /url: ../blog
+        - paragraph [ref=e1126]: View all
+    - generic [ref=e1133]:
+      - list [ref=e1134]:
+        - listitem "1 of 3" [ref=e1135]:
+          - generic [ref=e1136]:
+            - 'link "Bank Connect Advanced Analytics in Insurance with AA CDP: Looking Beyond Traditional Underwriting Jan 8, 2025" [ref=e1138] [cursor=pointer]':
+              - /url: ../blog/advanced-analytics-in-insurance-with-aa-cdp-looking-beyond-traditional-underwriting
+              - generic [ref=e1144]:
+                - generic [ref=e1145]:
+                  - paragraph [ref=e1150]: Bank Connect
+                  - paragraph [ref=e1153]: "Advanced Analytics in Insurance with AA CDP: Looking Beyond Traditional Underwriting"
+                - paragraph [ref=e1157]:
+                  - time [ref=e1158]: Jan 8, 2025
+            - link "Bank Connect How BankConnect enables fast and thorough user verification for online trading platforms Nov 30, 2023" [ref=e1160] [cursor=pointer]:
+              - /url: ../blog/how-bankconnect-enables-fast-and-thorough-user-verification-for-online-trading-platforms
+              - generic [ref=e1166]:
+                - generic [ref=e1167]:
+                  - paragraph [ref=e1172]: Bank Connect
+                  - paragraph [ref=e1175]: How BankConnect enables fast and thorough user verification for online trading platforms
+                - paragraph [ref=e1179]:
+                  - time [ref=e1180]: Nov 30, 2023
+            - link "Bank Connect How FinBox BankConnect powers advanced income analytics Sep 29, 2023" [ref=e1182] [cursor=pointer]:
+              - /url: ../blog/how-finbox-bankconnect-powers-advanced-income-analytics
+              - generic [ref=e1188]:
+                - generic [ref=e1189]:
+                  - paragraph [ref=e1194]: Bank Connect
+                  - paragraph [ref=e1197]: How FinBox BankConnect powers advanced income analytics
+                - paragraph [ref=e1201]:
+                  - time [ref=e1202]: Sep 29, 2023
+            - 'link "Bank Connect Debt Collection: What is it and How to Increase Debt Collection Rate? Jun 12, 2023" [ref=e1204] [cursor=pointer]':
+              - /url: ../blog/debt-collection
+              - generic [ref=e1210]:
+                - generic [ref=e1211]:
+                  - paragraph [ref=e1216]: Bank Connect
+                  - paragraph [ref=e1219]: "Debt Collection: What is it and How to Increase Debt Collection Rate?"
+                - paragraph [ref=e1223]:
+                  - time [ref=e1224]: Jun 12, 2023
+            - 'link "Bank Connect Banking Fraud: Key Types, Challenges, and Top Detection Strategies Jun 12, 2023" [ref=e1226] [cursor=pointer]':
+              - /url: ../blog/banking-fraud-guide
+              - generic [ref=e1232]:
+                - generic [ref=e1233]:
+                  - paragraph [ref=e1238]: Bank Connect
+                  - paragraph [ref=e1241]: "Banking Fraud: Key Types, Challenges, and Top Detection Strategies"
+                - paragraph [ref=e1245]:
+                  - time [ref=e1246]: Jun 12, 2023
+            - link "Bank Connect A Comprehensive Guide to Financial Statement Analysis May 10, 2023" [ref=e1248] [cursor=pointer]:
+              - /url: ../blog/financial-statement-analysis
+              - generic [ref=e1254]:
+                - generic [ref=e1255]:
+                  - paragraph [ref=e1260]: Bank Connect
+                  - paragraph [ref=e1263]: A Comprehensive Guide to Financial Statement Analysis
+                - paragraph [ref=e1267]:
+                  - time [ref=e1268]: May 10, 2023
+        - listitem [ref=e1269]:
+          - generic [ref=e1270]:
+            - link [ref=e1272] [cursor=pointer]:
+              - /url: ../blog/advanced-analytics-in-insurance-with-aa-cdp-looking-beyond-traditional-underwriting
+              - generic [ref=e1278]:
+                - generic [ref=e1279]:
+                  - paragraph [ref=e1284]: Bank Connect
+                  - paragraph [ref=e1287]: "Advanced Analytics in Insurance with AA CDP: Looking Beyond Traditional Underwriting"
+                - paragraph [ref=e1291]:
+                  - time [ref=e1292]: Jan 8, 2025
+            - link [ref=e1294] [cursor=pointer]:
+              - /url: ../blog/how-bankconnect-enables-fast-and-thorough-user-verification-for-online-trading-platforms
+              - generic [ref=e1300]:
+                - generic [ref=e1301]:
+                  - paragraph [ref=e1306]: Bank Connect
+                  - paragraph [ref=e1309]: How BankConnect enables fast and thorough user verification for online trading platforms
+                - paragraph [ref=e1313]:
+                  - time [ref=e1314]: Nov 30, 2023
+            - link [ref=e1316] [cursor=pointer]:
+              - /url: ../blog/how-finbox-bankconnect-powers-advanced-income-analytics
+              - generic [ref=e1322]:
+                - generic [ref=e1323]:
+                  - paragraph [ref=e1328]: Bank Connect
+                  - paragraph [ref=e1331]: How FinBox BankConnect powers advanced income analytics
+                - paragraph [ref=e1335]:
+                  - time [ref=e1336]: Sep 29, 2023
+            - link [ref=e1338] [cursor=pointer]:
+              - /url: ../blog/debt-collection
+              - generic [ref=e1344]:
+                - generic [ref=e1345]:
+                  - paragraph [ref=e1350]: Bank Connect
+                  - paragraph [ref=e1353]: "Debt Collection: What is it and How to Increase Debt Collection Rate?"
+                - paragraph [ref=e1357]:
+                  - time [ref=e1358]: Jun 12, 2023
+            - link [ref=e1360] [cursor=pointer]:
+              - /url: ../blog/banking-fraud-guide
+              - generic [ref=e1366]:
+                - generic [ref=e1367]:
+                  - paragraph [ref=e1372]: Bank Connect
+                  - paragraph [ref=e1375]: "Banking Fraud: Key Types, Challenges, and Top Detection Strategies"
+                - paragraph [ref=e1379]:
+                  - time [ref=e1380]: Jun 12, 2023
+            - link [ref=e1382] [cursor=pointer]:
+              - /url: ../blog/financial-statement-analysis
+              - generic [ref=e1388]:
+                - generic [ref=e1389]:
+                  - paragraph [ref=e1394]: Bank Connect
+                  - paragraph [ref=e1397]: A Comprehensive Guide to Financial Statement Analysis
+                - paragraph [ref=e1401]:
+                  - time [ref=e1402]: May 10, 2023
+        - listitem [ref=e1403]:
+          - generic [ref=e1404]:
+            - link [ref=e1406] [cursor=pointer]:
+              - /url: ../blog/advanced-analytics-in-insurance-with-aa-cdp-looking-beyond-traditional-underwriting
+              - generic [ref=e1412]:
+                - generic [ref=e1413]:
+                  - paragraph [ref=e1418]: Bank Connect
+                  - paragraph [ref=e1421]: "Advanced Analytics in Insurance with AA CDP: Looking Beyond Traditional Underwriting"
+                - paragraph [ref=e1425]:
+                  - time [ref=e1426]: Jan 8, 2025
+            - link [ref=e1428] [cursor=pointer]:
+              - /url: ../blog/how-bankconnect-enables-fast-and-thorough-user-verification-for-online-trading-platforms
+              - generic [ref=e1434]:
+                - generic [ref=e1435]:
+                  - paragraph [ref=e1440]: Bank Connect
+                  - paragraph [ref=e1443]: How BankConnect enables fast and thorough user verification for online trading platforms
+                - paragraph [ref=e1447]:
+                  - time [ref=e1448]: Nov 30, 2023
+            - link [ref=e1450] [cursor=pointer]:
+              - /url: ../blog/how-finbox-bankconnect-powers-advanced-income-analytics
+              - generic [ref=e1456]:
+                - generic [ref=e1457]:
+                  - paragraph [ref=e1462]: Bank Connect
+                  - paragraph [ref=e1465]: How FinBox BankConnect powers advanced income analytics
+                - paragraph [ref=e1469]:
+                  - time [ref=e1470]: Sep 29, 2023
+            - link [ref=e1472] [cursor=pointer]:
+              - /url: ../blog/debt-collection
+              - generic [ref=e1478]:
+                - generic [ref=e1479]:
+                  - paragraph [ref=e1484]: Bank Connect
+                  - paragraph [ref=e1487]: "Debt Collection: What is it and How to Increase Debt Collection Rate?"
+                - paragraph [ref=e1491]:
+                  - time [ref=e1492]: Jun 12, 2023
+            - link [ref=e1494] [cursor=pointer]:
+              - /url: ../blog/banking-fraud-guide
+              - generic [ref=e1500]:
+                - generic [ref=e1501]:
+                  - paragraph [ref=e1506]: Bank Connect
+                  - paragraph [ref=e1509]: "Banking Fraud: Key Types, Challenges, and Top Detection Strategies"
+                - paragraph [ref=e1513]:
+                  - time [ref=e1514]: Jun 12, 2023
+            - link [ref=e1516] [cursor=pointer]:
+              - /url: ../blog/financial-statement-analysis
+              - generic [ref=e1522]:
+                - generic [ref=e1523]:
+                  - paragraph [ref=e1528]: Bank Connect
+                  - paragraph [ref=e1531]: A Comprehensive Guide to Financial Statement Analysis
+                - paragraph [ref=e1535]:
+                  - time [ref=e1536]: May 10, 2023
+      - group "Carousel pagination controls"
+  - generic [ref=e1542]:
+    - generic [ref=e1543]:
+      - heading "Supercharge lending" [level=4] [ref=e1545]
+      - paragraph [ref=e1547]: Streamline onboarding, accelerate lending, and enable data-driven decisioning
+    - link [ref=e1549] [cursor=pointer]:
+      - /url: ../contact-us
+      - paragraph [ref=e1551]: Request Demo
+  - generic [ref=e1562]:
+    - generic [ref=e1563]:
+      - paragraph [ref=e1570]: Powering Credit Infrastructure at Scale
+      - generic [ref=e1571]:
+        - generic [ref=e1572]:
+          - link [ref=e1574] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/finbox-in/posts/?feedView=all
+          - link [ref=e1578] [cursor=pointer]:
+            - /url: https://x.com/finbox_in/
+          - link [ref=e1583] [cursor=pointer]:
+            - /url: https://www.facebook.com/FinBox.in/
+          - link [ref=e1588] [cursor=pointer]:
+            - /url: https://www.instagram.com/finbox_in/
+          - link [ref=e1592] [cursor=pointer]:
+            - /url: https://finbox.substack.com/
+        - paragraph [ref=e1597]: © 2026 Moshpit Technologies, Pvt. Ltd. All rights reserved.
+    - generic [ref=e1602]:
+      - generic [ref=e1603]:
+        - generic [ref=e1604]:
+          - paragraph [ref=e1606]: Solutions
+          - generic [ref=e1607]:
+            - paragraph [ref=e1611] [cursor=pointer]:
+              - link "Digital Lending" [ref=e1612]:
+                - /url: ../solutions/digital-lending
+            - paragraph [ref=e1616] [cursor=pointer]:
+              - link "Underwriting" [ref=e1617]:
+                - /url: ../solutions/underwriting
+            - paragraph [ref=e1621] [cursor=pointer]:
+              - link "Embedded Finance" [ref=e1622]:
+                - /url: ../solutions/embedded-finance
+            - paragraph [ref=e1626] [cursor=pointer]:
+              - link "Partnership Lending" [ref=e1627]:
+                - /url: ../solutions/partnership-lending
+        - generic [ref=e1628]:
+          - paragraph [ref=e1630]: Platform
+          - generic [ref=e1631]:
+            - paragraph [ref=e1635] [cursor=pointer]:
+              - link "Digital Onboarding" [ref=e1636]:
+                - /url: ./digital-onboarding
+            - paragraph [ref=e1640] [cursor=pointer]:
+              - link "Prism" [ref=e1641]:
+                - /url: ./prism
+            - paragraph [ref=e1645] [cursor=pointer]:
+              - link "Sentinel" [ref=e1646]:
+                - /url: ../sentinel
+            - paragraph [ref=e1650] [cursor=pointer]:
+              - link "LOS" [ref=e1651]:
+                - /url: ./los
+            - paragraph [ref=e1655] [cursor=pointer]:
+              - link "Superflows" [ref=e1656]:
+                - /url: ./superflows
+            - paragraph [ref=e1660] [cursor=pointer]:
+              - link "DPI" [ref=e1661]:
+                - /url: ./dpi
+      - generic [ref=e1662]:
+        - generic [ref=e1663]:
+          - paragraph [ref=e1665]: Risk Management
+          - generic [ref=e1666]:
+            - paragraph [ref=e1670] [cursor=pointer]:
+              - link "BankConnect" [ref=e1671]:
+                - /url: ./bankconnect
+            - paragraph [ref=e1675] [cursor=pointer]:
+              - link "Multi Account Aggregator" [ref=e1676]:
+                - /url: ./account-aggregator
+            - paragraph [ref=e1680] [cursor=pointer]:
+              - link "DeviceConnect" [ref=e1681]:
+                - /url: ./device-connect
+        - generic [ref=e1682]:
+          - paragraph [ref=e1684]: Resources
+          - generic [ref=e1685]:
+            - paragraph [ref=e1689] [cursor=pointer]:
+              - link "Blogs" [ref=e1690]:
+                - /url: ../blog
+            - paragraph [ref=e1694] [cursor=pointer]:
+              - link "Case Studies" [ref=e1695]:
+                - /url: ../blog/case-study
+            - paragraph [ref=e1699] [cursor=pointer]:
+              - link "Newsletter" [ref=e1700]:
+                - /url: ../newsletter
+            - paragraph [ref=e1704] [cursor=pointer]:
+              - link "Guides and Reports" [ref=e1705]:
+                - /url: ../ebooks
+            - paragraph [ref=e1709] [cursor=pointer]:
+              - link "Security and compliance" [ref=e1710]:
+                - /url: ../security-and-compliance
+      - generic [ref=e1711]:
+        - generic [ref=e1712]:
+          - paragraph [ref=e1714]: Company
+          - generic [ref=e1715]:
+            - paragraph [ref=e1719] [cursor=pointer]:
+              - link "About us" [ref=e1720]:
+                - /url: ../about-us
+            - paragraph [ref=e1724] [cursor=pointer]:
+              - link "Our Clients" [ref=e1725]:
+                - /url: ../our-clients
+            - paragraph [ref=e1729] [cursor=pointer]:
+              - link "Careers" [ref=e1730]:
+                - /url: ../careers
+            - paragraph [ref=e1734] [cursor=pointer]:
+              - link "Privacy Policy" [ref=e1735]:
+                - /url: ../privacy-policy
+            - paragraph [ref=e1739] [cursor=pointer]:
+              - link "Contact Us" [ref=e1740]:
+                - /url: ../contact-us
+        - generic [ref=e1741]:
+          - paragraph [ref=e1743]: Identity Verification
+          - paragraph [ref=e1748] [cursor=pointer]:
+            - link "KYC" [ref=e1749]:
+              - /url: ./kyc

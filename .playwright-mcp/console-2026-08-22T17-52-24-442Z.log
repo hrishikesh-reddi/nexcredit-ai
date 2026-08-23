@@ -1,0 +1,14 @@
+[     468ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3001/static/js/bundle.js:119826
+[     604ms] [ERROR] Warning: Instance created by `useForm` is not connected to any Form element. Forget to pass `form` prop? @ http://localhost:3001/static/js/bundle.js:92587
+[     605ms] [ERROR] Access to XMLHttpRequest at 'http://localhost:8081/api/auth/login' from origin 'http://localhost:3001' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:3001/:0
+[     607ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8081/api/auth/login:0
+[     608ms] [ERROR] Access to XMLHttpRequest at 'http://localhost:8081/api/auth/login' from origin 'http://localhost:3001' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:3001/:0
+[     608ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8081/api/auth/login:0
+[     637ms] [ERROR] Access to XMLHttpRequest at 'http://localhost:8081/api/credit/applications' from origin 'http://localhost:3001' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:3001/:0
+[     637ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8081/api/credit/applications:0
+[     656ms] [ERROR] Access to XMLHttpRequest at 'http://localhost:8081/api/audit/logs' from origin 'http://localhost:3001' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:3001/:0
+[     656ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8081/api/audit/logs:0
+[     656ms] [ERROR] Access to XMLHttpRequest at 'http://localhost:8081/api/credit/applications' from origin 'http://localhost:3001' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:3001/:0
+[     656ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8081/api/credit/applications:0
+[     656ms] [ERROR] Access to XMLHttpRequest at 'http://localhost:8081/api/audit/logs' from origin 'http://localhost:3001' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:3001/:0
+[     656ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost:8081/api/audit/logs:0

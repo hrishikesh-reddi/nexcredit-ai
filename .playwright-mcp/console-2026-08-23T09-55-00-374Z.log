@@ -1,0 +1,11 @@
+[      98ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/static/loader.js:0
+[      98ms] [ERROR] Refused to execute script from 'http://localhost:3000/static/loader.js' because its MIME type ('application/json') is not executable, and strict MIME type checking is enabled. @ http://localhost:3000/:0
+[      98ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/static/splash.png:0
+[      98ms] [ERROR] Refused to apply style from 'http://localhost:3000/static/custom.css' because its MIME type ('application/json') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ http://localhost:3000/:0
+[     133ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/static/splash.png:0
+[     418ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/config:0
+[     427ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/_app/immutable/nodes/44.kZ6uV5oU.js:0
+[     428ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/static/favicon.png:0
+[     432ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/_app/version.json:0
+[     440ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/_app/version.json:0
+[     499ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/static/favicon.png:0

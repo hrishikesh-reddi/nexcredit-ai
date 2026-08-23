@@ -1,0 +1,96 @@
+- generic [ref=f1e3]:
+  - generic [ref=f1e4]:
+    - generic [ref=f1e6]:
+      - img "NexCredit" [ref=f1e7]
+      - generic [ref=f1e11]:
+        - text: NexCredit
+        - generic [ref=f1e12]: AI
+    - navigation [ref=f1e13]:
+      - button "Overview" [ref=f1e14] [cursor=pointer]
+      - button "Live workbench" [ref=f1e16] [cursor=pointer]
+    - button "Start an application arrow-right" [ref=f1e18] [cursor=pointer]:
+      - generic [ref=f1e19]: Start an application
+      - img "arrow-right" [ref=f1e20]
+  - main [ref=f1e23]:
+    - generic [ref=f1e24]:
+      - generic [ref=f1e25]:
+        - text: SYNCHRONY HACKATHON · PROBLEM STATEMENT 3
+        - heading [level=1] [ref=f1e26]:
+          - text: Credit decisionswith
+          - emphasis [ref=f1e27]: context.
+        - paragraph [ref=f1e28]: NexCredit helps New to Credit and thin file applicants across India get a fairer path forward. It combines consented Utility, Rent, Cash Flow and Digital signals with Tika extracted evidence, an agentic ops center and cashflow what if tools, and accountable human review instead of a missing score rejection.
+        - generic [ref=f1e29]:
+          - button "Open live workbench arrow-right" [ref=f1e30] [cursor=pointer]:
+            - generic [ref=f1e31]: Open live workbench
+            - img "arrow-right" [ref=f1e32]
+          - button "Run a sample application" [ref=f1e35] [cursor=pointer]
+        - generic [ref=f1e37]:
+          - img "check-circle" [ref=f1e38]
+          - text: Explainable ·
+          - img "check-circle" [ref=f1e41]
+          - text: Human review ·
+          - img "check-circle" [ref=f1e44]
+          - text: Audit-ready
+      - complementary [ref=f1e47]:
+        - generic [ref=f1e48]:
+          - generic [ref=f1e49]:
+            - heading "Sample decision" [level=3] [ref=f1e50]
+            - generic [ref=f1e51]: New-to-Credit profile
+          - generic [ref=f1e52]:
+            - generic [ref=f1e53]: Aarav Mehta
+            - generic [ref=f1e54]: Gig worker · ₹2.4L / yr
+            - generic [ref=f1e55]: Routed to review
+            - generic [ref=f1e58]:
+              - generic [ref=f1e59]:
+                - generic [ref=f1e60]: Mobile
+                - generic [ref=f1e63]: "72"
+              - generic [ref=f1e64]:
+                - generic [ref=f1e65]: Transactions
+                - generic [ref=f1e68]: "64"
+              - generic [ref=f1e69]:
+                - generic [ref=f1e70]: Social
+                - generic [ref=f1e73]: "58"
+            - text: Confidence 92% · fraud risk LOW
+    - generic [ref=f1e75]:
+      - generic [ref=f1e76]:
+        - text: THE PROBLEM
+        - heading "Thin-file applicants deserve more than a missing-score rejection." [level=2] [ref=f1e77]
+      - paragraph [ref=f1e78]: Traditional bureau models often have no data on young earners, gig workers, and first-time applicants. NexCredit makes the decision path visible, uses consented prototype signals, and refers uncertain cases to a human underwriter rather than guessing.
+    - generic [ref=f1e79]:
+      - article [ref=f1e80]:
+        - heading "Composite underwriting" [level=3] [ref=f1e81]
+        - paragraph [ref=f1e82]: Bureau + utility, rent, cash flow and digital signals in one NTC-aware profile.
+      - article [ref=f1e83]:
+        - heading "Governed AI" [level=3] [ref=f1e84]
+        - paragraph [ref=f1e85]: Logistic model with fallbacks, policy guardrails and human review for under-21 and mismatch cases.
+      - article [ref=f1e86]:
+        - heading "Evidence that explains" [level=3] [ref=f1e87]
+        - paragraph [ref=f1e88]: Tika-extracted fields, pgvector search and a full audit ledger for every decision.
+    - generic [ref=f1e89]:
+      - text: HOW IT WORKS
+      - heading "From signal to accountable action." [level=2] [ref=f1e90]
+      - generic [ref=f1e91]:
+        - generic [ref=f1e92]:
+          - generic [ref=f1e93]: "1"
+          - heading "Consent-led intake" [level=4] [ref=f1e94]
+          - paragraph [ref=f1e95]: 4 consented signals (mobile, transaction, social plus bank) and document uploads via Tika.
+        - generic [ref=f1e96]:
+          - generic [ref=f1e97]: "2"
+          - heading "Decisioning API" [level=4] [ref=f1e98]
+          - paragraph [ref=f1e99]: Spring Boot logistic model with rule fallback and confidence plus fraud label.
+        - generic [ref=f1e100]:
+          - generic [ref=f1e101]: "3"
+          - heading "Guardrails & review" [level=4] [ref=f1e102]
+          - paragraph [ref=f1e103]: Guardrails require confidence ≥70% and fraud ≤MEDIUM and DTI ≤30%, and every under-21 case is reviewed.
+        - generic [ref=f1e104]:
+          - generic [ref=f1e105]: "4"
+          - heading "Evidence & accountability" [level=4] [ref=f1e106]
+          - paragraph [ref=f1e107]: PostgreSQL + pgvector ledger keeps decision, audit trail and searchable evidence.
+    - generic [ref=f1e108]:
+      - generic [ref=f1e109]:
+        - heading "See the full underwriting workflow." [level=2] [ref=f1e110]
+        - paragraph [ref=f1e111]: Open the portfolio, review a case, and watch the audit trail update.
+      - button "Explore NexCredit arrow-right" [ref=f1e112] [cursor=pointer]:
+        - generic [ref=f1e113]: Explore NexCredit
+        - img "arrow-right" [ref=f1e114]
+  - generic [ref=f1e117]: NexCredit AI · Synchrony Hackathon 2026

@@ -1,0 +1,128 @@
+- generic [ref=e1]:
+  - generic [ref=e118]:
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - button "NexCredit NexCredit AI" [ref=e121] [cursor=pointer]:
+          - generic [ref=e122]:
+            - img "NexCredit" [ref=e123]
+            - generic [ref=e127]:
+              - text: NexCredit
+              - generic [ref=e128]: AI
+        - generic [ref=e129]: CREDIT OPERATIONS
+      - button "file-search Search ⌘K" [ref=e131] [cursor=pointer]:
+        - img "file-search" [ref=e132]
+        - generic [ref=e135]: Search
+        - generic [ref=e136]: ⌘K
+    - main [ref=e137]:
+      - generic [ref=e138]:
+        - navigation "Workbench navigation" [ref=e139]:
+          - button "Command Center" [ref=e140] [cursor=pointer]
+          - button "Underwriting Studio" [active] [ref=e141] [cursor=pointer]
+          - button "Evidence Intelligence" [ref=e142] [cursor=pointer]
+          - button "Cash-flow Intelligence" [ref=e143] [cursor=pointer]
+          - button "Review & Governance" [ref=e144] [cursor=pointer]
+          - button "Strategy Lab" [ref=e145] [cursor=pointer]
+          - button "Platform Architecture" [ref=e146] [cursor=pointer]
+        - generic [ref=e442]:
+          - generic [ref=e444]:
+            - heading "Underwriting Studio" [level=1] [ref=e445]
+            - paragraph [ref=e446]: Review the portfolio, inspect any applicant, and run deterministic credit decisions. Select a row to preview details inline.
+          - generic [ref=e447]:
+            - generic [ref=e448]: auto-approve needs confidence ≥ 70% and fraud ≤ MEDIUM
+            - generic [ref=e452]: under-21 rejection always escalates to human review
+            - generic [ref=e458]: document-income divergence above 30% forces referral
+          - generic [ref=e461]:
+            - generic [ref=e462]:
+              - generic [ref=e463]:
+                - generic [ref=e464]:
+                  - heading "Application portfolio" [level=3] [ref=e465]
+                  - generic [ref=e466]:
+                    - button "All" [ref=e467] [cursor=pointer]
+                    - button "Approved" [ref=e468] [cursor=pointer]
+                    - button "In review" [ref=e469] [cursor=pointer]
+                    - button "Rejected" [ref=e470] [cursor=pointer]
+                - table [ref=e478]:
+                  - rowgroup [ref=e480]:
+                    - row [ref=e481]:
+                      - columnheader "Applicant" [ref=e482]
+                      - columnheader "Type" [ref=e483]
+                      - columnheader "Income" [ref=e484]
+                      - columnheader "Decision" [ref=e485]
+                      - columnheader "Confidence" [ref=e486]
+                      - columnheader "Fraud" [ref=e487]
+                  - rowgroup [ref=e488]:
+                    - row [ref=e489] [cursor=pointer]:
+                      - cell [ref=e490]:
+                        - button "Vikram Rathore" [ref=e491]
+                      - cell "SALARIED" [ref=e492]
+                      - cell "₹10,00,000" [ref=e493]
+                      - cell "Approved" [ref=e494]
+                      - cell [ref=e497]:
+                        - strong [ref=e499]: 96%
+                      - cell "LOW" [ref=e500]
+                    - row [ref=e501] [cursor=pointer]:
+                      - cell [ref=e502]:
+                        - button "Aarav Mehta" [ref=e503]
+                      - cell "GIG WORKER" [ref=e504]
+                      - cell "₹5,40,000" [ref=e505]
+                      - cell "Approved" [ref=e506]
+                      - cell [ref=e509]:
+                        - strong [ref=e511]: 96%
+                      - cell "LOW" [ref=e512]
+                    - row [ref=e513] [cursor=pointer]:
+                      - cell [ref=e514]:
+                        - button "Meera Iyer" [ref=e515]
+                      - cell "SELF EMPLOYED" [ref=e516]
+                      - cell "₹3,00,000" [ref=e517]
+                      - cell "Approved" [ref=e518]
+                      - cell [ref=e521]:
+                        - strong [ref=e523]: 70%
+                      - cell "LOW" [ref=e524]
+              - generic [ref=e525]:
+                - heading "Decision distribution" [level=3] [ref=e527]
+                - generic [ref=e529]:
+                  - generic [ref=e530]:
+                    - img [ref=e531]:
+                      - generic [ref=e536]: "3"
+                      - generic [ref=e537]: TOTAL
+                    - generic [ref=e538]:
+                      - generic [ref=e539]:
+                        - text: Approved
+                        - generic [ref=e541]: "3"
+                      - generic [ref=e542]:
+                        - text: In review
+                        - generic [ref=e544]: "0"
+                      - generic [ref=e545]:
+                        - text: Rejected
+                        - generic [ref=e547]: "0"
+                  - application [ref=e551]:
+                    - generic [ref=e560]:
+                      - generic [ref=e561]: Approved
+                      - generic [ref=e563]: In Review
+                      - generic [ref=e565]: Rejected
+            - generic [ref=e567]:
+              - generic [ref=e568]:
+                - heading "Selected applicant" [level=3] [ref=e569]
+                - generic [ref=e570]: click a row
+              - generic [ref=e571]:
+                - paragraph [ref=e572]: Vikram Rathore
+                - paragraph [ref=e573]: SALARIED · ₹10,00,000 / yr · age 38
+                - generic [ref=e574]: Approved
+                - generic [ref=e577]:
+                  - text: MULTI-SIGNAL PROFILE
+                  - heading "Credit signal radar" [level=3] [ref=e578]
+                  - img "Credit signal radar chart" [ref=e579]:
+                    - generic [ref=e584]: Mobile
+                    - generic [ref=e586]: Transactions
+                    - generic [ref=e589]: Social
+                    - generic [ref=e592]: Income
+                    - generic [ref=e595]: Fraud resilience
+                  - paragraph [ref=e599]: Income stability and fraud resilience are transparent prototype-derived indicators.
+                - button "Open full decision drawer" [ref=e601] [cursor=pointer]
+          - generic [ref=e604]:
+            - generic [ref=e605]:
+              - heading "Cash-flow second look, in context" [level=3] [ref=e606]
+              - generic [ref=e607]: the consented bank-data overlay that decides thin-file cases
+            - generic [ref=e608]: Open Cash-flow Intelligence from the top nav to connect a statement, watch the live overlay, and simulate adverse events on any applicant in the portfolio.
+    - generic [ref=e440]: NexCredit AI · Synchrony Hackathon 2026
+  - generic [ref=e441]: Approved

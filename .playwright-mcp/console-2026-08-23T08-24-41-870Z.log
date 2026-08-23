@@ -1,0 +1,12 @@
+[     699ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3001/static/js/bundle.js:128454
+[     844ms] [ERROR] Warning: Instance created by `useForm` is not connected to any Form element. Forget to pass `form` prop? @ http://localhost:3001/static/js/bundle.js:101215
+[  561972ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/api/credit/applications/39/cashflow-features:0
+[  582027ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/api/credit/applications/39/cashflow-features:0
+[  602046ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/api/credit/applications/39/cashflow-features:0
+[  622060ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/api/credit/applications/39/cashflow-features:0
+[  642015ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/api/credit/applications/39/cashflow-features:0
+[  662030ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/api/credit/applications/39/cashflow-features:0
+[  682041ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/api/credit/applications/39/cashflow-features:0
+[  702067ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/api/credit/applications/39/cashflow-features:0
+[  962655ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3001/api/credit/integrations:0
+[  962664ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3001/api/credit/integrations:0

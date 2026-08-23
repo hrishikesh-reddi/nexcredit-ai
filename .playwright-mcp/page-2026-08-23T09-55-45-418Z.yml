@@ -1,0 +1,154 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e118]:
+    - generic [ref=f1e119]:
+      - generic [ref=f1e120]:
+        - button "NexCredit NexCredit AI" [ref=f1e121] [cursor=pointer]:
+          - generic [ref=f1e122]:
+            - img "NexCredit" [ref=f1e123]
+            - generic [ref=f1e127]:
+              - text: NexCredit
+              - generic [ref=f1e128]: AI
+        - generic [ref=f1e129]: CREDIT OPERATIONS
+      - button "file-search Search ⌘K" [ref=f1e131] [cursor=pointer]:
+        - img "file-search" [ref=f1e132]
+        - generic [ref=f1e135]: Search
+        - generic [ref=f1e136]: ⌘K
+    - main [ref=f1e137]:
+      - generic [ref=f1e138]:
+        - navigation "Workbench navigation" [ref=f1e139]:
+          - button "Command Center" [ref=f1e140] [cursor=pointer]
+          - button "Underwriting Studio" [ref=f1e141] [cursor=pointer]
+          - button "Evidence Intelligence" [ref=f1e142] [cursor=pointer]
+          - button "Cash-flow Intelligence" [ref=f1e143] [cursor=pointer]
+          - button "Review & Governance" [active] [ref=f1e144] [cursor=pointer]
+          - button "Strategy Lab" [ref=f1e145] [cursor=pointer]
+          - button "Platform Architecture" [ref=f1e146] [cursor=pointer]
+        - generic [ref=f1e1092]:
+          - generic [ref=f1e1094]:
+            - heading "Review & Governance" [level=1] [ref=f1e1095]
+            - paragraph [ref=f1e1096]: Human-in-the-loop controls and a complete audit trail. Reviewers confirm or override the automated recommendation; every action is recorded.
+          - generic [ref=f1e1097]:
+            - generic [ref=f1e1098]:
+              - generic [ref=f1e1099]:
+                - generic [ref=f1e1100]:
+                  - heading "Review queue" [level=3] [ref=f1e1101]
+                  - generic [ref=f1e1102]: 3 shown
+                - generic [ref=f1e1103]:
+                  - generic [ref=f1e1104]:
+                    - button "All" [ref=f1e1105] [cursor=pointer]
+                    - button "Approved" [ref=f1e1106] [cursor=pointer]
+                    - button "Rejected" [ref=f1e1107] [cursor=pointer]
+                    - button "In review" [ref=f1e1108] [cursor=pointer]
+                  - generic [ref=f1e1110]:
+                    - generic [ref=f1e1111] [cursor=pointer]:
+                      - generic [ref=f1e1112]:
+                        - generic [ref=f1e1113]: Vikram Rathore
+                        - generic [ref=f1e1114]: 96% confidence · LOW fraud risk · SALARIED
+                      - generic [ref=f1e1115]:
+                        - button "Approve" [ref=f1e1116]
+                        - button "Reject" [ref=f1e1117]
+                    - generic [ref=f1e1118] [cursor=pointer]:
+                      - generic [ref=f1e1119]:
+                        - generic [ref=f1e1120]: Aarav Mehta
+                        - generic [ref=f1e1121]: 96% confidence · LOW fraud risk · GIG WORKER
+                      - generic [ref=f1e1122]:
+                        - button "Approve" [ref=f1e1123]
+                        - button "Reject" [ref=f1e1124]
+                    - generic [ref=f1e1125] [cursor=pointer]:
+                      - generic [ref=f1e1126]:
+                        - generic [ref=f1e1127]: Meera Iyer
+                        - generic [ref=f1e1128]: 70% confidence · LOW fraud risk · SELF EMPLOYED
+                      - generic [ref=f1e1129]:
+                        - button "Approve" [ref=f1e1130]
+                        - button "Reject" [ref=f1e1131]
+              - generic [ref=f1e1132]:
+                - generic [ref=f1e1133]:
+                  - heading "Outcome distribution" [level=3] [ref=f1e1134]
+                  - generic [ref=f1e1135]: 3 decisions
+                - generic [ref=f1e1137]:
+                  - generic [ref=f1e1138]:
+                    - img [ref=f1e1139]:
+                      - generic [ref=f1e1144]: "3"
+                      - generic [ref=f1e1145]: TOTAL
+                    - generic [ref=f1e1146]:
+                      - generic [ref=f1e1147]:
+                        - text: Approved
+                        - generic [ref=f1e1149]: "3"
+                      - generic [ref=f1e1150]:
+                        - text: In review
+                        - generic [ref=f1e1152]: "0"
+                      - generic [ref=f1e1153]:
+                        - text: Rejected
+                        - generic [ref=f1e1155]: "0"
+                  - generic [ref=f1e1156]:
+                    - generic [ref=f1e1157]:
+                      - generic [ref=f1e1158]:
+                        - generic [ref=f1e1159]: Approved
+                        - generic [ref=f1e1160]: 100%· 3/3
+                      - generic [ref=f1e1163]:
+                        - generic [ref=f1e1164]: "0"
+                        - generic [ref=f1e1165]: "100"
+                    - generic [ref=f1e1166]:
+                      - generic [ref=f1e1167]:
+                        - generic [ref=f1e1168]: Rejected
+                        - generic [ref=f1e1169]: 0%· 0/3
+                      - generic [ref=f1e1172]:
+                        - generic [ref=f1e1173]: "0"
+                        - generic [ref=f1e1174]: "100"
+                    - generic [ref=f1e1175]:
+                      - generic [ref=f1e1176]:
+                        - generic [ref=f1e1177]: In review
+                        - generic [ref=f1e1178]: 0%· 0/3
+                      - generic [ref=f1e1181]:
+                        - generic [ref=f1e1182]: "0"
+                        - generic [ref=f1e1183]: "100"
+              - generic [ref=f1e1184]:
+                - generic [ref=f1e1185]:
+                  - heading "Fair lending monitor" [level=3] [ref=f1e1186]
+                  - generic [ref=f1e1190]: within 4/5ths
+                - generic [ref=f1e1195]:
+                  - generic [ref=f1e1196]: approval rate by employment cohort · computed from the live portfolio · 4/5ths line at 80%
+                  - generic [ref=f1e1197]:
+                    - generic [ref=f1e1198]:
+                      - generic [ref=f1e1202]: 4/5ths · 80%
+                      - generic [ref=f1e1203]:
+                        - generic [ref=f1e1205]: 100%
+                        - generic [ref=f1e1206]: SALARIED
+                      - generic [ref=f1e1207]:
+                        - generic [ref=f1e1209]: 100%
+                        - generic [ref=f1e1210]: GIG WORKER
+                      - generic [ref=f1e1211]:
+                        - generic [ref=f1e1213]: 100%
+                        - generic [ref=f1e1214]: SELF EMPLOYED
+                    - generic [ref=f1e1215]:
+                      - generic [ref=f1e1216]: 0%
+                      - generic [ref=f1e1217]: 50%
+                      - generic [ref=f1e1218]: 100%
+                  - generic [ref=f1e1219]:
+                    - generic [ref=f1e1220]: Cohort
+                    - generic [ref=f1e1221]: "n"
+                    - generic [ref=f1e1222]: Approval
+                    - generic [ref=f1e1223]:
+                      - generic [ref=f1e1224]: SALARIED
+                      - generic [ref=f1e1226]: 1/1
+                      - generic [ref=f1e1227]: 100%
+                    - generic [ref=f1e1228]:
+                      - generic [ref=f1e1229]: GIG WORKER
+                      - generic [ref=f1e1231]: 1/1
+                      - generic [ref=f1e1232]: 100%
+                    - generic [ref=f1e1233]:
+                      - generic [ref=f1e1234]: SELF EMPLOYED
+                      - generic [ref=f1e1236]: 1/1
+                      - generic [ref=f1e1237]: 100%
+                  - generic [ref=f1e1238]: Gaps are surfaced deliberately. Under-21 rejections always route to human review.
+            - generic [ref=f1e1239]:
+              - generic [ref=f1e1240]:
+                - heading "Audit trail" [level=3] [ref=f1e1241]
+                - generic [ref=f1e1242]: 63 events from PostgreSQL
+              - generic [ref=f1e1243]:
+                - generic [ref=f1e1244]:
+                  - img "search" [ref=f1e1246]
+                  - textbox "Filter by application id" [ref=f1e1249]
+                - list
+    - generic [ref=f1e431]: NexCredit AI · Synchrony Hackathon 2026
+  - generic [ref=f1e806]: Approved

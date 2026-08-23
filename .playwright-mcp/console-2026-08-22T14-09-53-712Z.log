@@ -1,0 +1,16 @@
+[    1191ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:blank:0
+[    1662ms] [LOG] %c6sense JS 
+        font-weight: bold;
+        border-radius: 3px;
+        background-color: #ff583d;
+        color: #192232;
+        padding: 1px 2px;
+         Error loading pending commands: Found a _6si object on the window, but it was not an array. @ https://j.6sc.co/6si.min.js:0
+[    2387ms] [LOG] %cScript execution for halted due to no site id: https://www.biocatch.com/biocatch-connect color: #E8910C @ https://script.hotjar.com/modules.75bf3488a101739acfe9.js:1
+[    2418ms] [LOG] %c6sense JS 
+        font-weight: bold;
+        border-radius: 3px;
+        background-color: #ff583d;
+        color: #192232;
+        padding: 1px 2px;
+         Error loading pending commands: Found a _6si object on the window, but it was not an array. @ https://j.6sc.co/6si.min.js:0

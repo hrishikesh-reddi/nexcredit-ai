@@ -1,0 +1,4 @@
+SALARY CERTIFICATE
+Employee: Doc Test
+Monthly Salary: Rs 55,000 per month
+Employer: Acme Pvt Ltd

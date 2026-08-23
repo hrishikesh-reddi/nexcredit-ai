@@ -1,0 +1,14 @@
+[     744ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3000/static/js/bundle.js:115877
+[    1045ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ http://localhost:8081/api/credit/applications:0
+[    1047ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ http://localhost:8081/api/audit/logs:0
+[    1048ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ http://localhost:8081/api/credit/applications:0
+[    1048ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ http://localhost:8081/api/audit/logs:0
+[ 5289774ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8081/api/auth/login:0
+[ 5289774ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8081/api/credit/applications:0
+[ 5289774ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8081/api/audit/logs:0
+[ 5362634ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8081/api/auth/login:0
+[ 5362636ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8081/api/auth/login:0
+[ 5362636ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8081/api/credit/applications:0
+[ 5362637ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8081/api/audit/logs:0
+[ 5362647ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8081/api/credit/applications:0
+[ 5362647ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8081/api/audit/logs:0

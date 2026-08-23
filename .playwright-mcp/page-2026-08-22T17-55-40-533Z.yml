@@ -1,0 +1,387 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e114]:
+    - generic [ref=f2e115]:
+      - generic [ref=f2e116]:
+        - button "safety-certificate NexCredit AI" [ref=f2e117] [cursor=pointer]:
+          - img "safety-certificate" [ref=f2e118]
+          - generic [ref=f2e121]: NexCredit
+          - generic [ref=f2e122]: AI
+        - generic [ref=f2e123]: CREDIT OPERATIONS
+      - button "file-search Search ⌘K" [ref=f2e125] [cursor=pointer]:
+        - img "file-search" [ref=f2e126]
+        - generic [ref=f2e129]: Search
+        - generic [ref=f2e130]: ⌘K
+    - main [ref=f2e131]:
+      - generic [ref=f2e132]:
+        - navigation "Workbench navigation" [ref=f2e133]:
+          - button "Command Center" [ref=f2e134] [cursor=pointer]
+          - button "Underwriting Studio" [ref=f2e135] [cursor=pointer]
+          - button "Evidence Intelligence" [ref=f2e136] [cursor=pointer]
+          - button "Review & Governance" [ref=f2e137] [cursor=pointer]
+          - button "Strategy Lab" [ref=f2e138] [cursor=pointer]
+          - button "Platform Architecture" [ref=f2e139] [cursor=pointer]
+        - generic [ref=f2e386]:
+          - generic [ref=f2e388]:
+            - heading "Underwriting Studio" [level=1] [ref=f2e389]
+            - paragraph [ref=f2e390]: Review the application portfolio, inspect any applicant, and run deterministic credit decisions. Select a row to preview details inline.
+          - generic [ref=f2e391]:
+            - generic [ref=f2e392]: "Active policy:"
+            - generic [ref=f2e393]: auto-approve requires confidence ≥ 70% and fraud ≤ MEDIUM · every REJECT of an under-21 applicant escalates to human review · document-income divergence > 30% forces referral.
+          - generic [ref=f2e394]:
+            - generic [ref=f2e395]:
+              - generic [ref=f2e396]:
+                - generic [ref=f2e397]:
+                  - heading "Application portfolio" [level=3] [ref=f2e398]
+                  - generic [ref=f2e399]:
+                    - button "All" [ref=f2e400] [cursor=pointer]
+                    - button "Approved" [ref=f2e401] [cursor=pointer]
+                    - button "In review" [ref=f2e402] [cursor=pointer]
+                    - button "Rejected" [ref=f2e403] [cursor=pointer]
+                - table [ref=f2e411]:
+                  - rowgroup [ref=f2e413]:
+                    - row [ref=f2e414]:
+                      - columnheader "Applicant" [ref=f2e415]
+                      - columnheader "Type" [ref=f2e416]
+                      - columnheader "Income" [ref=f2e417]
+                      - columnheader "Decision" [ref=f2e418]
+                      - columnheader "Confidence" [ref=f2e419]
+                      - columnheader "Fraud" [ref=f2e420]
+                  - rowgroup [ref=f2e421]:
+                    - row [ref=f2e422] [cursor=pointer]:
+                      - cell [ref=f2e423]:
+                        - button "Amit Patel" [ref=f2e424]
+                      - cell "STUDENT" [ref=f2e425]
+                      - cell "₹1,50,000" [ref=f2e426]
+                      - cell "Review" [ref=f2e427]
+                      - cell [ref=f2e430]:
+                        - strong [ref=f2e432]: 65%
+                      - cell "MEDIUM" [ref=f2e433]
+                    - row [ref=f2e434] [cursor=pointer]:
+                      - cell [ref=f2e435]:
+                        - button "Sneha Reddy" [ref=f2e436]
+                      - cell "SELF EMPLOYED" [ref=f2e437]
+                      - cell "₹4,00,000" [ref=f2e438]
+                      - cell "Approved" [ref=f2e439]
+                      - cell [ref=f2e442]:
+                        - strong [ref=f2e444]: 76%
+                      - cell "LOW" [ref=f2e445]
+                    - row [ref=f2e446] [cursor=pointer]:
+                      - cell [ref=f2e447]:
+                        - button "Vikram Singh" [ref=f2e448]
+                      - cell "SALARIED" [ref=f2e449]
+                      - cell "₹12,00,000" [ref=f2e450]
+                      - cell "Review" [ref=f2e451]
+                      - cell [ref=f2e454]:
+                        - strong [ref=f2e456]: 65%
+                      - cell "MEDIUM" [ref=f2e457]
+                    - row [ref=f2e458] [cursor=pointer]:
+                      - cell [ref=f2e459]:
+                        - button "Demo Ravi Kumar" [ref=f2e460]
+                      - cell "SALARIED" [ref=f2e461]
+                      - cell "₹3,00,000" [ref=f2e462]
+                      - cell "Approved" [ref=f2e463]
+                      - cell [ref=f2e466]:
+                        - strong [ref=f2e468]: 76%
+                      - cell "LOW" [ref=f2e469]
+                    - row [ref=f2e470] [cursor=pointer]:
+                      - cell [ref=f2e471]:
+                        - button "Demo Ravi Kumar" [ref=f2e472]
+                      - cell "SALARIED" [ref=f2e473]
+                      - cell "₹45,000" [ref=f2e474]
+                      - cell "Approved" [ref=f2e475]
+                      - cell [ref=f2e478]:
+                        - strong [ref=f2e480]: 76%
+                      - cell "LOW" [ref=f2e481]
+                    - row [ref=f2e482] [cursor=pointer]:
+                      - cell [ref=f2e483]:
+                        - button "Pipeline Demo" [ref=f2e484]
+                      - cell "GIG WORKER" [ref=f2e485]
+                      - cell "₹3,00,000" [ref=f2e486]
+                      - cell "Approved" [ref=f2e487]
+                      - cell [ref=f2e490]:
+                        - strong [ref=f2e492]: 76%
+                      - cell "LOW" [ref=f2e493]
+                    - row [ref=f2e494] [cursor=pointer]:
+                      - cell [ref=f2e495]:
+                        - button "Demo Ravi Kumar" [ref=f2e496]
+                      - cell "SALARIED" [ref=f2e497]
+                      - cell "₹75,888" [ref=f2e498]
+                      - cell "Approved" [ref=f2e499]
+                      - cell [ref=f2e502]:
+                        - strong [ref=f2e504]: 65%
+                      - cell "MEDIUM" [ref=f2e505]
+                    - row [ref=f2e506] [cursor=pointer]:
+                      - cell [ref=f2e507]:
+                        - button "Ravi Kumar" [ref=f2e508]
+                      - cell "SALARIED" [ref=f2e509]
+                      - cell "₹3,00,000" [ref=f2e510]
+                      - cell "Approved" [ref=f2e511]
+                      - cell [ref=f2e514]:
+                        - strong [ref=f2e516]: 76%
+                      - cell "LOW" [ref=f2e517]
+                    - row [ref=f2e518] [cursor=pointer]:
+                      - cell [ref=f2e519]:
+                        - button "Demo Applicant" [ref=f2e520]
+                      - cell "GIG WORKER" [ref=f2e521]
+                      - cell "₹4,80,000" [ref=f2e522]
+                      - cell "Approved" [ref=f2e523]
+                      - cell [ref=f2e526]:
+                        - strong [ref=f2e528]: 88%
+                      - cell "LOW" [ref=f2e529]
+                    - row [ref=f2e530] [cursor=pointer]:
+                      - cell [ref=f2e531]:
+                        - button "Demo Review Applicant" [ref=f2e532]
+                      - cell "STUDENT" [ref=f2e533]
+                      - cell "₹1,80,000" [ref=f2e534]
+                      - cell "Review" [ref=f2e535]
+                      - cell [ref=f2e538]:
+                        - strong [ref=f2e540]: 60%
+                      - cell "HIGH" [ref=f2e541]
+                    - row [ref=f2e542] [cursor=pointer]:
+                      - cell [ref=f2e543]:
+                        - button "Interview Demo" [ref=f2e544]
+                      - cell "SALARIED" [ref=f2e545]
+                      - cell "₹4,50,000" [ref=f2e546]
+                      - cell "Approved" [ref=f2e547]
+                      - cell [ref=f2e550]:
+                        - strong [ref=f2e552]: 77%
+                      - cell "LOW" [ref=f2e553]
+                    - row [ref=f2e554] [cursor=pointer]:
+                      - cell [ref=f2e555]:
+                        - button "Demo Review Applicant" [ref=f2e556]
+                      - cell "STUDENT" [ref=f2e557]
+                      - cell "₹1,80,000" [ref=f2e558]
+                      - cell "Approved" [ref=f2e559]
+                      - cell [ref=f2e562]:
+                        - strong [ref=f2e564]: 60%
+                      - cell "HIGH" [ref=f2e565]
+                    - row [ref=f2e566] [cursor=pointer]:
+                      - cell [ref=f2e567]:
+                        - button "Priya Sharma" [ref=f2e568]
+                      - cell "SALARIED" [ref=f2e569]
+                      - cell "₹8,00,000" [ref=f2e570]
+                      - cell "Approved" [ref=f2e571]
+                      - cell [ref=f2e574]:
+                        - strong [ref=f2e576]: 92%
+                      - cell "HIGH" [ref=f2e577]
+                    - row [ref=f2e578] [cursor=pointer]:
+                      - cell [ref=f2e579]:
+                        - button "ravi" [ref=f2e580]
+                      - cell "SALARIED" [ref=f2e581]
+                      - cell "₹50,000" [ref=f2e582]
+                      - cell "Approved" [ref=f2e583]
+                      - cell [ref=f2e586]:
+                        - strong [ref=f2e588]: 76%
+                      - cell "LOW" [ref=f2e589]
+                    - row [ref=f2e590] [cursor=pointer]:
+                      - cell [ref=f2e591]:
+                        - button "ravi" [ref=f2e592]
+                      - cell "SALARIED" [ref=f2e593]
+                      - cell "₹50,000" [ref=f2e594]
+                      - cell "Approved" [ref=f2e595]
+                      - cell [ref=f2e598]:
+                        - strong [ref=f2e600]: 76%
+                      - cell "LOW" [ref=f2e601]
+                    - row [ref=f2e602] [cursor=pointer]:
+                      - cell [ref=f2e603]:
+                        - button "Test User" [ref=f2e604]
+                      - cell "SALARIED" [ref=f2e605]
+                      - cell "₹6,00,000" [ref=f2e606]
+                      - cell "Approved" [ref=f2e607]
+                      - cell [ref=f2e610]:
+                        - strong [ref=f2e612]: 81%
+                      - cell "LOW" [ref=f2e613]
+                    - row [ref=f2e614] [cursor=pointer]:
+                      - cell [ref=f2e615]:
+                        - button "Young Applicant" [ref=f2e616]
+                      - cell "STUDENT" [ref=f2e617]
+                      - cell "₹50,000" [ref=f2e618]
+                      - cell "Review" [ref=f2e619]
+                      - cell [ref=f2e622]:
+                        - strong [ref=f2e624]: 5%
+                      - cell "LOW" [ref=f2e625]
+                    - row [ref=f2e626] [cursor=pointer]:
+                      - cell [ref=f2e627]:
+                        - button "Young Applicant" [ref=f2e628]
+                      - cell "STUDENT" [ref=f2e629]
+                      - cell "₹50,000" [ref=f2e630]
+                      - cell "Review" [ref=f2e631]
+                      - cell [ref=f2e634]:
+                        - strong [ref=f2e636]: 5%
+                      - cell "LOW" [ref=f2e637]
+                    - row [ref=f2e638] [cursor=pointer]:
+                      - cell [ref=f2e639]:
+                        - button "Latency Test" [ref=f2e640]
+                      - cell "SALARIED" [ref=f2e641]
+                      - cell "₹8,00,000" [ref=f2e642]
+                      - cell "Approved" [ref=f2e643]
+                      - cell [ref=f2e646]:
+                        - strong [ref=f2e648]: 84%
+                      - cell "LOW" [ref=f2e649]
+                    - row [ref=f2e650] [cursor=pointer]:
+                      - cell [ref=f2e651]:
+                        - button "Weak Test" [ref=f2e652]
+                      - cell "STUDENT" [ref=f2e653]
+                      - cell "₹90,000" [ref=f2e654]
+                      - cell "Review" [ref=f2e655]
+                      - cell [ref=f2e658]:
+                        - strong [ref=f2e660]: 5%
+                      - cell "LOW" [ref=f2e661]
+                    - row [ref=f2e662] [cursor=pointer]:
+                      - cell [ref=f2e663]:
+                        - button "Gate Test" [ref=f2e664]
+                      - cell "SALARIED" [ref=f2e665]
+                      - cell "₹3,00,000" [ref=f2e666]
+                      - cell "Approved" [ref=f2e667]
+                      - cell [ref=f2e670]:
+                        - strong [ref=f2e672]: 74%
+                      - cell "LOW" [ref=f2e673]
+                    - row [ref=f2e674] [cursor=pointer]:
+                      - cell [ref=f2e675]:
+                        - button "Weak Test" [ref=f2e676]
+                      - cell "STUDENT" [ref=f2e677]
+                      - cell "₹90,000" [ref=f2e678]
+                      - cell "Review" [ref=f2e679]
+                      - cell [ref=f2e682]:
+                        - strong [ref=f2e684]: 5%
+                      - cell "LOW" [ref=f2e685]
+                    - row [ref=f2e686] [cursor=pointer]:
+                      - cell [ref=f2e687]:
+                        - button "Doc Test" [ref=f2e688]
+                      - cell "SALARIED" [ref=f2e689]
+                      - cell "₹3,00,000" [ref=f2e690]
+                      - cell "Review" [ref=f2e691]
+                      - cell [ref=f2e694]:
+                        - strong [ref=f2e696]: 65%
+                      - cell "HIGH" [ref=f2e697]
+                    - row [ref=f2e698] [cursor=pointer]:
+                      - cell [ref=f2e699]:
+                        - button "Priya Divergence" [ref=f2e700]
+                      - cell "SALARIED" [ref=f2e701]
+                      - cell "₹3,00,000" [ref=f2e702]
+                      - cell "Review" [ref=f2e703]
+                      - cell [ref=f2e706]:
+                        - strong [ref=f2e708]: 65%
+                      - cell "HIGH" [ref=f2e709]
+                    - row [ref=f2e710] [cursor=pointer]:
+                      - cell [ref=f2e711]:
+                        - button "Final Check" [ref=f2e712]
+                      - cell "SALARIED" [ref=f2e713]
+                      - cell "₹7,00,000" [ref=f2e714]
+                      - cell "Approved" [ref=f2e715]
+                      - cell [ref=f2e718]:
+                        - strong [ref=f2e720]: 83%
+                      - cell "LOW" [ref=f2e721]
+                    - row [ref=f2e722] [cursor=pointer]:
+                      - cell [ref=f2e723]:
+                        - button "Letter Test" [ref=f2e724]
+                      - cell "SALARIED" [ref=f2e725]
+                      - cell "₹1,80,000" [ref=f2e726]
+                      - cell "Review" [ref=f2e727]
+                      - cell [ref=f2e730]:
+                        - strong [ref=f2e732]: 17%
+                      - cell "LOW" [ref=f2e733]
+                    - row [ref=f2e734] [cursor=pointer]:
+                      - cell [ref=f2e735]:
+                        - button "Letter Test" [ref=f2e736]
+                      - cell "SALARIED" [ref=f2e737]
+                      - cell "₹1,80,000" [ref=f2e738]
+                      - cell "Review" [ref=f2e739]
+                      - cell [ref=f2e742]:
+                        - strong [ref=f2e744]: 17%
+                      - cell "LOW" [ref=f2e745]
+                    - row [ref=f2e746] [cursor=pointer]:
+                      - cell [ref=f2e747]:
+                        - button "CashFlow Test" [ref=f2e748]
+                      - cell "GIG WORKER" [ref=f2e749]
+                      - cell "₹3,60,000" [ref=f2e750]
+                      - cell "Review" [ref=f2e751]
+                      - cell [ref=f2e754]:
+                        - strong [ref=f2e756]: 63%
+                      - cell "LOW" [ref=f2e757]
+                    - row [ref=f2e758] [cursor=pointer]:
+                      - cell [ref=f2e759]:
+                        - button "Cashflow Demo" [ref=f2e760]
+                      - cell "SALARIED" [ref=f2e761]
+                      - cell "₹3,60,000" [ref=f2e762]
+                      - cell "Review" [ref=f2e763]
+                      - cell [ref=f2e766]:
+                        - strong [ref=f2e768]: 68%
+                      - cell "LOW" [ref=f2e769]
+                    - row [ref=f2e770] [cursor=pointer]:
+                      - cell [ref=f2e771]:
+                        - button "Ravi Kumar" [ref=f2e772]
+                      - cell "GIG WORKER" [ref=f2e773]
+                      - cell "₹3,00,000" [ref=f2e774]
+                      - cell "Review" [ref=f2e775]
+                      - cell [ref=f2e778]:
+                        - strong [ref=f2e780]: 96%
+                      - cell "LOW" [ref=f2e781]
+              - generic [ref=f2e782]:
+                - heading "Decision distribution" [level=3] [ref=f2e784]
+                - generic [ref=f2e786]:
+                  - img [ref=f2e787]:
+                    - generic [ref=f2e792]: "30"
+                    - generic [ref=f2e793]: TOTAL
+                  - generic [ref=f2e794]:
+                    - generic [ref=f2e795]:
+                      - text: Approved
+                      - generic [ref=f2e797]: "16"
+                    - generic [ref=f2e798]:
+                      - text: In review
+                      - generic [ref=f2e800]: "14"
+                    - generic [ref=f2e801]:
+                      - text: Rejected
+                      - generic [ref=f2e803]: "0"
+            - generic [ref=f2e804]:
+              - generic [ref=f2e805]:
+                - heading "Selected applicant" [level=3] [ref=f2e806]
+                - generic [ref=f2e807]: click a row
+              - generic [ref=f2e808]:
+                - paragraph [ref=f2e809]: Amit Patel
+                - paragraph [ref=f2e810]: STUDENT · ₹1,50,000 / yr · age 19
+                - generic [ref=f2e811]: Review
+                - generic [ref=f2e814]:
+                  - text: MULTI-SIGNAL PROFILE
+                  - heading "Credit signal radar" [level=3] [ref=f2e815]
+                  - img "Credit signal radar chart" [ref=f2e816]:
+                    - generic [ref=f2e821]: Mobile
+                    - generic [ref=f2e823]: Transactions
+                    - generic [ref=f2e826]: Social
+                    - generic [ref=f2e829]: Income
+                    - generic [ref=f2e832]: Fraud resilience
+                  - paragraph [ref=f2e836]: Income stability and fraud resilience are transparent prototype-derived indicators.
+                - button "Open full decision drawer" [ref=f2e838] [cursor=pointer]
+          - generic [ref=f2e840]:
+            - generic [ref=f2e841]:
+              - heading "Cash-flow intelligence" [level=3] [ref=f2e842]
+              - generic [ref=f2e843]: raw transactions → computed signals → live re-decision
+            - generic [ref=f2e844]:
+              - generic [ref=f2e845]:
+                - generic [ref=f2e848]:
+                  - combobox [expanded] [active] [ref=f2e850]:
+                    - listbox:
+                      - option "#3 · Amit Patel": "3"
+                      - option "#4 · Sneha Reddy": "4"
+                  - generic: Select applicant
+                - generic [ref=f2e853] [cursor=pointer]:
+                  - combobox [ref=f2e855]
+                  - generic "A · Thin-file, healthy cash-flow" [ref=f2e856]
+                - button "link Connect & analyze 6-month statement" [disabled] [ref=f2e858]:
+                  - img "link" [ref=f2e859]
+                  - generic [ref=f2e862]: Connect & analyze 6-month statement
+              - paragraph [ref=f2e863]: Pick an applicant and a data persona, then connect a simulated 6-month account. Salary detection, stability, surplus, obligations and anomalies are all computed from raw transactions — nothing here is pre-computed. With PLAID_CLIENT_ID / PLAID_SECRET set, the same panel pulls live Plaid Sandbox data instead.
+    - generic [ref=f2e385]: NexCredit AI · Synchrony Hackathon 2026
+  - generic [ref=f2e866]:
+    - generic [ref=f2e869]:
+      - generic "#3 · Amit Patel" [ref=f2e870] [cursor=pointer]
+      - generic "#4 · Sneha Reddy" [ref=f2e872] [cursor=pointer]
+      - generic "#5 · Vikram Singh" [ref=f2e874] [cursor=pointer]
+      - generic "#6 · Demo Ravi Kumar" [ref=f2e876] [cursor=pointer]
+      - generic "#8 · Demo Ravi Kumar" [ref=f2e878] [cursor=pointer]
+      - generic "#7 · Pipeline Demo" [ref=f2e880] [cursor=pointer]
+      - generic "#9 · Demo Ravi Kumar" [ref=f2e882] [cursor=pointer]
+      - generic "#10 · Ravi Kumar" [ref=f2e884] [cursor=pointer]
+      - generic "#11 · Demo Applicant" [ref=f2e886] [cursor=pointer]
+      - generic "#12 · Demo Review Applicant" [ref=f2e888] [cursor=pointer]
+    - generic [ref=f2e891] [cursor=pointer]

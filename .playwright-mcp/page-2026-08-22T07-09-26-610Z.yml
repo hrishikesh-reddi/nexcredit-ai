@@ -1,0 +1,160 @@
+- generic [ref=e114]:
+  - generic [ref=e115]:
+    - generic [ref=e116]:
+      - button "safety-certificate NexCredit AI" [ref=e117] [cursor=pointer]:
+        - img "safety-certificate" [ref=e118]
+        - generic [ref=e121]: NexCredit
+        - generic [ref=e122]: AI
+      - generic [ref=e123]: CREDIT OPERATIONS
+    - button "file-search Search ⌘K" [ref=e125] [cursor=pointer]:
+      - img "file-search" [ref=e126]
+      - generic [ref=e129]: Search
+      - generic [ref=e130]: ⌘K
+  - main [ref=e131]:
+    - generic [ref=e132]:
+      - navigation "Workbench navigation" [ref=e133]:
+        - button "Command Center" [ref=e134] [cursor=pointer]
+        - button "Underwriting Studio" [ref=e135] [cursor=pointer]
+        - button "Evidence Intelligence" [ref=e136] [cursor=pointer]
+        - button "Review & Governance" [ref=e137] [cursor=pointer]
+        - button "Platform Architecture" [ref=e138] [cursor=pointer]
+      - generic [ref=e139]:
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - heading "Command Center" [level=1] [ref=e142]
+            - paragraph [ref=e143]: Live portfolio health and decision operations for the NexCredit underwriting desk. Every figure below is computed from the current application set.
+          - generic [ref=e144]:
+            - button "arrow-right Start application" [ref=e145] [cursor=pointer]:
+              - img "arrow-right" [ref=e146]
+              - generic [ref=e149]: Start application
+            - button "arrow-right Open evidence" [ref=e150] [cursor=pointer]:
+              - img "arrow-right" [ref=e151]
+              - generic [ref=e154]: Open evidence
+        - generic [ref=e155]:
+          - article [ref=e156]:
+            - generic [ref=e157]: LIVE
+            - generic [ref=e158]: Active portfolio
+            - strong [ref=e159]: "13"
+            - generic [ref=e160]: 0 in review
+          - article [ref=e164]:
+            - generic [ref=e165]: AUTO
+            - generic [ref=e166]: Auto-approved
+            - strong [ref=e167]: "10"
+            - generic [ref=e168]: +2 this week
+          - article [ref=e172]:
+            - generic [ref=e173]: QUEUE
+            - generic [ref=e174]: Awaiting review
+            - strong [ref=e175]: "0"
+            - generic [ref=e176]: 0 queued
+          - article [ref=e180]:
+            - generic [ref=e181]: MODEL
+            - generic [ref=e182]: Avg confidence
+            - strong [ref=e183]: 73%
+            - generic [ref=e184]: stable
+        - generic [ref=e189]:
+          - heading "Application volume" [level=3] [ref=e190]
+          - generic [ref=e191]: last 12 weeks
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - generic [ref=e204]:
+              - generic [ref=e205]:
+                - heading "Live decision stream" [level=3] [ref=e206]
+                - generic [ref=e207]: auto-refreshing
+              - generic [ref=e209]:
+                - generic [ref=e210]:
+                  - generic [ref=e212]:
+                    - generic [ref=e213]: Aarav Mehta
+                    - generic [ref=e214]: GIG_WORKER · ₹2.4L
+                  - generic [ref=e215]:
+                    - generic [ref=e216]: APPROVED
+                    - generic [ref=e218]: just now
+                - generic [ref=e219]:
+                  - generic [ref=e221]:
+                    - generic [ref=e222]: Kavya Nair
+                    - generic [ref=e223]: STUDENT · ₹1.1L
+                  - generic [ref=e224]:
+                    - generic [ref=e225]: REVIEW
+                    - generic [ref=e227]: 3s ago
+                - generic [ref=e228]:
+                  - generic [ref=e230]:
+                    - generic [ref=e231]: Rohan Das
+                    - generic [ref=e232]: SALARIED · ₹6.0L
+                  - generic [ref=e233]:
+                    - generic [ref=e234]: APPROVED
+                    - generic [ref=e236]: 6s ago
+                - generic [ref=e237]:
+                  - generic [ref=e239]:
+                    - generic [ref=e240]: Ishita Roy
+                    - generic [ref=e241]: SELF_EMPLOYED · ₹3.2L
+                  - generic [ref=e242]:
+                    - generic [ref=e243]: REJECTED
+                    - generic [ref=e245]: 9s ago
+            - generic [ref=e246]:
+              - generic [ref=e247]:
+                - heading "Portfolio mix" [level=3] [ref=e249]
+                - generic [ref=e251]:
+                  - img [ref=e252]:
+                    - generic [ref=e257]: "10"
+                    - generic [ref=e258]: TOTAL
+                  - generic [ref=e259]:
+                    - generic [ref=e260]:
+                      - text: Approved
+                      - generic [ref=e262]: "10"
+                    - generic [ref=e263]:
+                      - text: In review
+                      - generic [ref=e265]: "0"
+                    - generic [ref=e266]:
+                      - text: Rejected
+                      - generic [ref=e268]: "0"
+              - generic [ref=e269]:
+                - heading "Inclusion impact" [level=3] [ref=e271]
+                - generic [ref=e272]:
+                  - generic [ref=e273]:
+                    - generic [ref=e274]: New-to-credit reached
+                    - generic [ref=e275]: "13"
+                    - generic [ref=e276]: applicants with no prior bureau file
+                  - generic [ref=e277]:
+                    - generic [ref=e278]: Auto-approved without bureau
+                    - generic [ref=e279]: "10"
+                    - generic [ref=e280]: instant inclusive decisions
+          - generic [ref=e281]:
+            - generic [ref=e282]:
+              - heading "Recent activity" [level=3] [ref=e283]
+              - generic [ref=e284]: audit ledger
+            - generic [ref=e286]:
+              - generic [ref=e287]:
+                - generic [ref=e288]: ✓
+                - generic [ref=e289]:
+                  - generic [ref=e290]: "Priya Sharma — APPROVED (Human review completed: Reviewer finalised…)"
+                  - generic [ref=e291]: 21/08/2026, 09:18:27
+              - generic [ref=e292]:
+                - generic [ref=e293]: ✓
+                - generic [ref=e294]:
+                  - generic [ref=e295]: "Demo Review Applicant — APPROVED (Human review completed: Demo reviewer veri…)"
+                  - generic [ref=e296]: 21/08/2026, 08:50:26
+              - generic [ref=e297]:
+                - generic [ref=e298]: ⏱
+                - generic [ref=e299]:
+                  - generic [ref=e300]: Demo Review Applicant — PENDING (Low alternative data scores indicate insuf…)
+                  - generic [ref=e301]: 21/08/2026, 08:50:26
+              - generic [ref=e302]:
+                - generic [ref=e303]: ⏱
+                - generic [ref=e304]:
+                  - generic [ref=e305]: Demo Review Applicant — PENDING (Low alternative data scores indicate insuf…)
+                  - generic [ref=e306]: 21/08/2026, 08:48:25
+              - generic [ref=e307]:
+                - generic [ref=e308]: ✓
+                - generic [ref=e309]:
+                  - generic [ref=e310]: Demo Applicant — APPROVED (Strong alternative data profile with consi…)
+                  - generic [ref=e311]: 21/08/2026, 08:48:10
+              - generic [ref=e312]:
+                - generic [ref=e313]: ✓
+                - generic [ref=e314]:
+                  - generic [ref=e315]: Ravi Kumar — APPROVED (Moderate alternative data indicators sugge…)
+                  - generic [ref=e316]: 21/08/2026, 07:23:00
+              - generic [ref=e317]:
+                - generic [ref=e318]: ✓
+                - generic [ref=e319]:
+                  - generic [ref=e320]: "Demo Ravi Kumar — APPROVED (Human review completed: Manual reviewer wo…)"
+                  - generic [ref=e321]: 21/08/2026, 01:35:31
+  - generic [ref=e322]: NexCredit AI · Synchrony Hackathon 2026

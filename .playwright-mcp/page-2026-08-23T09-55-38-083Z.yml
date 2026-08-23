@@ -1,0 +1,52 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e118]:
+    - generic [ref=f1e119]:
+      - generic [ref=f1e120]:
+        - button "NexCredit NexCredit AI" [ref=f1e121] [cursor=pointer]:
+          - generic [ref=f1e122]:
+            - img "NexCredit" [ref=f1e123]
+            - generic [ref=f1e127]:
+              - text: NexCredit
+              - generic [ref=f1e128]: AI
+        - generic [ref=f1e129]: CREDIT OPERATIONS
+      - button "file-search Search ⌘K" [ref=f1e131] [cursor=pointer]:
+        - img "file-search" [ref=f1e132]
+        - generic [ref=f1e135]: Search
+        - generic [ref=f1e136]: ⌘K
+    - main [ref=f1e137]:
+      - generic [ref=f1e138]:
+        - navigation "Workbench navigation" [ref=f1e139]:
+          - button "Command Center" [ref=f1e140] [cursor=pointer]
+          - button "Underwriting Studio" [ref=f1e141] [cursor=pointer]
+          - button "Evidence Intelligence" [ref=f1e142] [cursor=pointer]
+          - button "Cash-flow Intelligence" [active] [ref=f1e143] [cursor=pointer]
+          - button "Review & Governance" [ref=f1e144] [cursor=pointer]
+          - button "Strategy Lab" [ref=f1e145] [cursor=pointer]
+          - button "Platform Architecture" [ref=f1e146] [cursor=pointer]
+        - generic [ref=f1e1065]:
+          - generic [ref=f1e1066]:
+            - generic [ref=f1e1067]:
+              - heading "Cash-flow Intelligence" [level=1] [ref=f1e1068]
+              - paragraph [ref=f1e1069]: "Alternative-data signal from consented bank statements, layered over the bureau-style decision. This is the PRISM-style overlay: thin-files get a fair read instead of an instant decline."
+            - generic [ref=f1e1070]:
+              - generic [ref=f1e1071]: LIVE · re-underwriting on event
+              - button "reload Re-ingest" [ref=f1e1072] [cursor=pointer]:
+                - img "reload" [ref=f1e1073]
+                - generic [ref=f1e1076]: Re-ingest
+          - generic [ref=f1e1077]:
+            - generic [ref=f1e1078]:
+              - heading "Select applicant to analyze" [level=3] [ref=f1e1079]
+              - generic [ref=f1e1082]: 3 cases in portfolio · synthetic bank data in demo
+            - generic [ref=f1e1083]:
+              - generic [ref=f1e1084]:
+                - combobox [ref=f1e1085]:
+                  - option "#39 Vikram Rathore · SALARIED · APPROVED" [selected]
+                  - option "#37 Aarav Mehta · GIG WORKER · APPROVED"
+                  - option "#38 Meera Iyer · SELF EMPLOYED · APPROVED"
+                - generic [ref=f1e1086]: APPROVED
+              - generic [ref=f1e1088]:
+                - generic [ref=f1e1089]: ⓘ
+                - generic [ref=f1e1090]: Pick a case above → see their 6 cash-flow signals (avg credit, salary regularity, low-balance days…) computed from the consented statement. Below you can simulate adverse events (job loss, new EMI) and watch the score re-underwrite in real time. In production this connects via Account Aggregator / Plaid; here we use deterministic synthetic transactions per applicant.
+              - generic [ref=f1e1091]: Computing cash-flow overlay…
+    - generic [ref=f1e431]: NexCredit AI · Synchrony Hackathon 2026
+  - generic [ref=f1e806]: Approved

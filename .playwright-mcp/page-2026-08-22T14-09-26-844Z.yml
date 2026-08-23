@@ -1,0 +1,296 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - group "1 / 6" [ref=e6]:
+          - link "Zest AI named one of CNBC’s 2025 World’s Top FinTech Companies >>" [ref=e7] [cursor=pointer]:
+            - /url: https://www.zest.ai/company/announcements/zest-ai-named-to-cnbcs-worlds-top-fintech-companies-2025-list/
+        - group "2 / 6" [ref=e8]:
+          - link "Join the Lending Lab Zest AI User Summit on October 20th in Dallas, TX! >>" [ref=e9] [cursor=pointer]:
+            - /url: https://lendinglab.zest.ai/
+        - group "3 / 6" [ref=e10]:
+          - 'link "Evaluating credit risk models? Get the Buyer''s Guide: Consumer credit risk models for lenders>>" [ref=e11] [cursor=pointer]':
+            - /url: https://www.zest.ai/learn/resources/buyers-guide-consumer-credit-risk-models-for-lenders/
+        - group "4 / 6" [ref=e12]:
+          - link "83% of lenders will increase GenAI budgets in 2026. Get Celent's GenAI in Retail Lending to learn more>>" [ref=e13] [cursor=pointer]:
+            - /url: https://www.zest.ai/learn/resources/celent-report-generative-ai-in-retail-lending/
+        - group "5 / 6" [ref=e14]:
+          - 'link "Celent report: How lenders are combatting fraud with AI and data collaboration>>" [ref=e15] [cursor=pointer]':
+            - /url: https://www.zest.ai/learn/resources/celent-report-combatting-the-rise-in-lending-fraud-with-ai-and-data-sharing/
+        - group "6 / 6" [ref=e16]:
+          - 'link "Product Forum Webinar: Managing complexity without compromise: An ecosystem approach to AI adoption>>" [ref=e17] [cursor=pointer]':
+            - /url: https://www.zest.ai/learn/resources/spring-2026-product-forum/
+      - button "Previous slide" [ref=e18] [cursor=pointer]:
+        - generic [ref=e19]: 
+      - button "Next slide" [ref=e20] [cursor=pointer]:
+        - generic [ref=e21]: 
+    - navigation [ref=e23]:
+      - link [ref=e25] [cursor=pointer]:
+        - /url: https://www.zest.ai
+        - img "Zest" [ref=e26]
+      - list [ref=e30]:
+        - listitem [ref=e31]:
+          - link "Solutions" [ref=e32] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e33]:
+          - link "Industries" [ref=e34] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e35]:
+          - link "Partners" [ref=e36] [cursor=pointer]:
+            - /url: https://www.zest.ai/partners/
+        - listitem [ref=e37]:
+          - link "Learn" [ref=e38] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e39]:
+          - link "Company" [ref=e40] [cursor=pointer]:
+            - /url: "#"
+      - link "Contact Us" [ref=e42] [cursor=pointer]:
+        - /url: https://www.zest.ai/contact-us/
+  - main [ref=e43]:
+    - generic [ref=e45]:
+      - heading "Smarter, Fairer, Efficient AI-Automated Credit Underwriting" [level=1] [ref=e46]
+      - paragraph [ref=e47]: Accurately assess your borrowers with deep lending insights
+      - link "Request a proof of concept" [ref=e48] [cursor=pointer]:
+        - /url: https://www.zest.ai/contact-us/
+    - generic [ref=e50]:
+      - heading [level=1]
+      - generic [ref=e51]:
+        - tablist [ref=e52]:
+          - tab "Smart" [selected] [ref=e53] [cursor=pointer]
+          - tab "More Fair" [ref=e54] [cursor=pointer]
+          - tab "Efficient" [ref=e55] [cursor=pointer]
+        - tabpanel "Smart" [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - paragraph [ref=e60]:
+                - strong [ref=e61]: Decision confidently with more data, better math
+              - paragraph [ref=e62]:
+                - generic [ref=e63]:
+                  - text: Assess your borrowers with
+                  - strong [ref=e64]: 2-4x
+                  - text: more accurate risk ranking than generic models, and expand access to more consumers without increasing risk. Zest AI creates client-tailored machine learning models with ethically sourced, responsibly used data to ensure optimal performance and compliance.
+              - list [ref=e65]:
+                - listitem [level=1] [ref=e66]: Accurately assess 98% of American adults
+                - listitem [level=1] [ref=e67]: Reduce risk by 20%+ when keeping approvals constant
+                - listitem [level=1] [ref=e68]: Lift approval rates 25% without additional risk
+            - img "AI-Automated Credit Underwriting" [ref=e70]
+    - generic [ref=e72]:
+      - heading [level=1]
+      - generic [ref=e73]:
+        - heading "Auto" [level=2] [ref=e86]
+        - heading "Credit Card" [level=2] [ref=e99]: CreditCard
+        - heading "Home Equity" [level=2] [ref=e112]
+        - heading "Personal Loans" [level=2] [ref=e158]: PersonalLoans
+        - heading "SMB Loans" [level=2] [ref=e174]
+    - generic [ref=e176]:
+      - generic [ref=e177]:
+        - heading [level=1]
+        - generic [ref=e178]:
+          - paragraph [ref=e179]:
+            - generic [ref=e180]:
+              - text: Get AI-automated underwriting that is tuned to your borrowers and needs. Zest AI serves lenders from the largest FIs, auto and specialty lenders, to the smallest credit unions. Custom to scalable machine learning models have been helping clients that process only
+              - strong [ref=e181]: "100"
+              - text: to over
+              - strong [ref=e182]: 600,000
+              - text: applications or more a year.
+          - link "See how we work with your lending ecosystem" [ref=e183] [cursor=pointer]:
+            - /url: https://www.zest.ai/partners/
+      - generic [ref=e184]:
+        - paragraph [ref=e189]: applications a year
+        - generic [ref=e194]:
+          - generic [ref=e195]: K
+          - paragraph [ref=e197]: applications a year
+    - generic [ref=e199]:
+      - heading [level=1]
+      - list [ref=e200]:
+        - listitem [ref=e201]:
+          - generic [ref=e202]: "1"
+          - generic [ref=e203]: Custom proof of concept
+          - generic [ref=e204]: 2 weeks
+        - listitem [ref=e205]:
+          - generic [ref=e206]: "2"
+          - generic [ref=e207]: Refine models
+          - generic [ref=e208]: 1 week
+        - listitem [ref=e209]:
+          - generic [ref=e210]: "3"
+          - generic [ref=e211]: Integrate
+          - generic [ref=e212]: As quickly as 4 weeks Zero IT lift
+        - listitem [ref=e213]:
+          - generic [ref=e214]: "4"
+          - generic [ref=e215]: Test and deploy
+          - generic [ref=e216]: Less than 1 week
+      - heading "ONGOING SUPPORT & REVIEW" [level=2] [ref=e217]
+      - list [ref=e218]:
+        - listitem [ref=e219]:
+          - generic [ref=e220]: "5"
+          - generic [ref=e221]: Active model monitoring and support
+          - generic [ref=e222]: 24/7
+        - listitem [ref=e223]:
+          - generic [ref=e224]: "6"
+          - generic [ref=e225]: Business reviews
+          - generic [ref=e226]: Up to 4 times a year
+      - generic [ref=e227]:
+        - heading [level=3] [ref=e228]
+        - link "Learn more" [ref=e229] [cursor=pointer]:
+          - /url: https://www.zest.ai/product/success-plan/
+    - generic [ref=e232]:
+      - generic [ref=e233]:
+        - heading [level=1]
+        - paragraph [ref=e235]: Zest AI is committed to the future of AI in lending. With over 80 years total of deep U.S. industry experience in legal, compliance, and policy, our team is actively engaged in the conversations that help keep AI transparent, safe, and fair for lenders and their consumers.
+      - figure "Esther Kahng Zest AI, Head of Public Policy and Chief of Staff, Former Chief Counsel to the House Financial Services Committee" [ref=e236]:
+        - blockquote [ref=e237]:
+          - paragraph [ref=e239]: By working with lawmakers to enact clear, fair policies, we protect consumers and ensure responsible access to these financial services.
+        - generic [ref=e240]:
+          - text: Esther Kahng
+          - generic [ref=e241]: Zest AI, Head of Public Policy and Chief of Staff, Former Chief Counsel to the House Financial Services Committee
+    - generic [ref=e242]:
+      - generic [ref=e243]:
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=1]
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - article [ref=e247]:
+            - generic [ref=e248]:
+              - img "AI-Automated Credit Underwriting" [ref=e250]
+              - paragraph [ref=e252]: “With climbing delinquencies and charge-offs, Commonwealth Credit Union sets itself apart with 30-40% lower delinquency ratios than our peers. Zest AI’s technology is helping us manage our risk, strategically continue to underwrite deeper, say yes to more members, and control our delinquencies and charge-offs.” Jaynel Christensen, Chief Growth Officer, Commonwealth Credit Union
+              - generic [ref=e253]:
+                - generic [ref=e254]: "%+"
+                - paragraph [ref=e256]: all consumer loan decisions automated
+          - article [ref=e257]:
+            - generic [ref=e258]:
+              - img "AI-Automated Credit Underwriting" [ref=e260]
+              - paragraph [ref=e262]: “Zest AI brought us speed. Beforehand, it could take six hours to decision a loan, and we’ve been able to cut that time down exponentially. Zest AI has helped us tremendously improve our efficiency and member experience.” Anderson Langford, Chief Operations Officer, Truliant Federal Credit Union
+              - generic [ref=e263]:
+                - generic [ref=e264]: X
+                - paragraph [ref=e266]: increase in instant approvals
+          - article [ref=e267]:
+            - generic [ref=e268]:
+              - img "AI-Automated Credit Underwriting" [ref=e270]
+              - paragraph [ref=e272]: “Zest AI helps Reliable Credit Association identify credit risk across the credit spectrum with confidence. The accuracy of the models allows us to effectively, objectively, and consistently price for our credit risk appropriately. The Zest team has been a great partner in supporting us to achieve our goals.” Lee Holzman, President and CEO, Reliable Credit Association
+              - generic [ref=e273]:
+                - generic [ref=e274]: Smarter
+                - paragraph [ref=e277]: lending with more accurate insights
+          - article [ref=e278]:
+            - generic [ref=e279]:
+              - img "AI-Automated Credit Underwriting" [ref=e281]
+              - paragraph [ref=e283]: “Clark County Credit Union is excited to be partnered with Zest AI. They’re not a company that stops after one successful product — they’re always looking for ways to improve and add new solutions that will be even more useful and relevant to their customers. I’m happy to be partnered with an organization that is forward-thinking and always finding ways to do things better and faster.” Josh Haldeman, Chief Lending Officer, Clark County Credit Union
+              - generic [ref=e284]:
+                - generic [ref=e285]: "%"
+                - paragraph [ref=e287]: lower 60 DPD delinquency rate than the national model
+          - article [ref=e288]:
+            - generic [ref=e289]:
+              - img "AI-Automated Credit Underwriting" [ref=e291]
+              - paragraph [ref=e293]: “At Verity Credit Union, we don’t just talk about serving the underserved—we make it happen. Our partnership with Zest AI made us feel comfortable shifting the way we lend to create meaningful impact for our members. Our industry has a lot of fear about changing the status quo, but AI is the new standard. Verity didn’t want to be left behind, and our partnership with Zest is helping us fulfill our mission of responsible access to credit.” Elisabeth Hayes, Director of Lending, Verity Credit Union
+              - generic [ref=e294]:
+                - generic [ref=e295]: "%"
+                - paragraph [ref=e297]: increase in approvals for protected classes
+        - generic [ref=e300] [cursor=pointer]
+    - generic [ref=e307]:
+      - heading "Ready to see how AI-automated credit underwriting will benefit your lending business?" [level=1] [ref=e308]
+      - paragraph [ref=e309]: Request a call to get a personalized proof of concept and ROI analysis with no obligation.
+  - contentinfo [ref=e310]:
+    - generic [ref=e311]:
+      - navigation [ref=e312]:
+        - generic [ref=e313]:
+          - heading "Solutions" [level=3] [ref=e314]
+          - list [ref=e315]:
+            - listitem [ref=e316]:
+              - link "Credit Underwriting" [ref=e317] [cursor=pointer]:
+                - /url: https://www.zest.ai/product/underwriting
+            - listitem [ref=e318]:
+              - link "Fraud Detection" [ref=e319] [cursor=pointer]:
+                - /url: https://www.zest.ai/product/fraud-detection/
+            - listitem [ref=e320]:
+              - link "Lending Intelligence" [ref=e321] [cursor=pointer]:
+                - /url: https://www.zest.ai/product/lending-intelligence/
+            - listitem [ref=e322]:
+              - link "Your Success Plan" [ref=e323] [cursor=pointer]:
+                - /url: https://www.zest.ai/product/success-plan/
+        - generic [ref=e324]:
+          - heading "Industries" [level=3] [ref=e325]
+          - list [ref=e326]:
+            - listitem [ref=e327]:
+              - link "Credit Unions" [ref=e328] [cursor=pointer]:
+                - /url: https://www.zest.ai/industry/credit-unions/
+            - listitem [ref=e329]:
+              - link "Banks" [ref=e330] [cursor=pointer]:
+                - /url: https://www.zest.ai/industry/banks/
+            - listitem [ref=e331]:
+              - link "Specialty Lenders" [ref=e332] [cursor=pointer]:
+                - /url: https://www.zest.ai/industry/specialty-lenders/
+        - generic [ref=e333]:
+          - heading "Partners" [level=3] [ref=e334]
+          - list [ref=e335]:
+            - listitem [ref=e336]:
+              - link "Technology Partners" [ref=e337] [cursor=pointer]:
+                - /url: https://www.zest.ai/partners/
+            - listitem [ref=e338]:
+              - link "Partner Program" [ref=e339] [cursor=pointer]:
+                - /url: https://www.zest.ai/partners/
+        - generic [ref=e340]:
+          - heading "Learn" [level=3] [ref=e341]
+          - list [ref=e342]:
+            - listitem [ref=e343]:
+              - link "Blog" [ref=e344] [cursor=pointer]:
+                - /url: https://www.zest.ai/learn/blog/
+            - listitem [ref=e345]:
+              - link "Customer Stories" [ref=e346] [cursor=pointer]:
+                - /url: https://www.zest.ai/learn/success_stories/
+            - listitem [ref=e347]:
+              - link "Resource Center" [ref=e348] [cursor=pointer]:
+                - /url: https://www.zest.ai/learn/resources/
+        - generic [ref=e349]:
+          - heading "Company" [level=3] [ref=e350]
+          - list [ref=e351]:
+            - listitem [ref=e352]:
+              - link "About Us" [ref=e353] [cursor=pointer]:
+                - /url: https://www.zest.ai/company/about-us/
+            - listitem [ref=e354]:
+              - link "Leadership" [ref=e355] [cursor=pointer]:
+                - /url: https://www.zest.ai/company/leadership/
+            - listitem [ref=e356]:
+              - link "Announcements" [ref=e357] [cursor=pointer]:
+                - /url: https://www.zest.ai/company/announcements/
+            - listitem [ref=e358]:
+              - link "Careers" [ref=e359] [cursor=pointer]:
+                - /url: https://www.zest.ai/careers/
+            - listitem [ref=e360]:
+              - link "Contact Us" [ref=e361] [cursor=pointer]:
+                - /url: https://www.zest.ai/contact-us/
+      - generic [ref=e362]:
+        - heading "Sign-up to get the latest insights on AI and lending" [level=3] [ref=e363]
+        - generic [ref=e364]:
+          - textbox "Work Email" [ref=e365]
+          - button [ref=e366] [cursor=pointer]
+      - generic [ref=e368]:
+        - list [ref=e369]:
+          - listitem [ref=e370]:
+            - link "LinkedIn" [ref=e371] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/zest-ai/
+          - listitem [ref=e373]:
+            - link "YouTube" [ref=e374] [cursor=pointer]:
+              - /url: https://www.youtube.com/@ZestAI/playlists
+        - generic [ref=e376]:
+          - text: © 2026 Zest AI. All Rights Reserved
+          - list [ref=e377]:
+            - listitem [ref=e378]:
+              - text: "|"
+              - link "Privacy Policy" [ref=e379] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=e380]:
+              - text: "|"
+              - link "Employee and Applicant Privacy Policy" [ref=e381] [cursor=pointer]:
+                - /url: /employee-and-applicant-privacy-policy
+  - generic [ref=e383]:
+    - generic [ref=e384]:
+      - heading "Cookie Preferences" [level=3] [ref=e385]
+      - paragraph [ref=e386]:
+        - text: We use cookies to enhance your browsing experience, serve personalized content and understand our audience. By clicking "Accept All", you consent to our use of cookies. Review our privacy policy
+        - link "here" [ref=e387] [cursor=pointer]:
+          - /url: https://www.zest.ai/privacy-policy/
+        - text: .
+    - generic [ref=e388]:
+      - button "Customize Settings" [ref=e389] [cursor=pointer]
+      - button "Accept All" [ref=e390] [cursor=pointer]

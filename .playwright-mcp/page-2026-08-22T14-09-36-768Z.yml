@@ -1,0 +1,714 @@
+- generic [ref=e3]:
+  - region "top of page"
+  - generic [ref=e10]:
+    - group:
+      - banner:
+        - generic [ref=e11]:
+          - group:
+            - generic [ref=e15]:
+              - group:
+                - link [ref=e18] [cursor=pointer]:
+                  - /url: https://www.scienaptic.ai
+                  - img "Scienaptic_RGB_Color.png" [ref=e22]
+            - generic [ref=e23]:
+              - group:
+                - navigation "Site" [ref=e27]:
+                  - list [ref=e28]:
+                    - listitem [ref=e29]:
+                      - link "iCUE" [ref=e32] [cursor=pointer]:
+                        - /url: https://www.scienaptic.ai/icue
+                    - listitem [ref=e34]:
+                      - link "Platform" [ref=e37] [cursor=pointer]:
+                        - /url: https://www.scienaptic.ai/credit-decisioning-platform
+                    - listitem [ref=e39]:
+                      - generic [ref=e41]:
+                        - generic [ref=e42]: Solutions
+                        - button "More Solutions pages" [ref=e44] [cursor=pointer]
+                    - listitem [ref=e47]:
+                      - generic [ref=e49]:
+                        - generic [ref=e50]: Our Network
+                        - button "More Our Network pages" [ref=e52] [cursor=pointer]
+                    - listitem [ref=e55]:
+                      - link "About Us" [ref=e58] [cursor=pointer]:
+                        - /url: https://www.scienaptic.ai/about-us
+                    - listitem [ref=e60]:
+                      - generic [ref=e62]:
+                        - generic [ref=e63]: News & Insights
+                        - button "More News & Insights pages" [ref=e65] [cursor=pointer]
+                    - listitem [ref=e68]:
+                      - generic [ref=e70]:
+                        - generic [ref=e71]: Careers
+                        - button "More Careers pages" [ref=e73] [cursor=pointer]
+                    - listitem [ref=e76]:
+                      - link "Contact Us" [ref=e79] [cursor=pointer]:
+                        - /url: https://www.scienaptic.ai/contact
+            - generic [ref=e81]:
+              - group:
+                - paragraph [ref=e84]:
+                  - button "DEMO" [ref=e85] [cursor=pointer]
+      - main:
+        - generic [ref=e86]:
+          - group:
+            - generic [ref=e90]:
+              - group:
+                - generic [ref=e92]:
+                  - paragraph [ref=e95]: Platform · Built for the credit union context
+                  - heading "Tailored to your unique context." [level=1] [ref=e97]
+                  - heading "A platform your risk team owns." [level=5] [ref=e99]
+                  - paragraph [ref=e101]: The decisioning platform that brings in your data, learns your lending policy, and gives your risk team a studio to design, test, and deploy strategies. All with a clear audit trail that holds up under examination.
+                  - generic [ref=e102]:
+                    - button "Schedule a Demo" [ref=e105] [cursor=pointer]
+                    - link "Tour the platform" [ref=e108] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/credit-decisioning-platform
+            - generic [ref=e110]:
+              - group:
+                - generic [ref=e112]:
+                  - group:
+                    - generic [ref=e114]:
+                      - paragraph [ref=e117]: Risk differentiation
+                      - generic [ref=e118]:
+                        - heading "1" [level=2] [ref=e121]
+                        - heading "2X" [level=2] [ref=e123]
+                      - paragraph [ref=e125]: More risk separation than bureau scores alone. Built on 500M+ lending records and tuned to your book.
+        - generic [ref=e126]:
+          - group
+        - generic [ref=e130]:
+          - group:
+            - generic [ref=e134]:
+              - list:
+                - listitem [ref=e135]:
+                  - generic [ref=e137]:
+                    - heading "500M+" [level=5] [ref=e140]
+                    - paragraph [ref=e142]: Lending records training the models
+                - listitem [ref=e143]:
+                  - generic [ref=e145]:
+                    - heading "3,000+" [level=5] [ref=e148]
+                    - paragraph [ref=e150]: Bureau and non-bureau signals
+                - listitem [ref=e151]:
+                  - generic [ref=e153]:
+                    - heading "200+" [level=5] [ref=e156]
+                    - paragraph [ref=e158]: Strategies live across clients
+                - listitem [ref=e159]:
+                  - generic [ref=e161]:
+                    - heading "<1s" [level=5] [ref=e164]
+                    - paragraph [ref=e166]: Typical decision time
+        - generic [ref=e167]:
+          - group:
+            - generic [ref=e171]:
+              - heading "Inside the platform" [level=3] [ref=e174]
+              - generic [ref=e175]:
+                - generic [ref=e177]:
+                  - paragraph [ref=e180]: Member 360°
+                  - paragraph [ref=e182]: "|"
+                  - paragraph [ref=e184]: Strategy studio
+                  - paragraph [ref=e186]: "|"
+                  - paragraph [ref=e188]: Backtesting
+                  - paragraph [ref=e190]: "|"
+                  - paragraph [ref=e192]: Adapted models
+                  - paragraph [ref=e194]: "|"
+                  - paragraph [ref=e196]: Self-learning AI
+                - generic [ref=e197]:
+                  - paragraph [ref=e200]: "|"
+                  - paragraph [ref=e202]: Decision log
+                  - paragraph [ref=e204]: "|"
+                  - paragraph [ref=e206]: Override audit
+                  - paragraph [ref=e208]: "|"
+                  - paragraph [ref=e210]: Examiner exports
+        - text: Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log ��• Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports Member 360° • Strategy studio • Backtesting • Adapted models • Self-learning AI • Decision log • Override audit • Examiner exports
+        - generic [ref=e211]:
+          - group:
+            - generic [ref=e215]:
+              - group:
+                - generic [ref=e217]:
+                  - paragraph [ref=e220]: Member 360°
+                  - heading "One applicant. Every signal in one place." [level=2] [ref=e222]
+                  - paragraph [ref=e224]: A pre-built waterfall stitches bureau, banking, employment, payment, and alternative data into a single, governed profile. Pull only what each decision needs, when it needs it.
+            - generic [ref=e225]:
+              - group:
+                - generic [ref=e229]:
+                  - generic [ref=e231]:
+                    - generic [ref=e233]:
+                      - paragraph [ref=e236]: Member profile · App 4738
+                      - paragraph [ref=e238]: Compiled in 712ms from 9 sources
+                    - paragraph [ref=e242]: Member 360°
+                  - generic [ref=e246]:
+                    - generic [ref=e248]:
+                      - paragraph [ref=e251]: Scienaptic score
+                      - heading "782" [level=3] [ref=e253]
+                    - generic [ref=e254]:
+                      - paragraph [ref=e257]: +57 over bureau-only score
+                      - progressbar [ref=e258]
+                      - paragraph [ref=e262]: Tier 1 · 18th percentile in book
+                  - generic [ref=e265]:
+                    - list:
+                      - listitem [ref=e266]:
+                        - generic [ref=e268]:
+                          - paragraph [ref=e271]: Bureau pull
+                          - paragraph [ref=e273]: 714 · 7 trade lines
+                          - paragraph [ref=e275]: experian · 09:14:04
+                      - listitem [ref=e276]:
+                        - generic [ref=e278]:
+                          - paragraph [ref=e281]: Cash flow
+                          - paragraph [ref=e283]: DTI 28% · 22 mo stable
+                          - paragraph [ref=e285]: plaid · 09:14:05
+                      - listitem [ref=e286]:
+                        - generic [ref=e288]:
+                          - paragraph [ref=e291]: Identity
+                          - paragraph [ref=e293]: Verified · no synthetic markers
+                          - paragraph [ref=e295]: fraudshield · 09:14:05
+                      - listitem [ref=e296]:
+                        - generic [ref=e298]:
+                          - paragraph [ref=e301]: Non-bureau signals
+                          - paragraph [ref=e303]: 132 of 3,000+ matched
+                          - paragraph [ref=e305]: alt data · 09:14:06
+                  - generic [ref=e307]:
+                    - paragraph [ref=e310]:
+                      - text: Waterfall stopped early ·
+                      - generic [ref=e311]: 3 pulls skipped
+                    - paragraph [ref=e313]:
+                      - text: Data cost ·
+                      - generic [ref=e314]: $0.41
+                      - text: · saved
+                      - generic [ref=e315]: $0.86
+            - generic [ref=e316]:
+              - group:
+                - generic [ref=e318]:
+                  - heading "One member. The full picture." [level=4] [ref=e321]
+                  - paragraph [ref=e323]: Scienaptic pulls FCRA compliant data from LexisNexis, Plaid, SentiLink, Socure and many others, along with core data on signals like address stability, payroll, rent, and asset ownership. Everything resolves into one member profile that your underwriter can read.
+                  - generic [ref=e324]:
+                    - list:
+                      - listitem [ref=e325]:
+                        - paragraph [ref=e337]: Pre-built connectors for the data sources credit unions already use
+                      - listitem [ref=e339]:
+                        - paragraph [ref=e351]: Smart waterfall so prime files cost less than thin files to decision
+                      - listitem [ref=e353]:
+                        - paragraph [ref=e365]: Score Gen-Z, new-to-credit, and thin-file members with the same care as your prime book
+                      - listitem [ref=e367]:
+                        - paragraph [ref=e379]: Every signal traceable to its source. Nothing hidden behind a model
+        - generic [ref=e381]:
+          - group:
+            - generic [ref=e385]:
+              - group:
+                - generic [ref=e387]:
+                  - paragraph [ref=e390]: Strategy studio
+                  - heading "Design. Test. Deploy." [level=2] [ref=e392]
+                  - paragraph [ref=e394]: A no-code studio where your risk team designs lending strategies, tests them on your own past applications, and rolls them out only when the numbers are clear.
+            - generic [ref=e395]:
+              - group:
+                - generic [ref=e397]:
+                  - group:
+                    - generic [ref=e399]:
+                      - generic [ref=e401]:
+                        - generic [ref=e403]:
+                          - paragraph [ref=e413]: Indirect Auto · Strategy v15
+                          - paragraph [ref=e415]: scienaptic.studio · 4 nodes changed · drafted by Maria.O
+                        - generic [ref=e416]:
+                          - paragraph [ref=e421]: v14 · LIVE
+                          - paragraph [ref=e425]: v15 · SHADOW · 72 hr
+                          - paragraph [ref=e429]: Promote
+                      - img "Platform_Flow.jpg" [ref=e437]
+                      - generic [ref=e438]:
+                        - list:
+                          - listitem [ref=e439]:
+                            - generic [ref=e441]:
+                              - paragraph [ref=e444]: Tested on
+                              - heading "2.4M" [level=5] [ref=e446]
+                              - paragraph [ref=e448]: Of your past applications
+                          - listitem [ref=e449]:
+                            - generic [ref=e451]:
+                              - paragraph [ref=e454]: More approvals
+                              - heading "+4.2pts" [level=5] [ref=e456]
+                              - paragraph [ref=e458]: At the same risk level
+                          - listitem [ref=e459]:
+                            - generic [ref=e461]:
+                              - paragraph [ref=e464]: Lower losses
+                              - heading "-11bps" [level=5] [ref=e466]
+                              - paragraph [ref=e468]: Modeled on your portfolio
+            - generic [ref=e469]:
+              - group:
+                - generic [ref=e471]:
+                  - list:
+                    - listitem [ref=e472]:
+                      - generic [ref=e474]:
+                        - heading "Build by clicking, not coding." [level=5] [ref=e477]
+                        - paragraph [ref=e479]: Drag and drop rules, branches, and guardrails your risk team can read.
+                    - listitem [ref=e480]:
+                      - generic [ref=e482]:
+                        - heading "Test before you ship." [level=5] [ref=e485]
+                        - paragraph [ref=e487]: Replay any new strategy against your own past applications and see the lift and the loss it would have produced.
+                    - listitem [ref=e488]:
+                      - generic [ref=e490]:
+                        - heading "Run challengers in shadow." [level=5] [ref=e493]
+                        - paragraph [ref=e495]: Try new strategies on live traffic without changing a single member decision until the evidence is in.
+                    - listitem [ref=e496]:
+                      - generic [ref=e498]:
+                        - heading "Maker, checker, audit." [level=5] [ref=e501]
+                        - paragraph [ref=e503]: Every change is approved, version-controlled, and logged. Nothing goes live without the right sign-off.
+        - generic [ref=e504]:
+          - group:
+            - generic [ref=e508]:
+              - group:
+                - generic [ref=e510]:
+                  - paragraph [ref=e513]: Adapted to your context
+                  - heading "Adapted to your context. Tested on your book." [level=2] [ref=e515]
+                  - paragraph [ref=e517]: Not a generic risk score with a credit union sticker on it. Modern AI that learns your portfolio, gets sharper over time, and explains every decision in plain language.
+            - generic [ref=e518]:
+              - group:
+                - img "Scienaptic model (High res).png" [ref=e526]
+            - generic [ref=e527]:
+              - group:
+                - generic [ref=e529]:
+                  - heading "Self-learning. Always current." [level=4] [ref=e532]
+                  - paragraph [ref=e534]: The platform learns your portfolio, builds the model that fits, and keeps it sharp with frequent retraining. Your risk officer picks the model. The platform handles the math.
+                  - generic [ref=e535]:
+                    - list:
+                      - listitem [ref=e536]:
+                        - paragraph [ref=e548]: Trained on your portfolio. Tuned for your members
+                      - listitem [ref=e550]:
+                        - paragraph [ref=e562]: Retrained frequently so the model stays sharp as your book changes
+                      - listitem [ref=e564]:
+                        - paragraph [ref=e576]: Every decision comes with its top reasons,in plain language
+                      - listitem [ref=e578]:
+                        - paragraph [ref=e590]: Fairness checks built into every model, before it goes live
+        - generic [ref=e592]:
+          - group:
+            - generic [ref=e596]:
+              - group:
+                - generic [ref=e598]:
+                  - paragraph [ref=e601]: A model for every loan type
+                  - heading "One library. Every product credit unions write." [level=2] [ref=e603]
+                  - paragraph [ref=e605]: Best-fit models for the loan types you actually book, each one calibrated to your members and your portfolio.
+            - generic [ref=e606]:
+              - group:
+                - generic [ref=e608]:
+                  - list:
+                    - listitem [ref=e609]:
+                      - generic [ref=e611]:
+                        - paragraph [ref=e614]: Indirect Auto
+                        - heading "The dealership wins on price. We price every deal to its member." [level=5] [ref=e616]
+                        - paragraph [ref=e618]: Member-level, deal-level pricing tuned to your portfolio's yield and risk targets, with LTV-, term-, and tier-aware sensitivity.
+                      - generic [ref=e622]:
+                        - generic [ref=e624]:
+                          - heading "+86 bps" [level=6] [ref=e627]
+                          - paragraph [ref=e629]: Risk separation over bureau
+                        - generic [ref=e630]:
+                          - heading "240ms" [level=6] [ref=e633]
+                          - paragraph [ref=e635]: Median decision
+                    - listitem [ref=e636]:
+                      - generic [ref=e638]:
+                        - paragraph [ref=e641]: Direct Auto
+                        - heading "Refis and pre-approvals tuned to a member you already know." [level=5] [ref=e643]
+                        - paragraph [ref=e645]: Behavioral signals from your own deposit and card book feed the score. Refi targeting that does not cannibalize the rest of the portfolio.
+                      - generic [ref=e649]:
+                        - generic [ref=e651]:
+                          - heading "+74 bps" [level=6] [ref=e654]
+                          - paragraph [ref=e656]: Risk separation
+                        - generic [ref=e657]:
+                          - heading "4.1×" [level=6] [ref=e660]
+                          - paragraph [ref=e662]: Refi conversion
+                    - listitem [ref=e663]:
+                      - generic [ref=e665]:
+                        - paragraph [ref=e668]: Early warning & line review
+                        - heading "Catch the member who is about to slip, before they do." [level=5] [ref=e670]
+                        - paragraph [ref=e672]: Portfolio-level monitoring resolves down to member, segment, and vintage. Early triggers feed the strategy studio for outreach and line changes.
+                      - generic [ref=e676]:
+                        - generic [ref=e678]:
+                          - heading "14d" [level=6] [ref=e681]
+                          - paragraph [ref=e683]: Average lead time
+                        - generic [ref=e684]:
+                          - heading "Auto" [level=6] [ref=e687]
+                          - paragraph [ref=e689]: Retraining cadence
+                    - listitem [ref=e690]:
+                      - generic [ref=e692]:
+                        - paragraph [ref=e695]: Credit card & line management
+                        - heading "Right line, right moment, no surprises." [level=5] [ref=e697]
+                        - paragraph [ref=e699]: Behavioral attributes and bureau refresh drive line increase, line decrease, and offer eligibility on a single rhythm.
+                      - generic [ref=e703]:
+                        - generic [ref=e705]:
+                          - heading "+38%" [level=6] [ref=e708]
+                          - paragraph [ref=e710]: Spend lift
+                        - generic [ref=e711]:
+                          - heading "-9 bps" [level=6] [ref=e714]
+                          - paragraph [ref=e716]: Charge-off
+                    - listitem [ref=e717]:
+                      - generic [ref=e719]:
+                        - paragraph [ref=e722]: Personal & signature loan
+                        - heading "Score the thin file with cash-flow, not assumptions." [level=5] [ref=e724]
+                        - paragraph [ref=e726]: Open-banking cash flow and obligation data fill the gap where bureau coverage is shallow, so first-time borrowers get a fair read.
+                      - generic [ref=e730]:
+                        - generic [ref=e732]:
+                          - heading "+91 bps" [level=6] [ref=e735]
+                          - paragraph [ref=e737]: Sub-prime lift
+                        - generic [ref=e738]:
+                          - heading "90%+" [level=6] [ref=e741]
+                          - paragraph [ref=e743]: Thin-file scored
+                    - listitem [ref=e744]:
+                      - generic [ref=e746]:
+                        - paragraph [ref=e749]: HELOC
+                        - heading "Property value, equity, and tenure in one decision." [level=5] [ref=e751]
+                        - paragraph [ref=e753]: Real-time property values, equity signals, member tenure, and deposit history feed one fast, defensible approval.
+                      - generic [ref=e757]:
+                        - generic [ref=e759]:
+                          - heading "62%" [level=6] [ref=e762]
+                          - paragraph [ref=e764]: Auto approval
+                        - generic [ref=e765]:
+                          - heading "0.5%" [level=6] [ref=e768]
+                          - paragraph [ref=e770]: 30+ DPD steady
+        - generic [ref=e771]:
+          - group
+        - generic [ref=e775]:
+          - group:
+            - generic [ref=e779]:
+              - list:
+                - listitem [ref=e780]:
+                  - generic [ref=e782]:
+                    - heading "1,000+" [level=5] [ref=e785]
+                    - paragraph [ref=e787]: Models across segments and products
+                - listitem [ref=e788]:
+                  - generic [ref=e790]:
+                    - heading "Frequent" [level=5] [ref=e793]
+                    - paragraph [ref=e795]: Retraining on your own performance data
+                - listitem [ref=e796]:
+                  - generic [ref=e798]:
+                    - heading "Every" [level=5] [ref=e801]
+                    - paragraph [ref=e803]: Model is documented and ready for examiner review
+        - generic [ref=e804]:
+          - group
+        - generic [ref=e808]:
+          - group:
+            - generic [ref=e812]:
+              - group:
+                - generic [ref=e814]:
+                  - paragraph [ref=e817]: Risk management portal
+                  - heading "An actionable portal for ongoing risk management." [level=2] [ref=e819]
+                  - paragraph [ref=e821]: Live dashboards covering approvals, automation, delinquency, fair lending, and model performance. Refreshed in real time. Role-based access. Exportable in one click.
+            - generic [ref=e822]:
+              - group:
+                - generic [ref=e824]:
+                  - group:
+                    - img "Desktop.png" [ref=e830]
+        - generic [ref=e831]:
+          - group:
+            - generic [ref=e835]:
+              - group:
+                - generic [ref=e837]:
+                  - paragraph [ref=e840]: Audit & transparency
+                  - heading "Every decision logged. Every reason explainable." [level=2] [ref=e842]
+                  - paragraph [ref=e844]: A full record of every decision. Inputs, the model used, the reasons, and any human override. The pack an examiner asks for, ready before they ask.
+            - generic [ref=e845]:
+              - group:
+                - generic [ref=e849]:
+                  - generic [ref=e851]:
+                    - generic [ref=e853]:
+                      - paragraph [ref=e856]: Decision log · live
+                      - paragraph [ref=e858]: portal.scienaptic.ai / audit / decisions
+                    - generic [ref=e859]:
+                      - paragraph [ref=e864]: All
+                      - paragraph [ref=e868]: Overrides
+                      - paragraph [ref=e872]: Adverse action
+                      - paragraph [ref=e876]: Drift alerts
+                      - paragraph [ref=e880]: Export · NCUA pack ↓
+                  - generic [ref=e881]:
+                    - paragraph [ref=e884]: Timestamp
+                    - paragraph [ref=e886]: 09:14:06.241
+                    - paragraph [ref=e888]: 09:14:01.808
+                    - paragraph [ref=e890]: 09:13:54.117
+                    - paragraph [ref=e892]: 09:13:42.502
+                    - paragraph [ref=e894]: 09:13:31.094
+                    - paragraph [ref=e896]: Decision & reason
+                    - generic [ref=e897]:
+                      - paragraph [ref=e898]:
+                        - generic [ref=e899]: App 4738 · Approved
+                      - paragraph [ref=e900]: "$24,500 for 60 months at 7.49%. Reasons: 22 months of stable cash flow, payroll signal offsets thin file, identity verified."
+                    - generic [ref=e901]:
+                      - paragraph [ref=e902]:
+                        - generic [ref=e903]: App 4731 · Declined.
+                      - paragraph [ref=e904]: "Reasons: high recent inquiries in last 90 days, debt-to-income above policy. Model: CU Indirect Auto v14."
+                    - generic [ref=e905]:
+                      - paragraph [ref=e906]:
+                        - generic [ref=e907]: App 4729 · Override
+                      - paragraph [ref=e908]: "by L.Patel (analyst). Model decline reversed to approve. Reason: 14 year member, clean recent history."
+                    - generic [ref=e909]:
+                      - paragraph [ref=e910]:
+                        - generic [ref=e911]: Model alert ·
+                      - paragraph [ref=e912]: Indirect Auto, Q3 vintage. Approval rate up 180 bps over the last 7 days. Recalibration ticket opened.
+                    - generic [ref=e913]:
+                      - paragraph [ref=e914]:
+                        - generic [ref=e915]: App 4725 · Approved
+                      - paragraph [ref=e916]: $11,200 for 48 months at 8.95%. Bureau alone would have declined. Approval driven by a cash flow signal.
+                    - paragraph [ref=e918]: Meta
+                    - paragraph [ref=e922]: Auto · Approve
+                    - paragraph [ref=e926]: Auto · Decline
+                    - paragraph [ref=e930]: Human · Override
+                    - paragraph [ref=e934]: System · Alert
+                    - paragraph [ref=e938]: Auto · Approve
+                  - generic [ref=e939]:
+                    - paragraph [ref=e942]:
+                      - text: Showing
+                      - generic [ref=e943]: 5 of 142,318
+                      - text: decisions in last 90 days
+                    - paragraph [ref=e946]:
+                      - text: Retained
+                      - generic [ref=e947]: 7 years
+                      - text: · tamper evident
+            - generic [ref=e949]:
+              - group:
+                - generic [ref=e951]:
+                  - list:
+                    - listitem [ref=e952]:
+                      - generic [ref=e954]:
+                        - paragraph [ref=e957]: Adverse action
+                        - heading "Reasons a member can read." [level=5] [ref=e959]
+                        - paragraph [ref=e961]: Adverse action reasons written in plain language, mapped to the model and to ECOA codes.
+                    - listitem [ref=e962]:
+                      - generic [ref=e964]:
+                        - paragraph [ref=e967]: Decision replay
+                        - heading "Step into any past decision." [level=5] [ref=e969]
+                        - paragraph [ref=e971]: See the exact inputs, model version, and rules behind any decision, weeks or years later.
+                    - listitem [ref=e972]:
+                      - generic [ref=e974]:
+                        - paragraph [ref=e977]: Override audit
+                        - heading "Every reversal accounted for." [level=5] [ref=e979]
+                        - paragraph [ref=e981]: Track which analysts override which decisions and how those overrides perform against the model.
+                    - listitem [ref=e982]:
+                      - generic [ref=e984]:
+                        - paragraph [ref=e987]: Examiner export
+                        - heading "The pack the NCUA asks for." [level=5] [ref=e989]
+                        - paragraph [ref=e991]: One click to export the fair lending review, AAR distribution, model documentation, and override register.
+        - generic [ref=e992]:
+          - group:
+            - generic [ref=e996]:
+              - group:
+                - generic [ref=e998]:
+                  - paragraph [ref=e1001]: Prebuilt integrations
+                  - heading "Your stack is already wired in." [level=2] [ref=e1003]
+                  - paragraph [ref=e1005]: Plugs into the loan origination, core, bureau, identity, and banking systems credit unions actually use. Your core stays untouched. Your team keeps shipping.
+            - generic [ref=e1006]:
+              - group:
+                - generic [ref=e1008]:
+                  - list:
+                    - listitem [ref=e1009]:
+                      - generic [ref=e1011]:
+                        - paragraph [ref=e1014]: Loan origination
+                        - heading "LOS" [level=6] [ref=e1016]
+                        - paragraph [ref=e1018]: Single decision-string API into your LOS workflow.
+                        - paragraph [ref=e1021]: MeridianLink
+                        - paragraph [ref=e1024]: Origence
+                        - paragraph [ref=e1027]: Sync1 Systems
+                        - paragraph [ref=e1030]: Temenos
+                        - paragraph [ref=e1033]: CRIF Select
+                        - paragraph [ref=e1036]: + many more
+                    - listitem [ref=e1037]:
+                      - generic [ref=e1039]:
+                        - paragraph [ref=e1042]: Bureau & identity
+                        - heading "Bureaus, KYC, ID" [level=6] [ref=e1044]
+                        - paragraph [ref=e1046]: Native bureau pulls and identity providers, fully governed.
+                        - paragraph [ref=e1049]: Experian
+                        - paragraph [ref=e1052]: Equifax
+                        - paragraph [ref=e1055]: TransUnion
+                        - paragraph [ref=e1058]: LexisNexis
+                        - paragraph [ref=e1061]: Socure
+                        - paragraph [ref=e1064]: + many more
+                    - listitem [ref=e1065]:
+                      - generic [ref=e1067]:
+                        - paragraph [ref=e1070]: Core banking
+                        - heading "Core platforms" [level=6] [ref=e1072]
+                        - paragraph [ref=e1074]: Read member tenure, deposits, payment history without core changes.
+                        - paragraph [ref=e1077]: Symitar (Jack Henry)
+                        - paragraph [ref=e1080]: Fiserv DNA
+                        - paragraph [ref=e1083]: Corelation KeyStone
+                        - paragraph [ref=e1086]: FIS Horizon
+                        - paragraph [ref=e1089]: CU*BASE
+                        - paragraph [ref=e1092]: + many more
+                    - listitem [ref=e1093]:
+                      - generic [ref=e1095]:
+                        - paragraph [ref=e1098]: Banking, income & alt-data
+                        - heading "Data & signals" [level=6] [ref=e1100]
+                        - paragraph [ref=e1102]: Cash-flow, payroll, and alternative attributes for thin-file lending.
+                        - paragraph [ref=e1105]: Plaid
+                        - paragraph [ref=e1108]: MX
+                        - paragraph [ref=e1111]: Argyle
+                        - paragraph [ref=e1114]: Pinwheel
+                        - paragraph [ref=e1117]: Nova Credit
+                        - paragraph [ref=e1120]: + many more
+        - generic [ref=e1121]:
+          - group
+        - generic [ref=e1125]:
+          - group:
+            - generic [ref=e1129]:
+              - list:
+                - listitem [ref=e1130]:
+                  - generic [ref=e1132]:
+                    - heading "40+" [level=5] [ref=e1135]
+                    - paragraph [ref=e1137]: Prebuilt connectors live in production today
+                - listitem [ref=e1138]:
+                  - generic [ref=e1140]:
+                    - heading "One" [level=5] [ref=e1143]
+                    - paragraph [ref=e1145]: API call returns the full lending decision
+                - listitem [ref=e1146]:
+                  - generic [ref=e1148]:
+                    - heading "6 wks" [level=5] [ref=e1151]
+                    - paragraph [ref=e1153]: Typical time from kickoff to first live decision
+        - generic [ref=e1154]:
+          - group:
+            - generic [ref=e1158]:
+              - group:
+                - generic [ref=e1160]:
+                  - paragraph [ref=e1163]: A measured rollout
+                  - heading "Live in 4 to 6 weeks." [level=2] [ref=e1165]
+                  - paragraph [ref=e1167]: No core replacement. No workflow rebuild. We integrate with your LOS, learn your policy, and start returning decisions in shadow while your team watches.
+            - generic [ref=e1168]:
+              - group:
+                - generic [ref=e1170]:
+                  - list:
+                    - listitem [ref=e1171]:
+                      - generic [ref=e1173]:
+                        - paragraph [ref=e1176]: WEEK 01
+                        - paragraph [ref=e1180]: "01"
+                        - heading "Kick-off" [level=5] [ref=e1182]
+                        - paragraph [ref=e1184]: Goals, risk appetite, and the decisioning surfaces where you want lift first.
+                      - paragraph [ref=e1186]: CLIENT + SCIENAPTIC
+                    - listitem [ref=e1187]:
+                      - generic [ref=e1189]:
+                        - paragraph [ref=e1192]: WEEK 02
+                        - paragraph [ref=e1196]: "02"
+                        - heading "Strategy build" [level=5] [ref=e1198]
+                        - paragraph [ref=e1200]: We co-design your first strategies in the studio, backtested against your historical book.
+                      - paragraph [ref=e1202]: SCIENAPTIC LEADS
+                    - listitem [ref=e1203]:
+                      - generic [ref=e1205]:
+                        - paragraph [ref=e1208]: WEEK 03 to 05
+                        - paragraph [ref=e1212]: "03"
+                        - heading "Integration & shadow" [level=5] [ref=e1214]
+                        - paragraph [ref=e1216]: LOS and core wired up. Decisions run in shadow against the champion with a full audit trail.
+                      - paragraph [ref=e1218]: JOINT
+                    - listitem [ref=e1219]:
+                      - generic [ref=e1221]:
+                        - paragraph [ref=e1224]: WEEK 06+
+                        - paragraph [ref=e1228]: "04"
+                        - heading "Go live, then iterate" [level=5] [ref=e1230]
+                        - paragraph [ref=e1232]: Promote to live. Reporting goes self-serve. Strategies tuned frequently on your performance data.
+                      - paragraph [ref=e1234]: CLIENT LEADS
+        - generic [ref=e1235]:
+          - group:
+            - generic [ref=e1239]:
+              - group:
+                - generic [ref=e1241]:
+                  - heading "See your portfolio inside the platform." [level=2] [ref=e1244]
+                  - paragraph [ref=e1246]: Thirty minutes. Bring your call-report numbers. We will show you what Member 360°, the strategy studio, and the audit trail look like on your book, not someone else's.
+                  - generic [ref=e1247]:
+                    - button "Schedule a platform tour" [ref=e1250] [cursor=pointer]
+                    - link "Read the buyer's guide" [ref=e1253] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/featured-insights/what-to-look-for-when-buying-an-ai-credit-decisioning-solution
+      - contentinfo:
+        - generic [ref=e1255]:
+          - group:
+            - generic [ref=e1259]:
+              - group:
+                - generic [ref=e1261]:
+                  - link [ref=e1264] [cursor=pointer]:
+                    - /url: https://www.scienaptic.ai
+                    - img "Scienaptic_RGB_Color.png" [ref=e1268]
+                  - generic [ref=e1269]:
+                    - paragraph [ref=e1270]:
+                      - generic [ref=e1271]: Headquarter
+                    - paragraph [ref=e1272]: Scienaptic AI 50 West 47th Street, Ste. 1614,
+                    - paragraph [ref=e1273]: "New York, NY, 10036 Ph: +1 315 609 8036"
+                  - generic [ref=e1274]:
+                    - paragraph [ref=e1275]:
+                      - generic [ref=e1276]: "Branch offices:"
+                    - paragraph [ref=e1277]: Florida • Texas • Maryland
+            - generic [ref=e1278]:
+              - group:
+                - generic [ref=e1280]:
+                  - paragraph [ref=e1281]:
+                    - generic [ref=e1282]: Solutions
+                    - link "iCUE" [ref=e1283] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/icue
+                  - paragraph [ref=e1284]:
+                    - link "Platform" [ref=e1285] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/credit-decisioning-platform
+                    - link "Underwriting" [ref=e1286] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/underwriting
+                  - paragraph [ref=e1287]:
+                    - link "Fraud Detection" [ref=e1288] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/fraud-detection
+                  - paragraph [ref=e1289]:
+                    - link "Vehicle Loan Pricing" [ref=e1290] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/vehicle-loan-pricing
+            - generic [ref=e1291]:
+              - group:
+                - generic [ref=e1293]:
+                  - paragraph [ref=e1294]:
+                    - generic [ref=e1295]: Company
+                  - paragraph [ref=e1296]:
+                    - link "About Us" [ref=e1297] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/about-us
+                  - paragraph [ref=e1298]:
+                    - link "Clients" [ref=e1299] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/clients
+                  - paragraph [ref=e1300]:
+                    - link "Partners" [ref=e1301] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/partners
+                  - paragraph [ref=e1302]:
+                    - link "Careers" [ref=e1303] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/jobs
+                  - paragraph [ref=e1304]:
+                    - link "People & Culture" [ref=e1305] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/people-and-culture
+            - generic [ref=e1306]:
+              - group:
+                - generic [ref=e1308]:
+                  - paragraph [ref=e1309]:
+                    - generic [ref=e1310]: Knowledge
+                  - paragraph [ref=e1311]:
+                    - link "News Room" [ref=e1312] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/news
+                  - paragraph [ref=e1313]:
+                    - link "Featured Insights" [ref=e1314] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/featured-insights
+                  - paragraph [ref=e1315]:
+                    - link "Webinars" [ref=e1316] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/webinars
+                  - paragraph [ref=e1317]:
+                    - link "Podcasts" [ref=e1318] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/podcast
+                  - paragraph [ref=e1319]:
+                    - link "Blog" [ref=e1320] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/blog
+            - generic [ref=e1321]:
+              - group:
+                - generic [ref=e1323]:
+                  - paragraph [ref=e1324]:
+                    - generic [ref=e1325]: Get in touch
+                  - paragraph [ref=e1326]:
+                    - button "Schedule a demo" [ref=e1327] [cursor=pointer]
+                  - paragraph [ref=e1328]:
+                    - link "Contact Us" [ref=e1329] [cursor=pointer]:
+                      - /url: https://www.scienaptic.ai/contact
+                  - paragraph [ref=e1330]:
+                    - link "LinkedIn" [ref=e1331] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/scienaptic-ai/
+                  - paragraph [ref=e1332]:
+                    - link "YouTube" [ref=e1333] [cursor=pointer]:
+                      - /url: https://www.youtube.com/@scienaptic9039
+                  - paragraph [ref=e1334]:
+                    - link "contactus@scienaptic.com" [ref=e1335] [cursor=pointer]:
+                      - /url: mailto:contactus@scienaptic.com
+            - generic [ref=e1336]:
+              - group:
+                - paragraph [ref=e1339]: © Scienaptic Systems Inc. All rights reserved.
+            - generic [ref=e1340]:
+              - group
+            - generic [ref=e1343]:
+              - group:
+                - paragraph [ref=e1346]:
+                  - link "Privacy Policy" [ref=e1347] [cursor=pointer]:
+                    - /url: https://www.scienaptic.ai/privacy-policy
+                  - text: "|"
+                  - link "Terms of Use" [ref=e1348] [cursor=pointer]:
+                    - /url: https://www.scienaptic.ai/terms-and-conditions
+                  - text: "|"
+                  - button "Grievance Office" [ref=e1349] [cursor=pointer]
+                  - text: r
+  - region "bottom of page"

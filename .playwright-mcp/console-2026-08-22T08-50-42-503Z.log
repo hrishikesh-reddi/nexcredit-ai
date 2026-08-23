@@ -1,0 +1,3 @@
+[    1487ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3000/static/js/bundle.js:116800
+[    2142ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ http://localhost:8081/api/audit/logs:0
+[    2155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ http://localhost:8081/api/audit/logs:0

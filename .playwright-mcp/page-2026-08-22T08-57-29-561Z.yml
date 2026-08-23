@@ -1,0 +1,428 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e114]:
+    - generic [ref=f5e115]:
+      - generic [ref=f5e116]:
+        - button "safety-certificate NexCredit AI" [ref=f5e117] [cursor=pointer]:
+          - img "safety-certificate" [ref=f5e118]
+          - generic [ref=f5e121]: NexCredit
+          - generic [ref=f5e122]: AI
+        - generic [ref=f5e123]: CREDIT OPERATIONS
+      - button "file-search Search ⌘K" [ref=f5e125] [cursor=pointer]:
+        - img "file-search" [ref=f5e126]
+        - generic [ref=f5e129]: Search
+        - generic [ref=f5e130]: ⌘K
+    - main [ref=f5e131]:
+      - generic [ref=f5e132]:
+        - navigation "Workbench navigation" [ref=f5e133]:
+          - button "Command Center" [ref=f5e134] [cursor=pointer]
+          - button "Underwriting Studio" [ref=f5e135] [cursor=pointer]
+          - button "Evidence Intelligence" [ref=f5e136] [cursor=pointer]
+          - button "Review & Governance" [ref=f5e137] [cursor=pointer]
+          - button "Platform Architecture" [ref=f5e138] [cursor=pointer]
+        - generic [ref=f5e139]:
+          - generic [ref=f5e140]:
+            - generic [ref=f5e141]:
+              - heading "Command Center" [level=1] [ref=f5e142]
+              - paragraph [ref=f5e143]: Live portfolio health and decision operations for the NexCredit underwriting desk. Every figure below is computed from the current application set.
+            - generic [ref=f5e144]:
+              - button "arrow-right Start application" [ref=f5e145] [cursor=pointer]:
+                - img "arrow-right" [ref=f5e146]
+                - generic [ref=f5e149]: Start application
+              - button "arrow-right Open evidence" [ref=f5e150] [cursor=pointer]:
+                - img "arrow-right" [ref=f5e151]
+                - generic [ref=f5e154]: Open evidence
+          - generic [ref=f5e155]:
+            - article [ref=f5e156]:
+              - generic [ref=f5e157]: LIVE
+              - generic [ref=f5e158]: Active portfolio
+              - strong [ref=f5e159]: "25"
+              - generic [ref=f5e160]: 9 in review
+            - article [ref=f5e164]:
+              - generic [ref=f5e165]: AUTO
+              - generic [ref=f5e166]: Auto-approved
+              - strong [ref=f5e167]: "16"
+              - generic [ref=f5e168]: +2 this week
+            - article [ref=f5e172]:
+              - generic [ref=f5e173]: QUEUE
+              - generic [ref=f5e174]: Awaiting review
+              - strong [ref=f5e175]: "9"
+              - generic [ref=f5e176]: 0 queued
+            - article [ref=f5e180]:
+              - generic [ref=f5e181]: MODEL
+              - generic [ref=f5e182]: Avg confidence
+              - strong [ref=f5e183]: 63%
+              - generic [ref=f5e184]: stable
+          - generic [ref=f5e189]:
+            - heading "Application volume" [level=3] [ref=f5e190]
+            - generic [ref=f5e191]: last 12 weeks
+          - generic [ref=f5e202]:
+            - generic [ref=f5e203]:
+              - generic [ref=f5e204]:
+                - generic [ref=f5e205]:
+                  - heading "Live decision stream" [level=3] [ref=f5e206]
+                  - generic [ref=f5e207]: latest decisions · live data
+                - generic [ref=f5e209]:
+                  - generic [ref=f5e626]:
+                    - generic [ref=f5e628]:
+                      - generic [ref=f5e629]: Priya Divergence
+                      - generic [ref=f5e630]: SALARIED · ₹3,00,000
+                    - generic [ref=f5e631]:
+                      - generic [ref=f5e632]: REVIEW
+                      - generic [ref=f5e634]: latest
+                  - generic [ref=f5e635]:
+                    - generic [ref=f5e637]:
+                      - generic [ref=f5e638]: Weak Test
+                      - generic [ref=f5e639]: STUDENT · ₹90,000
+                    - generic [ref=f5e640]:
+                      - generic [ref=f5e641]: REVIEW
+                      - generic [ref=f5e643]: "#5"
+                  - generic [ref=f5e644]:
+                    - generic [ref=f5e646]:
+                      - generic [ref=f5e647]: Gate Test
+                      - generic [ref=f5e648]: SALARIED · ₹3,00,000
+                    - generic [ref=f5e649]:
+                      - generic [ref=f5e650]: APPROVED
+                      - generic [ref=f5e652]: "#4"
+                  - generic [ref=f5e653]:
+                    - generic [ref=f5e655]:
+                      - generic [ref=f5e656]: Weak Test
+                      - generic [ref=f5e657]: STUDENT · ₹90,000
+                    - generic [ref=f5e658]:
+                      - generic [ref=f5e659]: REVIEW
+                      - generic [ref=f5e661]: "#3"
+                  - generic [ref=f5e662]:
+                    - generic [ref=f5e664]:
+                      - generic [ref=f5e665]: Latency Test
+                      - generic [ref=f5e666]: SALARIED · ₹8,00,000
+                    - generic [ref=f5e667]:
+                      - generic [ref=f5e668]: APPROVED
+                      - generic [ref=f5e670]: "#2"
+                  - generic [ref=f5e671]:
+                    - generic [ref=f5e673]:
+                      - generic [ref=f5e674]: Interview Demo
+                      - generic [ref=f5e675]: SALARIED · ₹4,50,000
+                    - generic [ref=f5e676]:
+                      - generic [ref=f5e677]: APPROVED
+                      - generic [ref=f5e679]: "#1"
+              - generic [ref=f5e264]:
+                - generic [ref=f5e265]:
+                  - heading "Portfolio mix" [level=3] [ref=f5e267]
+                  - generic [ref=f5e269]:
+                    - img [ref=f5e270]:
+                      - generic [ref=f5e275]: "25"
+                      - generic [ref=f5e276]: TOTAL
+                    - generic [ref=f5e277]:
+                      - generic [ref=f5e278]:
+                        - text: Approved
+                        - generic [ref=f5e280]: "16"
+                      - generic [ref=f5e281]:
+                        - text: In review
+                        - generic [ref=f5e283]: "9"
+                      - generic [ref=f5e284]:
+                        - text: Rejected
+                        - generic [ref=f5e286]: "0"
+                - generic [ref=f5e287]:
+                  - heading "Inclusion impact" [level=3] [ref=f5e289]
+                  - generic [ref=f5e290]:
+                    - generic [ref=f5e291]:
+                      - generic [ref=f5e292]: New-to-credit reached
+                      - generic [ref=f5e293]: "25"
+                      - generic [ref=f5e294]: applicants with no prior bureau file
+                    - generic [ref=f5e295]:
+                      - generic [ref=f5e296]: Auto-approved without bureau
+                      - generic [ref=f5e297]: "16"
+                      - generic [ref=f5e298]: instant inclusive decisions
+            - generic [ref=f5e299]:
+              - generic [ref=f5e300]:
+                - heading "Recent activity" [level=3] [ref=f5e301]
+                - generic [ref=f5e302]: audit ledger
+              - generic [ref=f5e304]:
+                - generic [ref=f5e305]:
+                  - generic [ref=f5e306]: ⏱
+                  - generic [ref=f5e307]:
+                    - generic [ref=f5e308]: Doc Test — PENDING (ML risk model (logistic regression on alte…)
+                    - generic [ref=f5e309]: 22/08/2026, 14:18:29
+                - generic [ref=f5e310]:
+                  - generic [ref=f5e311]: ⏱
+                  - generic [ref=f5e312]:
+                    - generic [ref=f5e313]: Weak Test — PENDING (ML risk model (logistic regression on alte…)
+                    - generic [ref=f5e314]: 22/08/2026, 14:18:28
+                - generic [ref=f5e315]:
+                  - generic [ref=f5e316]: ✓
+                  - generic [ref=f5e317]:
+                    - generic [ref=f5e318]: Gate Test — APPROVED (ML risk model (logistic regression on alte…)
+                    - generic [ref=f5e319]: 22/08/2026, 14:17:11
+                - generic [ref=f5e320]:
+                  - generic [ref=f5e321]: ⏱
+                  - generic [ref=f5e322]:
+                    - generic [ref=f5e323]: Weak Test — PENDING (ML risk model (logistic regression on alte…)
+                    - generic [ref=f5e324]: 22/08/2026, 14:17:11
+                - generic [ref=f5e325]:
+                  - generic [ref=f5e326]: ✓
+                  - generic [ref=f5e327]:
+                    - generic [ref=f5e328]: Latency Test — APPROVED (ML risk model (logistic regression on alte…)
+                    - generic [ref=f5e329]: 22/08/2026, 14:17:11
+                - generic [ref=f5e330]:
+                  - generic [ref=f5e331]: ✓
+                  - generic [ref=f5e332]:
+                    - generic [ref=f5e333]: Interview Demo — APPROVED (ML risk model (logistic regression on alte…)
+                    - generic [ref=f5e334]: 22/08/2026, 12:40:59
+                - generic [ref=f5e335]:
+                  - generic [ref=f5e336]: ✕
+                  - generic [ref=f5e337]:
+                    - generic [ref=f5e338]: "Doc Test — REJECTED (Human review completed: Income mismatch co…)"
+                    - generic [ref=f5e339]: 22/08/2026, 12:36:22
+    - generic [ref=f5e340]: NexCredit AI · Synchrony Hackathon 2026
+  - dialog [ref=f5e342]:
+    - generic [ref=f5e344]:
+      - generic [ref=f5e345]:
+        - text: NEW APPLICATION
+        - heading "Credit application" [level=2] [ref=f5e346]
+        - paragraph [ref=f5e347]: Enter applicant details and alternative-data signals. NexCredit returns an explainable, reviewer-ready decision.
+      - generic [ref=f5e349]:
+        - generic [ref=f5e350]:
+          - heading "Applicant profile" [level=4] [ref=f5e351]
+          - generic [ref=f5e352]:
+            - generic [ref=f5e355]:
+              - generic "Applicant name" [ref=f5e357]: "* Applicant name"
+              - textbox "* Applicant name" [ref=f5e361]:
+                - /placeholder: Ravi Kumar
+                - text: Priya Divergence
+            - generic [ref=f5e364]:
+              - generic "Age" [ref=f5e366]: "* Age"
+              - generic [ref=f5e370]:
+                - generic [ref=f5e371]:
+                  - button "Increase Value" [ref=f5e372] [cursor=pointer]:
+                    - img "up" [ref=f5e373]
+                  - button "Decrease Value" [ref=f5e376] [cursor=pointer]:
+                    - img "down" [ref=f5e377]
+                - spinbutton "* Age" [ref=f5e381]: "27"
+          - generic [ref=f5e382]:
+            - generic [ref=f5e385]:
+              - generic "Annual income (₹)" [ref=f5e387]: "* Annual income (₹)"
+              - generic [ref=f5e391]:
+                - generic [ref=f5e392]:
+                  - button "Increase Value" [ref=f5e393] [cursor=pointer]:
+                    - img "up" [ref=f5e394]
+                  - button "Decrease Value" [ref=f5e397] [cursor=pointer]:
+                    - img "down" [ref=f5e398]
+                - spinbutton "* Annual income (₹)" [ref=f5e402]: "300000"
+            - generic [ref=f5e405]:
+              - generic "Employment type" [ref=f5e407]: "* Employment type"
+              - generic [ref=f5e412] [cursor=pointer]:
+                - combobox "* Employment type" [ref=f5e414]
+                - generic "SALARIED" [ref=f5e415]
+        - generic [ref=f5e416]:
+          - heading "Alternative-data signals" [level=4] [ref=f5e417]
+          - generic [ref=f5e418]:
+            - generic [ref=f5e421]:
+              - generic "Mobile usage" [ref=f5e423]: "* Mobile usage"
+              - generic [ref=f5e427]:
+                - generic [ref=f5e428]:
+                  - button "Increase Value" [ref=f5e429] [cursor=pointer]:
+                    - img "up" [ref=f5e430]
+                  - button "Decrease Value" [ref=f5e433] [cursor=pointer]:
+                    - img "down" [ref=f5e434]
+                - spinbutton "* Mobile usage" [ref=f5e438]: "75"
+            - generic [ref=f5e441]:
+              - generic "Transactions" [ref=f5e443]: "* Transactions"
+              - generic [ref=f5e447]:
+                - generic [ref=f5e448]:
+                  - button "Increase Value" [ref=f5e449] [cursor=pointer]:
+                    - img "up" [ref=f5e450]
+                  - button "Decrease Value" [ref=f5e453] [cursor=pointer]:
+                    - img "down" [ref=f5e454]
+                - spinbutton "* Transactions" [ref=f5e458]: "72"
+            - generic [ref=f5e461]:
+              - generic "Social signals" [ref=f5e463]: "* Social signals"
+              - generic [ref=f5e467]:
+                - generic [ref=f5e468]:
+                  - button "Increase Value" [ref=f5e469] [cursor=pointer]:
+                    - img "up" [ref=f5e470]
+                  - button "Decrease Value" [ref=f5e473] [cursor=pointer]:
+                    - img "down" [ref=f5e474]
+                - spinbutton "* Social signals" [ref=f5e478]: "68"
+          - generic [ref=f5e479]:
+            - generic [ref=f5e480]:
+              - generic [ref=f5e481]: Mobile
+              - progressbar [ref=f5e482]
+            - generic [ref=f5e485]:
+              - generic [ref=f5e486]: Transactions
+              - progressbar [ref=f5e487]
+            - generic [ref=f5e490]:
+              - generic [ref=f5e491]: Social
+              - progressbar [ref=f5e492]
+        - generic [ref=f5e495]:
+          - heading "Supporting evidence" [level=4] [ref=f5e496]
+          - generic [ref=f5e498]:
+            - generic "Supporting document (optional)" [ref=f5e500]
+            - generic [ref=f5e504]:
+              - button [ref=f5e506]:
+                - button "upload Attach income proof or bank statement" [ref=f5e507] [cursor=pointer]:
+                  - img "upload" [ref=f5e508]
+                  - generic [ref=f5e511]: Attach income proof or bank statement
+              - generic [ref=f5e519]:
+                - img "paper-clip" [ref=f5e521]
+                - generic "payslip2.txt" [ref=f5e524]
+                - button [ref=f5e526] [cursor=pointer]:
+                  - img "delete" [ref=f5e527]
+          - generic [ref=f5e530]:
+            - generic [ref=f5e531]:
+              - img "file-search" [ref=f5e532]
+              - strong [ref=f5e535]: Document scan preview complete
+            - generic [ref=f5e536]:
+              - img "check-circle" [ref=f5e562]
+              - generic [ref=f5e541]:
+                - text: Extracting declared income pattern
+                - progressbar [ref=f5e542]
+              - emphasis [ref=f5e546]: Pattern found
+            - generic [ref=f5e547]:
+              - img "check-circle" [ref=f5e565]
+              - generic [ref=f5e549]:
+                - text: Checking employment consistency
+                - progressbar [ref=f5e550]
+              - emphasis [ref=f5e553]: 18 months
+            - generic [ref=f5e554]:
+              - img "check-circle" [ref=f5e569]
+              - generic [ref=f5e556]:
+                - text: Cross-referencing application fields
+                - progressbar [ref=f5e557]
+              - emphasis [ref=f5e560]: Matched
+            - generic [ref=f5e561]: "Demo simulation only: uploaded files are stored; no document contents are automatically interpreted."
+          - region "Extracted document evidence" [ref=f5e680]:
+            - generic [ref=f5e681]: EXTRACTED REVIEWER EVIDENCE
+            - strong [ref=f5e682]: EXTRACTED
+            - paragraph [ref=f5e683]: "SALARY CERTIFICATE Employee: Doc Test Monthly Salary: Rs 55,000 per month Employer: Acme Pvt Ltd"
+            - text: This evidence is informational only; it does not automatically change the credit decision.
+          - button "reload Re-run analysis with this evidence (reconcile declared vs document income)" [ref=f5e684] [cursor=pointer]:
+            - img "reload" [ref=f5e829]
+            - generic [ref=f5e688]: Re-run analysis with this evidence (reconcile declared vs document income)
+        - region "Underwriting decision pipeline" [ref=f5e573]:
+          - generic [ref=f5e574]: DETERMINISTIC TRACE
+          - heading "Underwriting decision pipeline" [level=3] [ref=f5e575]
+          - paragraph [ref=f5e576]: Each stage is visible and reproducible; the final decision is produced by the transparent rules service, not an autonomous agent.
+          - generic [ref=f5e577]:
+            - img "check-circle" [ref=f5e689]
+            - generic [ref=f5e582]:
+              - strong [ref=f5e583]: Creditworthiness stage
+              - generic [ref=f5e584]: Complete
+            - progressbar [ref=f5e585]
+          - generic [ref=f5e589]:
+            - img "check-circle" [ref=f5e692]
+            - generic [ref=f5e591]:
+              - strong [ref=f5e592]: Fraud screening stage
+              - generic [ref=f5e593]: Complete
+            - generic [ref=f5e695]: HIGH risk
+            - progressbar [ref=f5e594]
+          - generic [ref=f5e597]:
+            - img "check-circle" [ref=f5e697]
+            - generic [ref=f5e599]:
+              - strong [ref=f5e600]: Decision engine
+              - generic [ref=f5e601]: Complete
+            - progressbar [ref=f5e602]
+          - generic [ref=f5e605]:
+            - img "check-circle" [ref=f5e701]
+            - generic [ref=f5e607]:
+              - strong [ref=f5e608]: Explanation stage
+              - generic [ref=f5e609]: Complete
+            - progressbar [ref=f5e610]
+          - generic [ref=f5e613]:
+            - img "check-circle" [ref=f5e705]
+            - generic [ref=f5e615]:
+              - strong [ref=f5e616]: Audit stage
+              - generic [ref=f5e617]: Complete
+            - progressbar [ref=f5e618]
+        - alert [ref=f5e709]:
+          - img "exclamation-circle" [ref=f5e832]
+          - generic [ref=f5e713]:
+            - generic [ref=f5e715]:
+              - text: "Decision:"
+              - generic [ref=f5e716]: PENDING
+              - text: 65% confidence
+              - generic [ref=f5e717]: ML scored
+              - generic [ref=f5e718]: decided in 5 ms
+              - generic [ref=f5e719]: "Fraud: HIGH"
+              - generic [ref=f5e720]: model vlogreg-ntc-1.0
+            - generic [ref=f5e721]:
+              - generic [ref=f5e835]:
+                - strong [ref=f5e836]: "Adverse-action reason codes (regulatory notice):"
+                - generic [ref=f5e837]: AX-09 Alternative-data signal below policy threshold
+              - strong [ref=f5e729]: "Fraud risk:"
+              - text: HIGH
+        - region "Explain decision" [ref=f5e730]:
+          - button "Explain this decision" [ref=f5e731] [cursor=pointer]
+        - generic [ref=f5e733]:
+          - generic [ref=f5e734]: DECISION CONTEXT
+          - heading "Traditional vs NexCredit AI" [level=3] [ref=f5e735]
+          - generic [ref=f5e736]:
+            - generic [ref=f5e737]:
+              - generic [ref=f5e738]: Traditional model
+              - strong [ref=f5e739]:
+                - img "close-circle" [ref=f5e740]
+                - text: LIMITED CONTEXT
+              - paragraph [ref=f5e743]: Conventional history alone may not surface a complete profile.
+            - generic [ref=f5e744]:
+              - generic [ref=f5e745]: NexCredit AI
+              - strong [ref=f5e746]:
+                - img "check-circle" [ref=f5e747]
+                - text: PENDING
+              - paragraph [ref=f5e750]: "ML risk model (logistic regression on alternative-data signals) estimated an approve probability of 74%. Strongest drivers: mobile usage (supported approval), transaction behaviour (supported approval), social signal (supported approval) [FRAUD SIGNAL: stated income diverges from income extracted from uploaded document.] [FRAUD GATE: high fraud risk routes the case to human review before approval.]"
+          - generic [ref=f5e751]: Illustrative prototype baseline not a production lending policy or a CIBIL decision.
+        - generic [ref=f5e752]:
+          - generic [ref=f5e754]:
+            - generic [ref=f5e755]:
+              - generic [ref=f5e756]:
+                - text: FRAUD SIGNAL VIEW
+                - heading "Risk signal heatmap" [level=3] [ref=f5e757]
+              - generic [ref=f5e758]: HIGH RISK
+            - paragraph [ref=f5e759]: Per-signal fraud sub-indicators as evaluated by the live risk model.
+            - generic [ref=f5e760]:
+              - generic [ref=f5e761]: Signal incoherence
+              - progressbar [ref=f5e762]:
+                - generic "7%" [ref=f5e766]
+              - strong [ref=f5e767]: 7%
+            - generic [ref=f5e768]:
+              - generic [ref=f5e769]: Income vs signal mismatch
+              - progressbar [ref=f5e770]:
+                - generic "0%" [ref=f5e773]
+              - strong [ref=f5e774]: 0%
+            - generic [ref=f5e775]:
+              - generic [ref=f5e776]: Document income divergence
+              - progressbar [ref=f5e777]:
+                - img "check-circle" [ref=f5e840]
+              - strong [ref=f5e781]: 100%
+          - generic [ref=f5e783]:
+            - text: MULTI-SIGNAL PROFILE
+            - heading "Credit signal radar" [level=3] [ref=f5e784]
+            - img "Credit signal radar chart" [ref=f5e785]:
+              - generic [ref=f5e790]: Mobile
+              - generic [ref=f5e792]: Transactions
+              - generic [ref=f5e795]: Social
+              - generic [ref=f5e798]: Income
+              - generic [ref=f5e801]: Fraud resilience
+            - paragraph [ref=f5e805]: Income stability and fraud resilience are transparent prototype-derived indicators.
+        - region "Underwriting copilot" [ref=f5e806]:
+          - heading [level=4] [ref=f5e807]:
+            - img "robot" [ref=f5e808]
+            - text: Underwriting Copilot
+          - text: Analyst assistant grounded in this application's stored data. It advises reviewers and never issues decisions.
+          - generic [ref=f5e811]:
+            - generic [ref=f5e857]: Any fraud concerns?
+            - alert [ref=f5e859]:
+              - img "info-circle" [ref=f5e860]
+              - generic [ref=f5e863]:
+                - generic [ref=f5e865]:
+                  - text: Copilot
+                  - generic [ref=f5e866]: Grounded (deterministic)
+                - generic [ref=f5e867]: "Fraud flag is driven by document divergence: the uploaded payslip2.txt implies annual income of 660000.00 while the applicant declared 300000.00, a gap above the 30% tolerance. Reviewer should confirm employment and re-run analysis after corrections."
+          - generic [ref=f5e812]:
+            - textbox "Ask about this application…" [ref=f5e813]
+            - button "send Ask" [ref=f5e814] [cursor=pointer]:
+              - img "send" [ref=f5e868]
+              - generic [ref=f5e818]: Ask
+          - generic [ref=f5e819]:
+            - button "Why this decision?" [ref=f5e820] [cursor=pointer]
+            - button "Any fraud concerns?" [ref=f5e822] [cursor=pointer]
+            - button "How can this applicant improve?" [ref=f5e824] [cursor=pointer]
+            - button "What credit limit applies?" [ref=f5e826] [cursor=pointer]
+        - button "Analyze application" [ref=f5e828] [cursor=pointer]

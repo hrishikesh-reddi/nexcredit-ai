@@ -1,0 +1,7 @@
+[    2171ms] [LOG]  x @ https://us-assets.i.posthog.com/static/1.418.10/posthog-recorder.js:0
+[    2191ms] [LOG]  x @ https://us-assets.i.posthog.com/static/1.418.10/posthog-recorder.js:0
+[    2193ms] [LOG]  % @ https://us-assets.i.posthog.com/static/1.418.10/posthog-recorder.js:0
+[    2194ms] [LOG]  bn+ @ https://us-assets.i.posthog.com/static/1.418.10/posthog-recorder.js:0
+[    2203ms] [LOG]  % @ https://us-assets.i.posthog.com/static/1.418.10/posthog-recorder.js:0
+[    2203ms] [LOG]  bn+ @ https://us-assets.i.posthog.com/static/1.418.10/posthog-recorder.js:0
+[    3428ms] [LOG] [Framer On-Page Editing] Unavailable because not on a `framer.app` subdomain and access status is no-auth @ https://app.framerstatic.com/editorbar.P5UR5X4Y.mjs:0

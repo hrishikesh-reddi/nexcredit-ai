@@ -1,0 +1,303 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e118]:
+    - generic [ref=f1e119]:
+      - generic [ref=f1e120]:
+        - button "NexCredit NexCredit AI" [ref=f1e121] [cursor=pointer]:
+          - generic [ref=f1e122]:
+            - img "NexCredit" [ref=f1e123]
+            - generic [ref=f1e127]:
+              - text: NexCredit
+              - generic [ref=f1e128]: AI
+        - generic [ref=f1e129]: CREDIT OPERATIONS
+      - button "file-search Search ⌘K" [ref=f1e131] [cursor=pointer]:
+        - img "file-search" [ref=f1e132]
+        - generic [ref=f1e135]: Search
+        - generic [ref=f1e136]: ⌘K
+    - main [ref=f1e137]:
+      - generic [ref=f1e138]:
+        - navigation "Workbench navigation" [ref=f1e139]:
+          - button "Command Center" [ref=f1e140] [cursor=pointer]
+          - button "Underwriting Studio" [ref=f1e141] [cursor=pointer]
+          - button "Evidence Intelligence" [ref=f1e142] [cursor=pointer]
+          - button "Cash-flow Intelligence" [ref=f1e143] [cursor=pointer]
+          - button "Review & Governance" [ref=f1e144] [cursor=pointer]
+          - button "Strategy Lab" [active] [ref=f1e145] [cursor=pointer]
+          - button "Platform Architecture" [ref=f1e146] [cursor=pointer]
+        - generic [ref=f1e1251]:
+          - generic [ref=f1e1253]:
+            - heading "Strategy Lab" [level=1] [ref=f1e1254]
+            - paragraph [ref=f1e1255]: Work a real case from the portfolio and see how each lever moves the trained engine. Full model introspection and cohort fairness on the same surface.
+          - generic [ref=f1e1256]:
+            - generic [ref=f1e1257]:
+              - heading "AI Operations Center — Agent Console" [level=3] [ref=f1e1258]
+              - generic [ref=f1e1259]: Live underwriting copilot — ask it to re-underwrite, explain, or challenge a decision · Workspace synced
+            - generic [ref=f1e1260]:
+              - generic [ref=f1e1261]: "Context: application #39"
+              - generic [ref=f1e1262]: Ask the agent to re-underwrite a case, explain a decision, or challenge the model.
+              - generic [ref=f1e1264]:
+                - textbox "Re-underwrite on fraud signals, or explain the last rejection…" [ref=f1e1265]
+                - button "Ask" [ref=f1e1266] [cursor=pointer]
+          - generic [ref=f1e1269]:
+            - generic [ref=f1e1270]:
+              - generic [ref=f1e1271]:
+                - heading "Decision levers" [level=3] [ref=f1e1272]
+                - generic [ref=f1e1275]: pick a case or move any slider
+              - generic [ref=f1e1276]:
+                - generic [ref=f1e1277]:
+                  - generic [ref=f1e1278]: Start from a live case in the portfolio
+                  - generic [ref=f1e1280]:
+                    - combobox [ref=f1e1282]
+                    - generic: Pick an applicant to load their signals
+                - generic [ref=f1e1283]:
+                  - generic [ref=f1e1284]:
+                    - generic [ref=f1e1285]: Mobile usage
+                    - generic [ref=f1e1286]: "72"
+                  - slider [ref=f1e1290] [cursor=pointer]
+                - generic [ref=f1e1291]:
+                  - generic [ref=f1e1292]:
+                    - generic [ref=f1e1293]: Transaction behaviour
+                    - generic [ref=f1e1294]: "64"
+                  - slider [ref=f1e1298] [cursor=pointer]
+                - generic [ref=f1e1299]:
+                  - generic [ref=f1e1300]:
+                    - generic [ref=f1e1301]: Social signal
+                    - generic [ref=f1e1302]: "58"
+                  - slider [ref=f1e1306] [cursor=pointer]
+                - generic [ref=f1e1307]:
+                  - generic [ref=f1e1308]:
+                    - generic [ref=f1e1309]: Annual income (₹)
+                    - generic [ref=f1e1310]:
+                      - generic [ref=f1e1311]:
+                        - button "Increase Value" [ref=f1e1312] [cursor=pointer]:
+                          - img "up" [ref=f1e1313]
+                        - button "Decrease Value" [ref=f1e1316] [cursor=pointer]:
+                          - img "down" [ref=f1e1317]
+                      - spinbutton [ref=f1e1321]: "240000"
+                  - generic [ref=f1e1322]:
+                    - generic [ref=f1e1323]: Employment
+                    - generic [ref=f1e1325] [cursor=pointer]:
+                      - combobox [ref=f1e1327]
+                      - generic "GIG WORKER" [ref=f1e1328]
+                - generic [ref=f1e1329]: The engine re-scores on every change using the same trained model that decides real applications.
+            - generic [ref=f1e1330]:
+              - generic [ref=f1e1331]:
+                - heading "Projected outcome" [level=3] [ref=f1e1332]
+                - generic [ref=f1e1337]: ML scored · 1 ms
+              - generic [ref=f1e1338]:
+                - generic [ref=f1e1339]:
+                  - generic [ref=f1e1340]: APPROVED
+                  - progressbar [ref=f1e1342]:
+                    - generic "98%" [ref=f1e1346]
+                  - generic [ref=f1e1347]: 98%
+                - generic [ref=f1e1348]:
+                  - text: "Recommended limit:"
+                  - generic [ref=f1e1349]: ₹70,000
+                - generic [ref=f1e1350]:
+                  - generic [ref=f1e1351]: Model drivers for this profile
+                  - generic [ref=f1e1352]:
+                    - generic [ref=f1e1353]:
+                      - generic [ref=f1e1354]: Monthly income
+                      - generic [ref=f1e1355]: supports approval
+                    - progressbar [ref=f1e1356]
+                  - generic [ref=f1e1360]:
+                    - generic [ref=f1e1361]:
+                      - generic [ref=f1e1362]: EMI burden
+                      - generic [ref=f1e1363]: supports approval
+                    - progressbar [ref=f1e1364]
+                  - generic [ref=f1e1367]:
+                    - generic [ref=f1e1368]:
+                      - generic [ref=f1e1369]: Credit to income
+                      - generic [ref=f1e1370]: supports approval
+                    - progressbar [ref=f1e1371]
+                  - generic [ref=f1e1374]:
+                    - generic [ref=f1e1375]:
+                      - generic [ref=f1e1376]: Dependents
+                      - generic [ref=f1e1377]: supports approval
+                    - progressbar [ref=f1e1378]
+                  - generic [ref=f1e1381]:
+                    - generic [ref=f1e1382]:
+                      - generic [ref=f1e1383]: Employment years
+                      - generic [ref=f1e1384]: against approval
+                    - progressbar [ref=f1e1385]
+                  - generic [ref=f1e1389]:
+                    - generic [ref=f1e1390]:
+                      - generic [ref=f1e1391]: Education
+                      - generic [ref=f1e1392]: against approval
+                    - progressbar [ref=f1e1393]
+                  - generic [ref=f1e1397]:
+                    - generic [ref=f1e1398]:
+                      - generic [ref=f1e1399]: Income type
+                      - generic [ref=f1e1400]: supports approval
+                    - progressbar [ref=f1e1401]
+                  - generic [ref=f1e1405]:
+                    - generic [ref=f1e1406]:
+                      - generic [ref=f1e1407]: Revolving loan
+                      - generic [ref=f1e1408]: supports approval
+                    - progressbar [ref=f1e1409]
+                  - generic [ref=f1e1412]:
+                    - generic [ref=f1e1413]:
+                      - generic [ref=f1e1414]: Mobile usage
+                      - generic [ref=f1e1415]: against approval
+                    - progressbar [ref=f1e1416]
+                  - generic [ref=f1e1420]:
+                    - generic [ref=f1e1421]:
+                      - generic [ref=f1e1422]: Transaction behaviour
+                      - generic [ref=f1e1423]: against approval
+                    - progressbar [ref=f1e1424]
+                  - generic [ref=f1e1428]:
+                    - generic [ref=f1e1429]:
+                      - generic [ref=f1e1430]: Social signal
+                      - generic [ref=f1e1431]: against approval
+                    - progressbar [ref=f1e1432]
+                - generic [ref=f1e1436]: "Default-risk model trained on real Home Credit loans estimated a 2% probability of default. Strongest drivers: mobile usage (reduces default risk), transaction behaviour (reduces default risk), social signal (reduces default risk)"
+                - generic [ref=f1e1437]:
+                  - generic [ref=f1e1438]:
+                    - generic [ref=f1e1439]: ▸ inference trace
+                    - generic [ref=f1e1440]: logistic-regression · live
+                  - generic [ref=f1e1441]: scored Scenario profile → APPROVED in 1ms
+                  - generic [ref=f1e1442]: mobile 72 · tx 64 · social 58 · income ₹2,40,000 · GIG WORKER
+          - generic [ref=f1e1444]:
+            - generic [ref=f1e1445]:
+              - heading "Model transparency" [level=3] [ref=f1e1446]
+              - generic [ref=f1e1450]: live from the running model · holdout never used in training
+            - generic [ref=f1e1451]:
+              - generic [ref=f1e1452]:
+                - generic [ref=f1e1453]: Feature contribution — horizontal
+                - generic [ref=f1e1454]:
+                  - generic [ref=f1e1455]: Monthly income
+                  - generic [ref=f1e1456]: "+0.717"
+                - generic [ref=f1e1460]:
+                  - generic [ref=f1e1461]: EMI burden
+                  - generic [ref=f1e1462]: "+0.8976"
+                - generic [ref=f1e1466]:
+                  - generic [ref=f1e1467]: Credit to income
+                  - generic [ref=f1e1468]: "+0.0802"
+                - generic [ref=f1e1472]:
+                  - generic [ref=f1e1473]: Dependents
+                  - generic [ref=f1e1474]: "+0.2434"
+                - generic [ref=f1e1478]:
+                  - generic [ref=f1e1479]: Employment years
+                  - generic [ref=f1e1480]: "-0.7622"
+                - generic [ref=f1e1484]:
+                  - generic [ref=f1e1485]: Education
+                  - generic [ref=f1e1486]: "-0.5517"
+                - generic [ref=f1e1490]:
+                  - generic [ref=f1e1491]: Income type
+                  - generic [ref=f1e1492]: "+1.1635"
+                - generic [ref=f1e1496]:
+                  - generic [ref=f1e1497]: Revolving loan
+                  - generic [ref=f1e1498]: "-0.2915"
+                - generic [ref=f1e1502]:
+                  - generic [ref=f1e1503]: Mobile usage
+                  - generic [ref=f1e1504]: "-5.067"
+                - generic [ref=f1e1508]:
+                  - generic [ref=f1e1509]: Transaction behaviour
+                  - generic [ref=f1e1510]: "-5.0229"
+                - generic [ref=f1e1514]:
+                  - generic [ref=f1e1515]: Social signal
+                  - generic [ref=f1e1516]: "-5.2327"
+                - generic [ref=f1e1520]: "Bias term: 4.9675. Positive weight pushes default risk up; approval uses its complement."
+                - generic [ref=f1e1521]:
+                  - generic [ref=f1e1522]:
+                    - generic [ref=f1e1523]: Holdout evaluation · 1200 unseen applications
+                    - generic [ref=f1e1524]: AUC 0.9723
+                  - generic [ref=f1e1525]:
+                    - generic [ref=f1e1526]:
+                      - generic [ref=f1e1527]: "0.95"
+                      - generic [ref=f1e1528]: Accuracy
+                    - generic [ref=f1e1529]:
+                      - generic [ref=f1e1530]: "0.9244"
+                      - generic [ref=f1e1531]: Precision
+                    - generic [ref=f1e1532]:
+                      - generic [ref=f1e1533]: "0.6832"
+                      - generic [ref=f1e1534]: Recall
+                    - generic [ref=f1e1535]:
+                      - generic [ref=f1e1536]: "0.7857"
+                      - generic [ref=f1e1537]: F1
+                  - generic [ref=f1e1538]:
+                    - generic [ref=f1e1539]:
+                      - text: "1030"
+                      - emphasis [ref=f1e1540]: Correct repayers
+                    - generic [ref=f1e1541]:
+                      - text: "110"
+                      - emphasis [ref=f1e1542]: Defaulters caught
+                    - generic [ref=f1e1543]:
+                      - text: "9"
+                      - emphasis [ref=f1e1544]: Good applicants declined
+                    - generic [ref=f1e1545]:
+                      - text: "51"
+                      - emphasis [ref=f1e1546]: Defaulters missed
+                  - generic [ref=f1e1547]: Holdout 20% never seen during training; TARGET=1 means default on real Home Credit loans
+              - generic [ref=f1e1548]:
+                - generic [ref=f1e1549]:
+                  - generic [ref=f1e1550]: Algorithm
+                  - generic [ref=f1e1551]: Logistic regression (batch gradient descent, L2 regularised)
+                - generic [ref=f1e1552]:
+                  - generic [ref=f1e1553]: Holdout size
+                  - generic [ref=f1e1554]: "1200"
+                - generic [ref=f1e1555]:
+                  - generic [ref=f1e1556]: Iterations
+                  - generic [ref=f1e1557]: "2500"
+                - generic [ref=f1e1558]:
+                  - generic [ref=f1e1559]: Learning rate
+                  - generic [ref=f1e1560]: "0.3"
+                - generic [ref=f1e1561]:
+                  - generic [ref=f1e1562]: L2 regularisation
+                  - generic [ref=f1e1563]: "0.0005"
+                - generic [ref=f1e1564]:
+                  - generic [ref=f1e1565]: Status
+                  - generic [ref=f1e1566]: Trained & serving
+                - generic [ref=f1e1567]:
+                  - generic [ref=f1e1568]: ML vs deterministic rule · same holdout
+                  - generic [ref=f1e1569]:
+                    - generic [ref=f1e1570]: ML approvals
+                    - generic [ref=f1e1571]: 1081 (90%)
+                  - generic [ref=f1e1572]:
+                    - generic [ref=f1e1573]: Rule approvals
+                    - generic [ref=f1e1574]: 167 (14%)
+                  - generic [ref=f1e1575]:
+                    - generic [ref=f1e1576]: Lift
+                    - generic [ref=f1e1577]: +547%
+                  - generic [ref=f1e1578]: ML vs deterministic affordability rule on same holdout — inclusive lift without added risk
+                - generic [ref=f1e1579]: Age and gender are deliberately excluded as model features. The only age control is a deterministic guardrail routing rejected under-21 applicants to human review instead of auto-declining.
+          - generic [ref=f1e1585]:
+            - generic [ref=f1e1586]:
+              - heading "Fair lending monitor" [level=3] [ref=f1e1587]
+              - generic [ref=f1e1591]: within 4/5ths
+            - generic [ref=f1e1596]:
+              - generic [ref=f1e1597]: approval rate by employment cohort · computed from the live portfolio · 4/5ths line at 80%
+              - generic [ref=f1e1598]:
+                - generic [ref=f1e1599]:
+                  - generic [ref=f1e1603]: 4/5ths · 80%
+                  - generic [ref=f1e1604]:
+                    - generic [ref=f1e1606]: 100%
+                    - generic [ref=f1e1607]: SALARIED
+                  - generic [ref=f1e1608]:
+                    - generic [ref=f1e1610]: 100%
+                    - generic [ref=f1e1611]: GIG WORKER
+                  - generic [ref=f1e1612]:
+                    - generic [ref=f1e1614]: 100%
+                    - generic [ref=f1e1615]: SELF EMPLOYED
+                - generic [ref=f1e1616]:
+                  - generic [ref=f1e1617]: 0%
+                  - generic [ref=f1e1618]: 50%
+                  - generic [ref=f1e1619]: 100%
+              - generic [ref=f1e1620]:
+                - generic [ref=f1e1621]: Cohort
+                - generic [ref=f1e1622]: "n"
+                - generic [ref=f1e1623]: Approval
+                - generic [ref=f1e1624]:
+                  - generic [ref=f1e1625]: SALARIED
+                  - generic [ref=f1e1627]: 1/1
+                  - generic [ref=f1e1628]: 100%
+                - generic [ref=f1e1629]:
+                  - generic [ref=f1e1630]: GIG WORKER
+                  - generic [ref=f1e1632]: 1/1
+                  - generic [ref=f1e1633]: 100%
+                - generic [ref=f1e1634]:
+                  - generic [ref=f1e1635]: SELF EMPLOYED
+                  - generic [ref=f1e1637]: 1/1
+                  - generic [ref=f1e1638]: 100%
+              - generic [ref=f1e1639]: Gaps are surfaced deliberately. Under-21 rejections always route to human review.
+    - generic [ref=f1e431]: NexCredit AI · Synchrony Hackathon 2026
+  - generic [ref=f1e806]: Approved

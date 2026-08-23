@@ -1,0 +1,19 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - heading "Quickstart Guide" [level=1] [ref=e4]
+    - paragraph [ref=e5]: A few steps to international credit data
+  - generic [ref=e7]:
+    - paragraph [ref=e9]:
+      - text: View our full
+      - link "Credit Passport Quickstart Guide" [ref=e10] [cursor=pointer]:
+        - /url: https://docs.novacredit.com/credit-passport-quickstart
+      - text: .
+    - paragraph [ref=e11]: Example integration
+    - generic [ref=e13]:
+      - paragraph [ref=e14]: "Try NovaConnect now by choosing an integration type (web & mobile compatible):"
+      - link "Embedded" [ref=e15] [cursor=pointer]:
+        - /url: https://demo.novacredit.com/quickstart-guide?ct=embedded
+      - link "Button" [ref=e16] [cursor=pointer]:
+        - /url: https://demo.novacredit.com/quickstart-guide?ct=button
+  - iframe [ref=e20]:
+    

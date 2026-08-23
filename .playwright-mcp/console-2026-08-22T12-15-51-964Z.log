@@ -1,0 +1,30 @@
+[     535ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3000/static/js/bundle.js:118004
+[     642ms] [ERROR] Warning: Instance created by `useForm` is not connected to any Form element. Forget to pass `form` prop? @ http://localhost:3000/static/js/bundle.js:90765
+[  101833ms] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'HTMLButtonElement'
+    |     property '__reactFiber$0lzsus3m100j' -> object with constructor 'FiberNode'
+    --- property 'stateNode' closes the circle
+    at JSON.stringify (<anonymous>)
+    at jsonRequest (http://localhost:3000/static/js/bundle.js:2196:14)
+    at searchEvidence (http://localhost:3000/static/js/bundle.js:2228:38)
+    at runSearch (http://localhost:3000/static/js/bundle.js:4476:60)
+    at handleClick (http://localhost:3000/static/js/bundle.js:18973:55)
+    at HTMLUnknownElement.callCallback (http://localhost:3000/static/js/bundle.js:96004:18)
+    at Object.invokeGuardedCallbackDev (http://localhost:3000/static/js/bundle.js:96048:20)
+    at invokeGuardedCallback (http://localhost:3000/static/js/bundle.js:96105:35)
+    at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/static/js/bundle.js:96119:29)
+    at executeDispatch (http://localhost:3000/static/js/bundle.js:100263:7)
+[  101835ms] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'HTMLButtonElement'
+    |     property '__reactFiber$0lzsus3m100j' -> object with constructor 'FiberNode'
+    --- property 'stateNode' closes the circle
+    at JSON.stringify (<anonymous>)
+    at jsonRequest (http://localhost:3000/static/js/bundle.js:2196:14)
+    at searchEvidence (http://localhost:3000/static/js/bundle.js:2228:38)
+    at runSearch (http://localhost:3000/static/js/bundle.js:4476:60)
+    at handleClick (http://localhost:3000/static/js/bundle.js:18973:55)
+    at HTMLUnknownElement.callCallback (http://localhost:3000/static/js/bundle.js:96004:18)
+    at Object.invokeGuardedCallbackDev (http://localhost:3000/static/js/bundle.js:96048:20)
+    at invokeGuardedCallback (http://localhost:3000/static/js/bundle.js:96105:35)
+    at invokeGuardedCallbackAndCatchFirstError (http://localhost:3000/static/js/bundle.js:96119:29)
+    at executeDispatch (http://localhost:3000/static/js/bundle.js:100263:7)

@@ -1,0 +1,265 @@
+- generic [ref=e1]:
+  - generic [ref=e118]:
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - button "NexCredit NexCredit AI" [ref=e121] [cursor=pointer]:
+          - generic [ref=e122]:
+            - img "NexCredit" [ref=e123]
+            - generic [ref=e127]:
+              - text: NexCredit
+              - generic [ref=e128]: AI
+        - generic [ref=e129]: CREDIT OPERATIONS
+      - button "file-search Search ⌘K" [ref=e131] [cursor=pointer]:
+        - img "file-search" [ref=e132]
+        - generic [ref=e135]: Search
+        - generic [ref=e136]: ⌘K
+    - main [ref=e137]:
+      - generic [ref=e138]:
+        - navigation "Workbench navigation" [ref=e139]:
+          - button "Command Center" [ref=e140] [cursor=pointer]
+          - button "Underwriting Studio" [ref=e141] [cursor=pointer]
+          - button "Evidence Intelligence" [ref=e142] [cursor=pointer]
+          - button "Cash-flow Intelligence" [ref=e143] [cursor=pointer]
+          - button "Review & Governance" [ref=e144] [cursor=pointer]
+          - button "Strategy Lab" [ref=e145] [cursor=pointer]
+          - button "Platform Architecture" [ref=e146] [cursor=pointer]
+        - generic [ref=e1952]:
+          - generic [ref=e1953]:
+            - generic [ref=e1954]:
+              - heading "Command Center" [level=1] [ref=e1955]
+              - paragraph [ref=e1956]: Live portfolio health and decision operations for the underwriting desk. Every figure below is computed from the current applications and the audit ledger.
+            - generic [ref=e1957]:
+              - button "arrow-right Start application" [ref=e1958] [cursor=pointer]:
+                - img "arrow-right" [ref=e1959]
+                - generic [ref=e1962]: Start application
+              - button "arrow-right Open evidence" [ref=e1963] [cursor=pointer]:
+                - img "arrow-right" [ref=e1964]
+                - generic [ref=e1967]: Open evidence
+          - generic [ref=e1968]:
+            - article [ref=e1969]:
+              - generic [ref=e1970]: 49 logged
+              - generic [ref=e1971]: Active portfolio
+              - strong [ref=e1972]: "3"
+              - generic [ref=e1973]: 0 in review
+            - article [ref=e1977]:
+              - generic [ref=e1978]: LIVE
+              - generic [ref=e1979]: Auto-approved
+              - strong [ref=e1980]: "3"
+              - generic [ref=e1981]: 100% of decided cases
+            - article [ref=e1985]:
+              - generic [ref=e1986]: QUEUE
+              - generic [ref=e1987]: Awaiting review
+              - strong [ref=e1988]: "0"
+              - generic [ref=e1989]: 3 queued
+            - article [ref=e1993]:
+              - generic [ref=e1994]: MODEL
+              - generic [ref=e1995]: Avg confidence
+              - strong [ref=e1996]: 87%
+              - generic [ref=e1997]: across 3 applicants
+          - generic [ref=e2001]:
+            - generic [ref=e2002]:
+              - generic [ref=e2003]:
+                - heading "Decision breakdown" [level=3] [ref=e2004]
+                - generic [ref=e2005]: portfolio composition
+              - generic [ref=e2006]:
+                - generic [ref=e2007]:
+                  - generic [ref=e2008]:
+                    - generic [ref=e2009]: Approved
+                    - generic [ref=e2010]: 3(100%)
+                  - generic [ref=e2013]:
+                    - generic [ref=e2014]: "0"
+                    - generic [ref=e2015]: "3"
+                - generic [ref=e2016]:
+                  - generic [ref=e2017]:
+                    - generic [ref=e2018]: In Review
+                    - generic [ref=e2019]: "0"
+                  - generic [ref=e2021]:
+                    - generic [ref=e2022]: "0"
+                    - generic [ref=e2023]: "3"
+                - generic [ref=e2024]:
+                  - generic [ref=e2025]:
+                    - generic [ref=e2026]: Rejected
+                    - generic [ref=e2027]: "0"
+                  - generic [ref=e2029]:
+                    - generic [ref=e2030]: "0"
+                    - generic [ref=e2031]: "3"
+                - application [ref=e2035]:
+                  - generic [ref=e2044]:
+                    - generic [ref=e2045]: Approved
+                    - generic [ref=e2047]: In Review
+                    - generic [ref=e2049]: Rejected
+            - generic [ref=e2052]:
+              - heading "Decision volume" [level=3] [ref=e2053]
+              - generic [ref=e2054]: last 14 days · audit ledger
+          - generic [ref=e2064]:
+            - generic [ref=e2065]:
+              - generic [ref=e2066]:
+                - generic [ref=e2067]:
+                  - heading "Latest decisions" [level=3] [ref=e2068]
+                  - generic [ref=e2069]: current portfolio
+                - generic [ref=e2071]:
+                  - generic [ref=e2072]:
+                    - generic [ref=e2074]:
+                      - generic [ref=e2075]: Vikram Rathore
+                      - generic [ref=e2076]: SALARIED · ₹10,00,000
+                    - generic [ref=e2077]:
+                      - generic [ref=e2078]: APPROVED
+                      - generic [ref=e2080]: latest
+                  - generic [ref=e2081]:
+                    - generic [ref=e2083]:
+                      - generic [ref=e2084]: Meera Iyer
+                      - generic [ref=e2085]: SELF EMPLOYED · ₹3,00,000
+                    - generic [ref=e2086]:
+                      - generic [ref=e2087]: APPROVED
+                      - generic [ref=e2089]: "#2"
+                  - generic [ref=e2090]:
+                    - generic [ref=e2092]:
+                      - generic [ref=e2093]: Aarav Mehta
+                      - generic [ref=e2094]: GIG WORKER · ₹5,40,000
+                    - generic [ref=e2095]:
+                      - generic [ref=e2096]: APPROVED
+                      - generic [ref=e2098]: "#1"
+              - generic [ref=e2099]:
+                - generic [ref=e2100]:
+                  - generic [ref=e2101]:
+                    - heading "Latest applications" [level=3] [ref=e2102]
+                    - generic [ref=e2103]: live from the underwriting portfolio
+                  - table [ref=e2111]:
+                    - rowgroup [ref=e2113]:
+                      - row [ref=e2114]:
+                        - columnheader "Applicant" [ref=e2115]
+                        - columnheader "Type" [ref=e2116]
+                        - columnheader "Decision" [ref=e2117]
+                        - columnheader "Confidence" [ref=e2118]
+                    - rowgroup [ref=e2119]:
+                      - row [ref=e2120]:
+                        - cell "Vikram Rathore" [ref=e2121]
+                        - cell "SALARIED" [ref=e2122]
+                        - cell "Approved" [ref=e2123]
+                        - cell [ref=e2126]:
+                          - strong [ref=e2128]: 96%
+                      - row [ref=e2129]:
+                        - cell "Aarav Mehta" [ref=e2130]
+                        - cell "GIG WORKER" [ref=e2131]
+                        - cell "Approved" [ref=e2132]
+                        - cell [ref=e2135]:
+                          - strong [ref=e2137]: 96%
+                      - row [ref=e2138]:
+                        - cell "Meera Iyer" [ref=e2139]
+                        - cell "SELF EMPLOYED" [ref=e2140]
+                        - cell "Approved" [ref=e2141]
+                        - cell [ref=e2144]:
+                          - strong [ref=e2146]: 70%
+                - generic [ref=e2147]:
+                  - heading "Inclusion impact" [level=3] [ref=e2149]
+                  - generic [ref=e2150]:
+                    - generic [ref=e2151]:
+                      - generic [ref=e2152]: Thin-file cases
+                      - generic [ref=e2153]: "3"
+                      - generic [ref=e2156]: scored
+                    - generic [ref=e2157]:
+                      - generic [ref=e2158]: Auto-approved
+                      - generic [ref=e2159]: "3"
+                      - generic [ref=e2162]: inclusive
+                    - generic [ref=e2163]:
+                      - generic [ref=e2164]: Avg confidence
+                      - generic [ref=e2165]: 87%
+                      - generic [ref=e2168]: model
+            - generic [ref=e2169]:
+              - generic [ref=e2170]:
+                - heading "Audit ledger" [level=3] [ref=e2171]
+                - generic [ref=e2172]: 49 events · PostgreSQL
+              - generic [ref=e2174]:
+                - generic [ref=e2181]:
+                  - generic [ref=e2182]:
+                    - text: Vikram Rathore · APPROVED
+                    - generic [ref=e2183]: Default-risk model trained on real Home Credit loans estimated a…
+                  - generic [ref=e2184]: 23/08/2026, 13:52:07
+                - generic [ref=e2191]:
+                  - generic [ref=e2192]:
+                    - text: Vikram Rathore · APPROVED
+                    - generic [ref=e2193]: Default-risk model trained on real Home Credit loans estimated a…
+                  - generic [ref=e2194]: 23/08/2026, 13:46:01
+                - generic [ref=e2201]:
+                  - generic [ref=e2202]:
+                    - text: Vikram Rathore · APPROVED
+                    - generic [ref=e2203]: Default-risk model trained on real Home Credit loans estimated a…
+                  - generic [ref=e2204]: 23/08/2026, 13:45:44
+                - generic [ref=e2211]:
+                  - generic [ref=e2212]:
+                    - text: Meera Iyer · APPROVED
+                    - generic [ref=e2213]: Default-risk model trained on real Home Credit loans estimated a…
+                  - generic [ref=e2214]: 23/08/2026, 13:26:44
+                - generic [ref=e2221]:
+                  - generic [ref=e2222]:
+                    - text: Aarav Mehta · APPROVED
+                    - generic [ref=e2223]: Default-risk model trained on real Home Credit loans estimated a…
+                  - generic [ref=e2224]: 23/08/2026, 13:26:42
+                - generic [ref=e2231]:
+                  - generic [ref=e2232]:
+                    - text: Vikram Rathore · APPROVED
+                    - generic [ref=e2233]: Default-risk model trained on real Home Credit loans estimated a…
+                  - generic [ref=e2234]: 23/08/2026, 13:26:38
+                - generic [ref=e2241]:
+                  - generic [ref=e2242]:
+                    - text: Aarav Mehta · APPROVED
+                    - generic [ref=e2243]: Default-risk model trained on real Home Credit loans estimated a…
+                  - generic [ref=e2244]: 23/08/2026, 13:25:03
+    - generic [ref=e440]: NexCredit AI · Synchrony Hackathon 2026
+  - generic [ref=e441]: Approved
+  - dialog [ref=e2250]:
+    - generic [ref=e2252]:
+      - generic [ref=e2253]:
+        - text: NEW APPLICATION
+        - heading "Credit application" [level=2] [ref=e2254]
+        - paragraph [ref=e2255]: Enter applicant details and alternative-data signals. NexCredit returns an explainable, reviewer-ready decision.
+      - generic [ref=e2257]:
+        - generic [ref=e2258]:
+          - heading "Applicant profile" [level=4] [ref=e2259]
+          - generic [ref=e2260]:
+            - generic [ref=e2263]:
+              - generic "Applicant name" [ref=e2265]: "* Applicant name"
+              - textbox "* Applicant name" [ref=e2269]:
+                - /placeholder: Ravi Kumar
+            - generic [ref=e2272]:
+              - generic "Age" [ref=e2274]: "* Age"
+              - generic [ref=e2278]:
+                - generic [ref=e2279]:
+                  - button "Increase Value" [ref=e2280] [cursor=pointer]:
+                    - img "up" [ref=e2281]
+                  - button "Decrease Value" [ref=e2284] [cursor=pointer]:
+                    - img "down" [ref=e2285]
+                - spinbutton "* Age" [ref=e2289]
+          - generic [ref=e2290]:
+            - generic [ref=e2293]:
+              - generic "Annual income (₹)" [ref=e2295]: "* Annual income (₹)"
+              - generic [ref=e2299]:
+                - generic [ref=e2300]:
+                  - button "Increase Value" [ref=e2301] [cursor=pointer]:
+                    - img "up" [ref=e2302]
+                  - button "Decrease Value" [ref=e2305] [cursor=pointer]:
+                    - img "down" [ref=e2306]
+                - spinbutton "* Annual income (₹)" [ref=e2310]
+            - generic [ref=e2313]:
+              - generic "Employment type" [ref=e2315]: "* Employment type"
+              - generic [ref=e2320] [cursor=pointer]:
+                - combobox "* Employment type" [ref=e2322]
+                - generic "SALARIED" [ref=e2323]
+        - generic [ref=e2324]: Alternative-data signals are read automatically from consented sources (Sahamati Account Aggregator, telco) in production. In this demo they are simulated so you can see the confidence uplift they produce.
+        - generic [ref=e2326]:
+          - heading "Consented cash-flow sharing AA sandbox (simulated)" [level=4] [ref=e2327]:
+            - text: Consented cash-flow sharing
+            - generic [ref=e2328]: AA sandbox (simulated)
+          - generic [ref=e2329]: "Optional: link a consented bank-data feed. Healthy cash-flow signals add a clearly labelled confidence uplift to your assessment."
+          - button "bank Link bank (AA sandbox)" [ref=e2330] [cursor=pointer]:
+            - img "bank" [ref=e2331]
+            - generic [ref=e2334]: Link bank (AA sandbox)
+        - generic [ref=e2335]:
+          - heading "Supporting evidence" [level=4] [ref=e2336]
+          - generic [ref=e2338]:
+            - generic "Supporting document (optional)" [ref=e2340]
+            - button [ref=e2346]:
+              - button "upload Attach income proof or bank statement" [ref=e2347] [cursor=pointer]:
+                - img "upload" [ref=e2348]
+                - generic [ref=e2351]: Attach income proof or bank statement
+        - button "Analyze application" [ref=e2352] [cursor=pointer]

@@ -1,0 +1,174 @@
+- generic [ref=f5e114]:
+  - generic [ref=f5e115]:
+    - generic [ref=f5e116]:
+      - button "safety-certificate NexCredit AI" [ref=f5e117] [cursor=pointer]:
+        - img "safety-certificate" [ref=f5e118]
+        - generic [ref=f5e121]: NexCredit
+        - generic [ref=f5e122]: AI
+      - generic [ref=f5e123]: CREDIT OPERATIONS
+    - button "file-search Search ⌘K" [ref=f5e125] [cursor=pointer]:
+      - img "file-search" [ref=f5e126]
+      - generic [ref=f5e129]: Search
+      - generic [ref=f5e130]: ⌘K
+  - main [ref=f5e131]:
+    - generic [ref=f5e132]:
+      - navigation "Workbench navigation" [ref=f5e133]:
+        - button "Command Center" [ref=f5e134] [cursor=pointer]
+        - button "Underwriting Studio" [ref=f5e135] [cursor=pointer]
+        - button "Evidence Intelligence" [ref=f5e136] [cursor=pointer]
+        - button "Review & Governance" [ref=f5e137] [cursor=pointer]
+        - button "Platform Architecture" [ref=f5e138] [cursor=pointer]
+      - generic [ref=f5e139]:
+        - generic [ref=f5e140]:
+          - generic [ref=f5e141]:
+            - heading "Command Center" [level=1] [ref=f5e142]
+            - paragraph [ref=f5e143]: Live portfolio health and decision operations for the NexCredit underwriting desk. Every figure below is computed from the current application set.
+          - generic [ref=f5e144]:
+            - button "arrow-right Start application" [ref=f5e145] [cursor=pointer]:
+              - img "arrow-right" [ref=f5e146]
+              - generic [ref=f5e149]: Start application
+            - button "arrow-right Open evidence" [ref=f5e150] [cursor=pointer]:
+              - img "arrow-right" [ref=f5e151]
+              - generic [ref=f5e154]: Open evidence
+        - generic [ref=f5e155]:
+          - article [ref=f5e156]:
+            - generic [ref=f5e157]: LIVE
+            - generic [ref=f5e158]: Active portfolio
+            - strong [ref=f5e159]: "24"
+            - generic [ref=f5e160]: 8 in review
+          - article [ref=f5e164]:
+            - generic [ref=f5e165]: AUTO
+            - generic [ref=f5e166]: Auto-approved
+            - strong [ref=f5e167]: "16"
+            - generic [ref=f5e168]: +2 this week
+          - article [ref=f5e172]:
+            - generic [ref=f5e173]: QUEUE
+            - generic [ref=f5e174]: Awaiting review
+            - strong [ref=f5e175]: "8"
+            - generic [ref=f5e176]: 0 queued
+          - article [ref=f5e180]:
+            - generic [ref=f5e181]: MODEL
+            - generic [ref=f5e182]: Avg confidence
+            - strong [ref=f5e183]: 63%
+            - generic [ref=f5e184]: stable
+        - generic [ref=f5e189]:
+          - heading "Application volume" [level=3] [ref=f5e190]
+          - generic [ref=f5e191]: last 12 weeks
+        - generic [ref=f5e202]:
+          - generic [ref=f5e203]:
+            - generic [ref=f5e204]:
+              - generic [ref=f5e205]:
+                - heading "Live decision stream" [level=3] [ref=f5e206]
+                - generic [ref=f5e207]: latest decisions · live data
+              - generic [ref=f5e209]:
+                - generic [ref=f5e210]:
+                  - generic [ref=f5e212]:
+                    - generic [ref=f5e213]: Weak Test
+                    - generic [ref=f5e214]: STUDENT · ₹90,000
+                  - generic [ref=f5e215]:
+                    - generic [ref=f5e216]: REVIEW
+                    - generic [ref=f5e218]: latest
+                - generic [ref=f5e219]:
+                  - generic [ref=f5e221]:
+                    - generic [ref=f5e222]: Gate Test
+                    - generic [ref=f5e223]: SALARIED · ₹3,00,000
+                  - generic [ref=f5e224]:
+                    - generic [ref=f5e225]: APPROVED
+                    - generic [ref=f5e227]: "#5"
+                - generic [ref=f5e228]:
+                  - generic [ref=f5e230]:
+                    - generic [ref=f5e231]: Weak Test
+                    - generic [ref=f5e232]: STUDENT · ₹90,000
+                  - generic [ref=f5e233]:
+                    - generic [ref=f5e234]: REVIEW
+                    - generic [ref=f5e236]: "#4"
+                - generic [ref=f5e237]:
+                  - generic [ref=f5e239]:
+                    - generic [ref=f5e240]: Latency Test
+                    - generic [ref=f5e241]: SALARIED · ₹8,00,000
+                  - generic [ref=f5e242]:
+                    - generic [ref=f5e243]: APPROVED
+                    - generic [ref=f5e245]: "#3"
+                - generic [ref=f5e246]:
+                  - generic [ref=f5e248]:
+                    - generic [ref=f5e249]: Interview Demo
+                    - generic [ref=f5e250]: SALARIED · ₹4,50,000
+                  - generic [ref=f5e251]:
+                    - generic [ref=f5e252]: APPROVED
+                    - generic [ref=f5e254]: "#2"
+                - generic [ref=f5e255]:
+                  - generic [ref=f5e257]:
+                    - generic [ref=f5e258]: Doc Test
+                    - generic [ref=f5e259]: SALARIED · ₹3,00,000
+                  - generic [ref=f5e260]:
+                    - generic [ref=f5e261]: REVIEW
+                    - generic [ref=f5e263]: "#1"
+            - generic [ref=f5e264]:
+              - generic [ref=f5e265]:
+                - heading "Portfolio mix" [level=3] [ref=f5e267]
+                - generic [ref=f5e269]:
+                  - img [ref=f5e270]:
+                    - generic [ref=f5e275]: "24"
+                    - generic [ref=f5e276]: TOTAL
+                  - generic [ref=f5e277]:
+                    - generic [ref=f5e278]:
+                      - text: Approved
+                      - generic [ref=f5e280]: "16"
+                    - generic [ref=f5e281]:
+                      - text: In review
+                      - generic [ref=f5e283]: "8"
+                    - generic [ref=f5e284]:
+                      - text: Rejected
+                      - generic [ref=f5e286]: "0"
+              - generic [ref=f5e287]:
+                - heading "Inclusion impact" [level=3] [ref=f5e289]
+                - generic [ref=f5e290]:
+                  - generic [ref=f5e291]:
+                    - generic [ref=f5e292]: New-to-credit reached
+                    - generic [ref=f5e293]: "24"
+                    - generic [ref=f5e294]: applicants with no prior bureau file
+                  - generic [ref=f5e295]:
+                    - generic [ref=f5e296]: Auto-approved without bureau
+                    - generic [ref=f5e297]: "16"
+                    - generic [ref=f5e298]: instant inclusive decisions
+          - generic [ref=f5e299]:
+            - generic [ref=f5e300]:
+              - heading "Recent activity" [level=3] [ref=f5e301]
+              - generic [ref=f5e302]: audit ledger
+            - generic [ref=f5e304]:
+              - generic [ref=f5e305]:
+                - generic [ref=f5e306]: ⏱
+                - generic [ref=f5e307]:
+                  - generic [ref=f5e308]: Doc Test — PENDING (ML risk model (logistic regression on alte…)
+                  - generic [ref=f5e309]: 22/08/2026, 14:18:29
+              - generic [ref=f5e310]:
+                - generic [ref=f5e311]: ⏱
+                - generic [ref=f5e312]:
+                  - generic [ref=f5e313]: Weak Test — PENDING (ML risk model (logistic regression on alte…)
+                  - generic [ref=f5e314]: 22/08/2026, 14:18:28
+              - generic [ref=f5e315]:
+                - generic [ref=f5e316]: ✓
+                - generic [ref=f5e317]:
+                  - generic [ref=f5e318]: Gate Test — APPROVED (ML risk model (logistic regression on alte…)
+                  - generic [ref=f5e319]: 22/08/2026, 14:17:11
+              - generic [ref=f5e320]:
+                - generic [ref=f5e321]: ⏱
+                - generic [ref=f5e322]:
+                  - generic [ref=f5e323]: Weak Test — PENDING (ML risk model (logistic regression on alte…)
+                  - generic [ref=f5e324]: 22/08/2026, 14:17:11
+              - generic [ref=f5e325]:
+                - generic [ref=f5e326]: ✓
+                - generic [ref=f5e327]:
+                  - generic [ref=f5e328]: Latency Test — APPROVED (ML risk model (logistic regression on alte…)
+                  - generic [ref=f5e329]: 22/08/2026, 14:17:11
+              - generic [ref=f5e330]:
+                - generic [ref=f5e331]: ✓
+                - generic [ref=f5e332]:
+                  - generic [ref=f5e333]: Interview Demo — APPROVED (ML risk model (logistic regression on alte…)
+                  - generic [ref=f5e334]: 22/08/2026, 12:40:59
+              - generic [ref=f5e335]:
+                - generic [ref=f5e336]: ✕
+                - generic [ref=f5e337]:
+                  - generic [ref=f5e338]: "Doc Test — REJECTED (Human review completed: Income mismatch co…)"
+                  - generic [ref=f5e339]: 22/08/2026, 12:36:22
+  - generic [ref=f5e340]: NexCredit AI · Synchrony Hackathon 2026

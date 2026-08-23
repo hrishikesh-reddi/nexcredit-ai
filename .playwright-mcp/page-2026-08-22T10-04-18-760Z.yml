@@ -1,0 +1,209 @@
+- generic [ref=f7e114]:
+  - generic [ref=f7e115]:
+    - generic [ref=f7e116]:
+      - button "safety-certificate NexCredit AI" [ref=f7e117] [cursor=pointer]:
+        - img "safety-certificate" [ref=f7e118]
+        - generic [ref=f7e121]: NexCredit
+        - generic [ref=f7e122]: AI
+      - generic [ref=f7e123]: CREDIT OPERATIONS
+    - button "file-search Search ⌘K" [ref=f7e125] [cursor=pointer]:
+      - img "file-search" [ref=f7e126]
+      - generic [ref=f7e129]: Search
+      - generic [ref=f7e130]: ⌘K
+  - main [ref=f7e131]:
+    - generic [ref=f7e132]:
+      - navigation "Workbench navigation" [ref=f7e133]:
+        - button "Command Center" [ref=f7e134] [cursor=pointer]
+        - button "Underwriting Studio" [ref=f7e135] [cursor=pointer]
+        - button "Evidence Intelligence" [ref=f7e136] [cursor=pointer]
+        - button "Review & Governance" [ref=f7e137] [cursor=pointer]
+        - button "Strategy Lab" [ref=f7e138] [cursor=pointer]
+        - button "Platform Architecture" [ref=f7e139] [cursor=pointer]
+      - generic [ref=f7e342]:
+        - generic [ref=f7e344]:
+          - heading "Strategy Lab" [level=1] [ref=f7e345]
+          - paragraph [ref=f7e346]: Stress-test credit policy before it touches a real application. Live what-if inference, full model introspection, and cohort fairness monitoring on one surface.
+        - generic [ref=f7e347]:
+          - generic [ref=f7e348]:
+            - generic [ref=f7e349]:
+              - heading [level=3] [ref=f7e350]:
+                - img "experiment" [ref=f7e351]
+                - text: What-if simulator
+              - generic [ref=f7e354]: live inference · nothing is saved
+            - generic [ref=f7e355]:
+              - generic [ref=f7e356]:
+                - generic [ref=f7e357]: Start from a persona
+                - generic [ref=f7e358]:
+                  - button "NTC gig worker" [ref=f7e359] [cursor=pointer]
+                  - button "Thin-file student" [ref=f7e361] [cursor=pointer]
+                  - button "Salaried professional" [active] [ref=f7e363] [cursor=pointer]
+                  - button "Self-employed trader" [ref=f7e365] [cursor=pointer]
+              - generic [ref=f7e367]:
+                - generic [ref=f7e368]:
+                  - generic [ref=f7e369]: Mobile usage
+                  - generic [ref=f7e370]: "82"
+                - slider [ref=f7e374] [cursor=pointer]
+              - generic [ref=f7e375]:
+                - generic [ref=f7e376]:
+                  - generic [ref=f7e377]: Transaction behaviour
+                  - generic [ref=f7e378]: "78"
+                - slider [ref=f7e382] [cursor=pointer]
+              - generic [ref=f7e383]:
+                - generic [ref=f7e384]:
+                  - generic [ref=f7e385]: Social signal
+                  - generic [ref=f7e386]: "70"
+                - slider [ref=f7e390] [cursor=pointer]
+              - generic [ref=f7e391]:
+                - generic [ref=f7e392]:
+                  - generic [ref=f7e393]: Annual income (₹)
+                  - generic [ref=f7e394]:
+                    - generic [ref=f7e395]:
+                      - button "Increase Value" [ref=f7e396] [cursor=pointer]:
+                        - img "up" [ref=f7e397]
+                      - button "Decrease Value" [ref=f7e400] [cursor=pointer]:
+                        - img "down" [ref=f7e401]
+                    - spinbutton [ref=f7e405]: "800000"
+                - generic [ref=f7e406]:
+                  - generic [ref=f7e407]: Employment
+                  - generic [ref=f7e409] [cursor=pointer]:
+                    - combobox [ref=f7e411]
+                    - generic "SALARIED" [ref=f7e599]
+              - button "play-circle Run simulation" [ref=f7e413] [cursor=pointer]:
+                - img "play-circle" [ref=f7e600]
+                - generic [ref=f7e418]: Run simulation
+          - generic [ref=f7e419]:
+            - generic [ref=f7e420]:
+              - heading "Projected outcome" [level=3] [ref=f7e421]
+              - generic [ref=f7e422]: ML scored · decided in 1 ms
+            - generic [ref=f7e423]:
+              - generic [ref=f7e424]:
+                - generic [ref=f7e425]: APPROVED
+                - progressbar [ref=f7e427]:
+                  - generic "84%" [ref=f7e604]
+                - generic [ref=f7e432]: 84%
+              - generic [ref=f7e605]:
+                - text: "Recommended limit:"
+                - generic [ref=f7e606]: ₹1,75,000
+              - generic [ref=f7e435]:
+                - generic [ref=f7e436]: Model drivers for this profile
+                - generic [ref=f7e437]:
+                  - generic [ref=f7e438]:
+                    - generic [ref=f7e439]: Mobile usage
+                    - generic [ref=f7e440]: supports approval
+                  - progressbar [ref=f7e441]
+                - generic [ref=f7e445]:
+                  - generic [ref=f7e446]:
+                    - generic [ref=f7e447]: Transaction behaviour
+                    - generic [ref=f7e448]: supports approval
+                  - progressbar [ref=f7e449]
+                - generic [ref=f7e453]:
+                  - generic [ref=f7e454]:
+                    - generic [ref=f7e455]: Social signal
+                    - generic [ref=f7e456]: supports approval
+                  - progressbar [ref=f7e457]
+                - generic [ref=f7e461]:
+                  - generic [ref=f7e462]:
+                    - generic [ref=f7e463]: Income stability
+                    - generic [ref=f7e464]: supports approval
+                  - progressbar [ref=f7e465]
+                - generic [ref=f7e469]:
+                  - generic [ref=f7e470]:
+                    - generic [ref=f7e471]: Employment type
+                    - generic [ref=f7e472]: supports approval
+                  - progressbar [ref=f7e473]
+              - generic [ref=f7e477]: "ML risk model (logistic regression on alternative-data signals) estimated an approve probability of 84%. Strongest drivers: mobile usage (supported approval), transaction behaviour (supported approval), social signal (supported approval)"
+        - generic [ref=f7e479]:
+          - generic [ref=f7e480]:
+            - heading [level=3] [ref=f7e481]:
+              - img "safety-certificate" [ref=f7e482]
+              - text: Model transparency card
+            - generic [ref=f7e485]: introspected live from the trained scorer
+          - generic [ref=f7e486]:
+            - generic [ref=f7e487]:
+              - generic [ref=f7e488]: Learned feature weights
+              - generic [ref=f7e489]:
+                - generic [ref=f7e490]:
+                  - generic [ref=f7e491]: Mobile usage
+                  - generic [ref=f7e492]: "+2.3751"
+                - progressbar [ref=f7e493]
+              - generic [ref=f7e497]:
+                - generic [ref=f7e498]:
+                  - generic [ref=f7e499]: Transaction behaviour
+                  - generic [ref=f7e500]: "+2.3835"
+                - progressbar [ref=f7e501]
+              - generic [ref=f7e505]:
+                - generic [ref=f7e506]:
+                  - generic [ref=f7e507]: Social signal
+                  - generic [ref=f7e508]: "+1.6751"
+                - progressbar [ref=f7e509]
+              - generic [ref=f7e513]:
+                - generic [ref=f7e514]:
+                  - generic [ref=f7e515]: Income stability
+                  - generic [ref=f7e516]: "+0.9596"
+                - progressbar [ref=f7e517]
+              - generic [ref=f7e521]:
+                - generic [ref=f7e522]:
+                  - generic [ref=f7e523]: Employment type
+                  - generic [ref=f7e524]: "+0.3358"
+                - progressbar [ref=f7e525]
+              - generic [ref=f7e529]: "Bias term: -4.0511. Positive weight pushes toward approval."
+            - generic [ref=f7e530]:
+              - generic [ref=f7e531]:
+                - generic [ref=f7e532]: Algorithm
+                - generic [ref=f7e533]: Logistic regression (batch gradient descent, L2 regularised)
+              - generic [ref=f7e534]:
+                - generic [ref=f7e535]: Training samples
+                - generic [ref=f7e536]: "3000"
+              - generic [ref=f7e537]:
+                - generic [ref=f7e538]: Iterations
+                - generic [ref=f7e539]: "2500"
+              - generic [ref=f7e540]:
+                - generic [ref=f7e541]: Learning rate
+                - generic [ref=f7e542]: "0.15"
+              - generic [ref=f7e543]:
+                - generic [ref=f7e544]: L2 regularisation
+                - generic [ref=f7e545]: "0.01"
+              - generic [ref=f7e546]:
+                - generic [ref=f7e547]: Random seed
+                - generic [ref=f7e548]: "42"
+              - generic [ref=f7e549]:
+                - generic [ref=f7e550]: Status
+                - generic [ref=f7e551]: Trained & serving
+              - generic [ref=f7e552]:
+                - img "safety-certificate" [ref=f7e553]
+                - text: Age is deliberately excluded as a model feature. The only age control is a deterministic guardrail that routes rejected under-21 applicants to human review instead of auto-declining.
+        - generic [ref=f7e557]:
+          - generic [ref=f7e558]:
+            - heading "Fairness monitor" [level=3] [ref=f7e559]
+            - generic [ref=f7e560]: approval rate by cohort · computed from live portfolio
+          - generic [ref=f7e561]:
+            - generic [ref=f7e562]:
+              - generic [ref=f7e563]:
+                - generic [ref=f7e564]:
+                  - text: SALARIED
+                  - generic [ref=f7e565]: · 12/15 approved
+                - generic [ref=f7e566]: 80%
+              - progressbar [ref=f7e567]
+            - generic [ref=f7e571]:
+              - generic [ref=f7e572]:
+                - generic [ref=f7e573]:
+                  - text: STUDENT
+                  - generic [ref=f7e574]: · 1/7 approved
+                - generic [ref=f7e575]: 14%
+              - progressbar [ref=f7e576]
+            - generic [ref=f7e580]:
+              - generic [ref=f7e581]:
+                - generic [ref=f7e582]:
+                  - text: GIG WORKER
+                  - generic [ref=f7e583]: · 3/3 approved
+                - generic [ref=f7e584]: 100%
+              - progressbar [ref=f7e585]
+            - generic [ref=f7e589]:
+              - generic [ref=f7e590]:
+                - generic [ref=f7e591]:
+                  - text: SELF EMPLOYED
+                  - generic [ref=f7e592]: · 1/1 approved
+                - generic [ref=f7e593]: 100%
+              - progressbar [ref=f7e594]
+            - generic [ref=f7e598]: "Disparate impact across cohorts is surfaced deliberately: underwriters see it, and the under-21 guardrail keeps protected-age outcomes on the human path."
+  - generic [ref=f7e341]: NexCredit AI · Synchrony Hackathon 2026

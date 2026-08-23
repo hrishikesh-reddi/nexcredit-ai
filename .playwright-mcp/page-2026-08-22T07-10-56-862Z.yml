@@ -1,0 +1,299 @@
+- generic [ref=e1]:
+  - generic [ref=e114]:
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - button "safety-certificate NexCredit AI" [ref=e117] [cursor=pointer]:
+          - img "safety-certificate" [ref=e118]
+          - generic [ref=e121]: NexCredit
+          - generic [ref=e122]: AI
+        - generic [ref=e123]: CREDIT OPERATIONS
+      - button "file-search Search ⌘K" [ref=e125] [cursor=pointer]:
+        - img "file-search" [ref=e126]
+        - generic [ref=e129]: Search
+        - generic [ref=e130]: ⌘K
+    - main [ref=e131]:
+      - generic [ref=e132]:
+        - navigation "Workbench navigation" [ref=e133]:
+          - button "Command Center" [ref=e134] [cursor=pointer]
+          - button "Underwriting Studio" [ref=e135] [cursor=pointer]
+          - button "Evidence Intelligence" [ref=e136] [cursor=pointer]
+          - button "Review & Governance" [ref=e137] [cursor=pointer]
+          - button "Platform Architecture" [ref=e138] [cursor=pointer]
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - generic [ref=e141]:
+              - heading "Command Center" [level=1] [ref=e142]
+              - paragraph [ref=e143]: Live portfolio health and decision operations for the NexCredit underwriting desk. Every figure below is computed from the current application set.
+            - generic [ref=e144]:
+              - button "arrow-right Start application" [ref=e145] [cursor=pointer]:
+                - img "arrow-right" [ref=e146]
+                - generic [ref=e149]: Start application
+              - button "arrow-right Open evidence" [ref=e150] [cursor=pointer]:
+                - img "arrow-right" [ref=e151]
+                - generic [ref=e154]: Open evidence
+          - generic [ref=e155]:
+            - article [ref=e156]:
+              - generic [ref=e157]: LIVE
+              - generic [ref=e158]: Active portfolio
+              - strong [ref=e159]: "13"
+              - generic [ref=e160]: 0 in review
+            - article [ref=e164]:
+              - generic [ref=e165]: AUTO
+              - generic [ref=e166]: Auto-approved
+              - strong [ref=e167]: "10"
+              - generic [ref=e168]: +2 this week
+            - article [ref=e172]:
+              - generic [ref=e173]: QUEUE
+              - generic [ref=e174]: Awaiting review
+              - strong [ref=e175]: "0"
+              - generic [ref=e176]: 0 queued
+            - article [ref=e180]:
+              - generic [ref=e181]: MODEL
+              - generic [ref=e182]: Avg confidence
+              - strong [ref=e183]: 73%
+              - generic [ref=e184]: stable
+          - generic [ref=e189]:
+            - heading "Application volume" [level=3] [ref=e190]
+            - generic [ref=e191]: last 12 weeks
+          - generic [ref=e202]:
+            - generic [ref=e203]:
+              - generic [ref=e204]:
+                - generic [ref=e205]:
+                  - heading "Live decision stream" [level=3] [ref=e206]
+                  - generic [ref=e207]: auto-refreshing
+                - generic [ref=e209]:
+                  - generic [ref=e210]:
+                    - generic [ref=e212]:
+                      - generic [ref=e213]: Rohan Das
+                      - generic [ref=e214]: SALARIED · ₹6.0L
+                    - generic [ref=e215]:
+                      - generic [ref=e216]: APPROVED
+                      - generic [ref=e218]: just now
+                  - generic [ref=e219]:
+                    - generic [ref=e221]:
+                      - generic [ref=e222]: Kavya Nair
+                      - generic [ref=e223]: STUDENT · ₹1.1L
+                    - generic [ref=e224]:
+                      - generic [ref=e225]: REVIEW
+                      - generic [ref=e227]: 3s ago
+                  - generic [ref=e228]:
+                    - generic [ref=e230]:
+                      - generic [ref=e231]: Aarav Mehta
+                      - generic [ref=e232]: GIG_WORKER · ₹2.4L
+                    - generic [ref=e233]:
+                      - generic [ref=e234]: APPROVED
+                      - generic [ref=e236]: 6s ago
+                  - generic [ref=e237]:
+                    - generic [ref=e239]:
+                      - generic [ref=e240]: Ishita Roy
+                      - generic [ref=e241]: SELF_EMPLOYED · ₹3.2L
+                    - generic [ref=e242]:
+                      - generic [ref=e243]: REJECTED
+                      - generic [ref=e245]: 9s ago
+                  - generic [ref=e323]:
+                    - generic [ref=e325]:
+                      - generic [ref=e326]: Rohan Das
+                      - generic [ref=e327]: SALARIED · ₹6.0L
+                    - generic [ref=e328]:
+                      - generic [ref=e329]: APPROVED
+                      - generic [ref=e331]: 12s ago
+                  - generic [ref=e332]:
+                    - generic [ref=e334]:
+                      - generic [ref=e335]: Kavya Nair
+                      - generic [ref=e336]: STUDENT · ₹1.1L
+                    - generic [ref=e337]:
+                      - generic [ref=e338]: REVIEW
+                      - generic [ref=e340]: 15s ago
+              - generic [ref=e246]:
+                - generic [ref=e247]:
+                  - heading "Portfolio mix" [level=3] [ref=e249]
+                  - generic [ref=e251]:
+                    - img [ref=e252]:
+                      - generic [ref=e257]: "10"
+                      - generic [ref=e258]: TOTAL
+                    - generic [ref=e259]:
+                      - generic [ref=e260]:
+                        - text: Approved
+                        - generic [ref=e262]: "10"
+                      - generic [ref=e263]:
+                        - text: In review
+                        - generic [ref=e265]: "0"
+                      - generic [ref=e266]:
+                        - text: Rejected
+                        - generic [ref=e268]: "0"
+                - generic [ref=e269]:
+                  - heading "Inclusion impact" [level=3] [ref=e271]
+                  - generic [ref=e272]:
+                    - generic [ref=e273]:
+                      - generic [ref=e274]: New-to-credit reached
+                      - generic [ref=e275]: "13"
+                      - generic [ref=e276]: applicants with no prior bureau file
+                    - generic [ref=e277]:
+                      - generic [ref=e278]: Auto-approved without bureau
+                      - generic [ref=e279]: "10"
+                      - generic [ref=e280]: instant inclusive decisions
+            - generic [ref=e281]:
+              - generic [ref=e282]:
+                - heading "Recent activity" [level=3] [ref=e283]
+                - generic [ref=e284]: audit ledger
+              - generic [ref=e286]:
+                - generic [ref=e287]:
+                  - generic [ref=e288]: ✓
+                  - generic [ref=e289]:
+                    - generic [ref=e290]: "Priya Sharma — APPROVED (Human review completed: Reviewer finalised…)"
+                    - generic [ref=e291]: 21/08/2026, 09:18:27
+                - generic [ref=e292]:
+                  - generic [ref=e293]: ✓
+                  - generic [ref=e294]:
+                    - generic [ref=e295]: "Demo Review Applicant — APPROVED (Human review completed: Demo reviewer veri…)"
+                    - generic [ref=e296]: 21/08/2026, 08:50:26
+                - generic [ref=e297]:
+                  - generic [ref=e298]: ⏱
+                  - generic [ref=e299]:
+                    - generic [ref=e300]: Demo Review Applicant — PENDING (Low alternative data scores indicate insuf…)
+                    - generic [ref=e301]: 21/08/2026, 08:50:26
+                - generic [ref=e302]:
+                  - generic [ref=e303]: ⏱
+                  - generic [ref=e304]:
+                    - generic [ref=e305]: Demo Review Applicant — PENDING (Low alternative data scores indicate insuf…)
+                    - generic [ref=e306]: 21/08/2026, 08:48:25
+                - generic [ref=e307]:
+                  - generic [ref=e308]: ✓
+                  - generic [ref=e309]:
+                    - generic [ref=e310]: Demo Applicant — APPROVED (Strong alternative data profile with consi…)
+                    - generic [ref=e311]: 21/08/2026, 08:48:10
+                - generic [ref=e312]:
+                  - generic [ref=e313]: ✓
+                  - generic [ref=e314]:
+                    - generic [ref=e315]: Ravi Kumar — APPROVED (Moderate alternative data indicators sugge…)
+                    - generic [ref=e316]: 21/08/2026, 07:23:00
+                - generic [ref=e317]:
+                  - generic [ref=e318]: ✓
+                  - generic [ref=e319]:
+                    - generic [ref=e320]: "Demo Ravi Kumar — APPROVED (Human review completed: Manual reviewer wo…)"
+                    - generic [ref=e321]: 21/08/2026, 01:35:31
+    - generic [ref=e322]: NexCredit AI · Synchrony Hackathon 2026
+  - dialog [ref=e342]:
+    - generic [ref=e344]:
+      - generic [ref=e345]:
+        - text: NEW APPLICATION
+        - heading "Credit application" [level=2] [ref=e346]
+        - paragraph [ref=e347]: Enter applicant details and alternative-data signals. NexCredit returns an explainable, reviewer-ready decision.
+      - generic [ref=e349]:
+        - generic [ref=e350]:
+          - heading "Applicant profile" [level=4] [ref=e351]
+          - generic [ref=e352]:
+            - generic [ref=e355]:
+              - generic "Applicant name" [ref=e357]: "* Applicant name"
+              - textbox "* Applicant name" [ref=e361]:
+                - /placeholder: Ravi Kumar
+                - text: Interview Demo
+            - generic [ref=e364]:
+              - generic "Age" [ref=e366]: "* Age"
+              - generic [ref=e370]:
+                - generic [ref=e371]:
+                  - button "Increase Value" [ref=e372] [cursor=pointer]:
+                    - img "up" [ref=e373]
+                  - button "Decrease Value" [ref=e376] [cursor=pointer]:
+                    - img "down" [ref=e377]
+                - spinbutton "* Age" [ref=e381]: "24"
+          - generic [ref=e382]:
+            - generic [ref=e385]:
+              - generic "Annual income (₹)" [ref=e387]: "* Annual income (₹)"
+              - generic [ref=e391]:
+                - generic [ref=e392]:
+                  - button "Increase Value" [ref=e393] [cursor=pointer]:
+                    - img "up" [ref=e394]
+                  - button "Decrease Value" [ref=e397] [cursor=pointer]:
+                    - img "down" [ref=e398]
+                - spinbutton "* Annual income (₹)" [ref=e402]: "450000"
+            - generic [ref=e405]:
+              - generic "Employment type" [ref=e407]: "* Employment type"
+              - generic [ref=e412] [cursor=pointer]:
+                - combobox "* Employment type" [ref=e414]
+                - generic "SALARIED" [ref=e415]
+        - generic [ref=e416]:
+          - heading "Alternative-data signals" [level=4] [ref=e417]
+          - generic [ref=e418]:
+            - generic [ref=e421]:
+              - generic "Mobile usage" [ref=e423]: "* Mobile usage"
+              - generic [ref=e427]:
+                - generic [ref=e428]:
+                  - button "Increase Value" [ref=e429] [cursor=pointer]:
+                    - img "up" [ref=e430]
+                  - button "Decrease Value" [ref=e433] [cursor=pointer]:
+                    - img "down" [ref=e434]
+                - spinbutton "* Mobile usage" [ref=e438]: "78"
+            - generic [ref=e441]:
+              - generic "Transactions" [ref=e443]: "* Transactions"
+              - generic [ref=e447]:
+                - generic [ref=e448]:
+                  - button "Increase Value" [ref=e449] [cursor=pointer]:
+                    - img "up" [ref=e450]
+                  - button "Decrease Value" [ref=e453] [cursor=pointer]:
+                    - img "down" [ref=e454]
+                - spinbutton "* Transactions" [ref=e458]: "74"
+            - generic [ref=e461]:
+              - generic "Social signals" [ref=e463]: "* Social signals"
+              - generic [ref=e467]:
+                - generic [ref=e468]:
+                  - button "Increase Value" [ref=e469] [cursor=pointer]:
+                    - img "up" [ref=e470]
+                  - button "Decrease Value" [ref=e473] [cursor=pointer]:
+                    - img "down" [ref=e474]
+                - spinbutton "* Social signals" [ref=e478]: "66"
+          - generic [ref=e479]:
+            - generic [ref=e480]:
+              - generic [ref=e481]: Mobile
+              - progressbar [ref=e482]
+            - generic [ref=e485]:
+              - generic [ref=e486]: Transactions
+              - progressbar [ref=e487]
+            - generic [ref=e490]:
+              - generic [ref=e491]: Social
+              - progressbar [ref=e492]
+        - generic [ref=e495]:
+          - heading "Supporting evidence" [level=4] [ref=e496]
+          - generic [ref=e498]:
+            - generic "Supporting document (optional)" [ref=e500]
+            - button [ref=e506]:
+              - button "upload Attach income proof or bank statement" [ref=e507] [cursor=pointer]:
+                - img "upload" [ref=e508]
+                - generic [ref=e511]: Attach income proof or bank statement
+        - region "Underwriting decision pipeline" [ref=e517]:
+          - generic [ref=e518]: DETERMINISTIC TRACE
+          - heading "Underwriting decision pipeline" [level=3] [ref=e519]
+          - paragraph [ref=e520]: Each stage is visible and reproducible; the final decision is produced by the transparent rules service, not an autonomous agent.
+          - generic [ref=e521]:
+            - img "loading" [ref=e523]
+            - generic [ref=e526]:
+              - strong [ref=e527]: Creditworthiness stage
+              - generic [ref=e528]: Evaluating alternative-data strength…
+            - progressbar [ref=e529]
+          - generic [ref=e533]:
+            - generic [ref=e534]: "2"
+            - generic [ref=e535]:
+              - strong [ref=e536]: Fraud screening stage
+              - generic [ref=e537]: Waiting
+            - progressbar [ref=e538]
+          - generic [ref=e541]:
+            - generic [ref=e542]: "3"
+            - generic [ref=e543]:
+              - strong [ref=e544]: Decision engine
+              - generic [ref=e545]: Waiting
+            - progressbar [ref=e546]
+          - generic [ref=e549]:
+            - generic [ref=e550]: "4"
+            - generic [ref=e551]:
+              - strong [ref=e552]: Explanation stage
+              - generic [ref=e553]: Waiting
+            - progressbar [ref=e554]
+          - generic [ref=e557]:
+            - generic [ref=e558]: "5"
+            - generic [ref=e559]:
+              - strong [ref=e560]: Audit stage
+              - generic [ref=e561]: Waiting
+            - progressbar [ref=e562]
+        - button "loading Analyze application" [active] [ref=e565]:
+          - img "loading" [ref=e567]
+          - generic [ref=e513]: Analyze application

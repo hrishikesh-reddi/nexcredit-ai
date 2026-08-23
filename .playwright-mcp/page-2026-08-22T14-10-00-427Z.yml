@@ -1,0 +1,147 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e8]:
+        - generic [ref=e9]:
+          - link "BioCatch home" [ref=e10] [cursor=pointer]:
+            - /url: https://www.biocatch.com/
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - link "Blog" [ref=e42] [cursor=pointer]:
+                - /url: https://www.biocatch.com/blog
+              - button "Open language selector" [ref=e43] [cursor=pointer]
+            - navigation "Primary navigation" [ref=e49]:
+              - link "Why BioCatch" [ref=e50] [cursor=pointer]:
+                - /url: https://www.biocatch.com/why-biocatch
+              - button "Platform" [ref=e52] [cursor=pointer]
+              - button "Use Cases" [ref=e58] [cursor=pointer]
+              - button "Resources" [ref=e64] [cursor=pointer]
+              - button "Company" [ref=e70] [cursor=pointer]
+      - main [ref=e75]:
+        - generic [ref=e86]:
+          - heading [level=1] [ref=e87]:
+            - img "BioCatch Connect Logo" [ref=e88]
+          - paragraph [ref=e89]:
+            - generic [ref=e90]: A next-generation fraud and financial-crime prevention platform, BioCatch Connect is purpose-built to detect and prevent account opening and account takeover fraud, digital banking scams (authorized fraud), and financial crimes targeting customers of the world’s most innovative and trusted retail banks.
+          - paragraph [ref=e93]:
+            - link [ref=e100] [cursor=pointer]:
+              - /url: https://www.biocatch.com/cs/c/?cta_guid=62001c0b-c8f2-4d7a-bd3b-a6dbadece552&signature=AAH58kFoM_RlNNYqGTvkVwWTgiYh6TbFhQ&portal_id=1828513&pageId=125669720970&placement_guid=971d25cf-a65b-4445-a841-9cdb0a3390f7&click=1bdcc955-559a-4629-ae42-7105f1f1a05c&redirect_url=APefjpE1cpjJ3_piMWUmq5m4xIJYZC4xQdd0X0zh2b1IMKunxA3NStfzp6hKPk9FUsyOEZUoUO5sUgqxNyPKalQt7wcmv72j_3MycZawUsrlPE3t0dMHMiyC2wQRFIQXLhWLhFwNPP92Zwg2vraepua8sHgNf-PDj3mP2jz32vJ4yo8GXySi3-M&hsutk=&canon=https%3A%2F%2Fwww.biocatch.com%2Fbiocatch-connect&ts=1787407795346
+              - strong [ref=e101]: View solution brief
+          - paragraph [ref=e102]
+        - generic [ref=e111]:
+          - generic [ref=e114]:
+            - paragraph [ref=e115]
+            - paragraph [ref=e116]:
+              - strong [ref=e119]: We fight to make banking safer every day.
+            - paragraph [ref=e120]:
+              - generic [ref=e121]: Helping protect your customers from becoming victims of fraud is why we exist. It’s what we do, and it’s why we’ve built BioCatch Connect. This platform enables you to protect each and every one of your customers, every day, on every device, no matter where they travel or how they bank.
+            - paragraph [ref=e122]
+          - generic [ref=e125]:
+            - iframe [ref=e129]:
+              - generic [ref=f1e3]:
+                - img "Stay_Safe_with_BioCatch" [ref=f1e4]
+                - button "Play video" [ref=f1e5] [cursor=pointer]
+            - paragraph [ref=e130]
+        - generic [ref=e139]:
+          - heading "BioCatch Align and Fraud Telemetry Collection" [level=1] [ref=e140]
+          - paragraph [ref=e141]:
+            - generic [ref=e142]:
+              - text: Thousands of application, behavioral, device, network, and transactional signals are collected from each of the billions of user sessions we analyze every month via BioCatch Align
+              - superscript [ref=e144]: TM
+              - text: . This invaluable amount of data lives at the core of all our solutions, enabling their unique ability to differentiate between good and bad, and provide accurate risk assessments. The fraud telemetry collection effortlessly scales to tens of millions of users, matching the needs of any customer, located anywhere on earth.
+    - generic [ref=e155]:
+      - heading "Continuous Behavioral Sequencing" [level=1] [ref=e156]
+      - paragraph [ref=e157]:
+        - generic [ref=e158]: Continuous Behavioral Sequencing leverages advanced cognitive science and both machine learning and deep learning algorithms to parse, match, synthesize, and score every element of data collected by BioCatch Align. Anomalies and deviations in a user’s normal behavior — such as abnormal navigation, the presence of remote access tools, unusual typing cadence, an active phone call, and thousands of other indicators — synthesized with application, device, network and transactional signals differentiate between a genuine user, a fraudster, or a known user under duress. Individuals’ needs and behavioral changes are reflected in our analysis, based on the contextual data, and utilized by BioCatch’s fraud and financial crime solutions to produce highly-accurate recognition of users and their and intent by identifying behaviors as legitimate, permanent, or fraudulent.
+  - generic [ref=e166]:
+    - heading "Predictive fraud and financial crime intelligence" [level=1] [ref=e167]
+    - paragraph [ref=e168]: As BioCatch continues to innovate and build the latest predictive fraud and financial crime models, we see data collection, consumption, and output sharing as top priorities. Once the appropriate data has been collected and synthesized by BioCatch Align and Continuous Behavioral Sequencing engine, it is fed to the appropriate solution analysis modules to generate outputs, such as threat indicators, risk and genuine factors, risk scores, and unique data points. These outputs are then visualized and made interactive with our advanced investigation tools.
+  - generic [ref=e180]:
+    - heading "Investigative analysis and visualization tooling" [level=1] [ref=e181]
+    - paragraph [ref=e183]:
+      - generic [ref=e184]: Real-time decision making is paramount to seeing and stopping fraud and financial crime before funds are transferred, and customers become victims. Powered by our unique threat indicators, risk and genuine factors, risk scores, and unique data points, BioCatch investigative analysis and visualization tools such BioCatch Link, Analyst Station, Rule Manager, Insights Query Engine, and Push API allow fraud, financial crime, and cyber teams to quickly identify, investigate, and act to stop fraud.
+    - paragraph [ref=e185]:
+      - img "BioCatch_PI_Icons" [ref=e187]
+    - paragraph [ref=e188]
+  - generic [ref=e197]:
+    - heading "BioCatch’s professional services and support" [level=2] [ref=e198]
+    - paragraph [ref=e200]:
+      - generic [ref=e201]: BioCatch’s professional services and support model is designed to deliver measurable value at every stage of engagement. Our global solutions team brings together top-tier experts who provide subject matter expertise, thought leadership, regional insights, and industry-best practices to drive positive business outcomes. Threat analysts, engagement managers, and solutions engineers partner with customers to apply multi-threaded fraud telemetry and behavioral intelligence expertise at no additional cost. From fraud consulting and model optimization to integration support and strategic guidance, each role helps ensure maximum solution performance and ongoing operational excellence.
+    - paragraph [ref=e202]:
+      - link [ref=e205] [cursor=pointer]:
+        - /url: https://www.biocatch.com/cs/c/?cta_guid=e7266fcb-1118-4e2d-9f9b-aace776b162c&signature=AAH58kEpB4hKzEn2YtDaRML61-4DcaqDMQ&portal_id=1828513&pageId=125669720970&placement_guid=0e859e3e-b16b-4d94-b31c-a38c00d8d9f5&click=cebc087e-ca44-4f9f-978c-d3e4b52272d0&redirect_url=APefjpEwREd6AvtoWw4F180TKKbkKMhFAAn4OL6HkAGqVdUdj7RtVbeagqWD4LNKp5IqA8k-cEiXuZtmhGeCZAH721F69VkVFJ8xk093BWw4rnDv4XHm3quOvu3BFzm55JKCdcOVovNOh1POKYQ6yMRdhSTN2S1dHg26cGDeTT2qrB2WJsZDgF4&hsutk=&canon=https%3A%2F%2Fwww.biocatch.com%2Fbiocatch-connect&ts=1787407795372
+        - strong [ref=e206]: Learn more
+  - generic [ref=e214]:
+    - heading "Together, we can prevent fraud and financial crime." [level=1] [ref=e215]
+    - paragraph [ref=e216]:
+      - generic [ref=e217]: Join our global advisors and fraud intelligence experts for a 30-minute deep dive into the latest tactics, techniques, and procedures (TTPs) now exploited by fraudsters in your country to scam your customers and harm your brand.
+    - paragraph [ref=e218]:
+      - link [ref=e223] [cursor=pointer]:
+        - /url: https://www.biocatch.com/cs/c/?cta_guid=ae4340c6-a734-47f1-b4b6-7dd326c98e19&signature=AAH58kFMGnLYpuarL5vmvWQLht4yBWPITQ&portal_id=1828513&pageId=125669720970&placement_guid=ca4a696b-f592-4bd2-97ba-8f5f1918ab13&click=8b97c100-0877-4d09-a3bc-12ab2a334f14&redirect_url=APefjpHogM8kUGG39XztMXRBceIvRCzYheOQzGUDoXcqVwlMmxP6I3fOxmKXi8k6L6WWqc50CRWD_vj1UCqxVK1VKsGMFVyEG7S47GC6o-4-jmr0qZRaZ07qPfNDkkLfkg5TCKQUg4Ls_2Vmny5EmeyTPQNzFYYGUA&hsutk=&canon=https%3A%2F%2Fwww.biocatch.com%2Fbiocatch-connect&ts=1787407795393
+        - paragraph [ref=e224]:
+          - strong [ref=e225]: Talk to a global advisor
+  - contentinfo [ref=e227]:
+    - generic [ref=e228]:
+      - generic [ref=e229]:
+        - generic [ref=e230]:
+          - paragraph [ref=e263]:
+            - text: Call us at
+            - link "+1 917 338 6544" [ref=e264] [cursor=pointer]:
+              - /url: tel:19173386544
+            - text: ","
+            - link "email us" [ref=e265] [cursor=pointer]:
+              - /url: mailto:info@biocatch.com
+            - text: ", or"
+            - link "request a briefing" [ref=e266] [cursor=pointer]:
+              - /url: https://www.biocatch.com/fraud-intelligence-briefing?__hstc=151929382.007c948827ed5b51d31066d13db048d0.1684183528512.1706712382881.1706823397067.157&__hssc=151929382.1.1706823397067&__hsfp=3828489826&hsutk=007c948827ed5b51d31066d13db048d0&contentType=standard-page
+            - text: .
+          - navigation "Navigation Menu" [ref=e269]:
+            - menu [ref=e270]:
+              - menuitem "Contact" [ref=e271] [cursor=pointer]
+              - menu [ref=e272]:
+                - menuitem "Contact Us" [ref=e273] [cursor=pointer]
+                - menuitem "Support" [ref=e274] [cursor=pointer]
+        - navigation "Navigation Menu" [ref=e276]:
+          - menu [ref=e277]:
+            - menuitem "Explore" [ref=e278] [cursor=pointer]
+            - menu [ref=e279]:
+              - menuitem "BioCatch Connect" [ref=e280] [cursor=pointer]
+              - menuitem "Why BioCatch" [ref=e281] [cursor=pointer]
+              - menuitem "Investigative Analysis & Visualization Tooling" [ref=e282] [cursor=pointer]
+            - menuitem "Solutions" [ref=e283] [cursor=pointer]
+            - menu [ref=e284]:
+              - menuitem "Account Opening Protection" [ref=e285] [cursor=pointer]
+              - menuitem "Account Takeover Protection" [ref=e286] [cursor=pointer]
+              - menuitem [ref=e287] [cursor=pointer]:
+                - text: DeviceIQ and DeviceIQ
+                - superscript [ref=e288]: ai
+              - menuitem "Mule Account Detection" [ref=e289] [cursor=pointer]
+              - menuitem "Social Engineering Scam Detection" [ref=e290] [cursor=pointer]
+              - menuitem "Strong Customer Authentication" [ref=e291] [cursor=pointer]
+            - menuitem "Company" [ref=e292] [cursor=pointer]
+            - menu [ref=e293]:
+              - menuitem "About Us" [ref=e294] [cursor=pointer]
+              - menuitem "Careers" [ref=e295] [cursor=pointer]
+              - menuitem "Events" [ref=e296] [cursor=pointer]
+              - menuitem "News" [ref=e297] [cursor=pointer]
+            - menuitem "Resources" [ref=e298] [cursor=pointer]
+            - menu [ref=e299]:
+              - menuitem "Resource Center" [ref=e300] [cursor=pointer]
+              - menuitem "Blog" [ref=e301] [cursor=pointer]
+      - generic [ref=e302]:
+        - generic [ref=e303]:
+          - generic [ref=e304]: © 2026 BioCatch.
+          - navigation "Navigation Menu" [ref=e306]:
+            - menu [ref=e307]:
+              - menuitem "Terms & Conditions" [ref=e308] [cursor=pointer]
+              - menuitem "Privacy Policy" [ref=e309] [cursor=pointer]
+              - menuitem "Candidate Privacy Notice" [ref=e310] [cursor=pointer]
+              - menuitem "Contact Us" [ref=e311] [cursor=pointer]
+              - menuitem "Modern Slavery Statement" [ref=e312] [cursor=pointer]
+        - generic [ref=e313]:
+          - link [ref=e314] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/biocatch/
+          - link [ref=e320] [cursor=pointer]:
+            - /url: https://twitter.com/biocatch
+  - iframe [ref=e323]:
+    

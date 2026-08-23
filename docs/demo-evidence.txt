@@ -1,0 +1,12 @@
+NexCredit AI demonstration evidence
+
+Applicant segment: New-to-Credit gig worker
+Review period: January to June 2026
+Verified annual income: INR 480,000
+Average monthly credits: INR 40,000
+Income stability: six consecutive months of recurring platform settlements
+Transaction behaviour: regular utility payments with no returned payments
+Mobile usage: stable device tenure and consistent account access pattern
+Purpose: alternative data underwriting demonstration only
+
+This synthetic document contains no real customer or personally identifiable information.

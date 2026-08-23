@@ -1,0 +1,233 @@
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - link "Nova Credit" [ref=e7] [cursor=pointer]:
+      - /url: /
+    - link "Skip navigation":
+      - /url: "#main-content"
+    - tablist [ref=e10]:
+      - generic [ref=e11]:
+        - tab "Products" [ref=e12] [cursor=pointer]
+        - tabpanel "Products" [ref=e13]:
+          - navigation "products" [ref=e14]:
+            - list [ref=e15]:
+              - listitem [ref=e16] [cursor=pointer]:
+                - button "Our Products" [ref=e17]
+              - listitem [ref=e20] [cursor=pointer]:
+                - button "Our Platform" [ref=e21]
+              - listitem [ref=e24]:
+                - link "Request a Meeting" [ref=e25] [cursor=pointer]:
+                  - /url: /connect-nova-credit
+      - tab "Solutions" [ref=e28] [cursor=pointer]
+      - tab "Resources" [ref=e30] [cursor=pointer]
+    - listitem [ref=e32] [cursor=pointer]:
+      - button "Contact Us" [ref=e33]
+  - main [ref=e36]:
+    - generic [ref=e40]:
+      - heading "The Power to Underwrite Anyone" [level=1] [ref=e41]
+      - paragraph [ref=e43]: Leverage a single platform to access unified consumer credit data from multiple sources, including international credit bureaus, bank data aggregators, payroll systems, and automated document data.
+      - generic [ref=e44]:
+        - link "Request a Meeting" [ref=e46] [cursor=pointer]:
+          - /url: "#contact-form"
+        - link "Visit Help Center" [ref=e52] [cursor=pointer]:
+          - /url: https://novacreditsupport.zendesk.com/hc/en-us
+    - generic [ref=e63]:
+      - paragraph [ref=e64]: "Trusted by:"
+      - generic [ref=e65]:
+        - img "MoneyLion Logo" [ref=e66]
+        - img "Scotiabank Logo" [ref=e67]
+        - img "Sallie Mae Logo" [ref=e68]
+    - generic [ref=e70]:
+      - heading "More Ways to" [level=3] [ref=e74]
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - heading "Reach New Consumers" [level=3] [ref=e78]
+          - paragraph [ref=e79]: Access trusted, consumer-permissioned financial data to unlock new consumer segments — all while maintaining your risk profile.
+          - link "Learn How" [ref=e81] [cursor=pointer]:
+            - /url: /solutions-by-use-case#new-customers
+        - generic [ref=e86]:
+          - heading "Integrate Multiple Data Sources" [level=3] [ref=e87]
+          - paragraph [ref=e88]: Leverage data from multiple sources, including credit bureaus, banks, payroll systems, and documents to increase coverage and uptime while optimizing for latency.
+          - link "Learn How" [ref=e90] [cursor=pointer]:
+            - /url: /solutions-by-use-case#orchestrate-data
+        - generic [ref=e95]:
+          - heading "Reduce Portfolio Risk" [level=3] [ref=e96]
+          - paragraph [ref=e97]: Prevent fraud with source-based data and improve risk assessments with true income and more accurate debt-to-income ratios.
+          - link "Learn How" [ref=e99] [cursor=pointer]:
+            - /url: /solutions-by-use-case#portfolio-risk
+        - generic [ref=e104]:
+          - heading "Automate Income Verification" [level=3] [ref=e105]
+          - paragraph [ref=e106]: Automate income verification processes with more data sources to increase coverage, improve completion rates, and reduce fraud.
+          - link "Learn How" [ref=e108] [cursor=pointer]:
+            - /url: /solutions-by-use-case#income-verification
+    - generic [ref=e117]:
+      - heading "Four Products, One Platform" [level=3] [ref=e119]
+      - generic [ref=e120]:
+        - generic [ref=e122]:
+          - heading "Cash Atlas™" [level=4] [ref=e123]
+          - paragraph [ref=e124]: Improve your credit risk assessment using bank transaction data
+        - generic [ref=e126]:
+          - heading "Income Navigator" [level=4] [ref=e127]
+          - paragraph [ref=e128]: Automate income verification with higher completion rate, reduced fraud, and increased coverage
+        - generic [ref=e130]:
+          - heading "Credit Passport®" [level=4] [ref=e131]
+          - paragraph [ref=e132]: Quickly approve qualified newcomers for mainstream credit for better product terms
+        - generic [ref=e134]:
+          - heading "Eligibility Compass" [level=4] [ref=e135]
+          - paragraph [ref=e136]: Shorten income and asset verification from weeks to minutes
+        - generic [ref=e138]:
+          - heading "Nova Credit Platform" [level=4] [ref=e139]
+          - paragraph [ref=e140]: Scale consumer credit data onboarding and underwriting seamlessly within a single platform
+    - generic [ref=e146]:
+      - heading "Why Businesses Choose Nova Credit" [level=3] [ref=e148]
+      - generic [ref=e149]:
+        - generic [ref=e150]:
+          - paragraph [ref=e151]: "26"
+          - paragraph [ref=e152]: Data sources across traditional credit bureau, bank data aggregators, payroll systems, and others.
+        - generic [ref=e153]:
+          - paragraph [ref=e154]: 7k+
+          - paragraph [ref=e155]: Serving more than seven thousand customers worldwide.
+        - generic [ref=e156]:
+          - paragraph [ref=e157]: $10Bn+
+          - paragraph [ref=e158]: Credit value unlocked for consumers.
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - heading "Consumer Reporting Agency (CRA) Compliance" [level=4] [ref=e161]
+          - generic [ref=e162]:
+            - paragraph [ref=e164]: Nova Credit operates globally as a consumer reporting agency under the Fair Credit Reporting Act (FCRA) in the U.S. We gather consumer-permissioned data through integrations with international credit bureaus and domestic checking and savings account data aggregators. Our clients can approve, decline, and send adverse action notices, while we manage disputes.
+            - separator [ref=e165]
+            - button "Read More +" [ref=e166] [cursor=pointer]:
+              - generic [ref=e167]: Read More
+              - generic [ref=e168]: +
+        - generic [ref=e169]:
+          - heading "Expert Analytics & Guidance" [level=4] [ref=e170]
+          - generic [ref=e171]:
+            - paragraph [ref=e173]: Nova Credit is led by a team of experts in credit risk and lending. Our dedicated services team delivers trusted integration services, strategic advice, and ongoing support.
+            - separator [ref=e174]
+            - button "Read More +" [ref=e175] [cursor=pointer]:
+              - generic [ref=e176]: Read More
+              - generic [ref=e177]: +
+        - generic [ref=e178]:
+          - heading "Speed to Go Live" [level=4] [ref=e179]
+          - generic [ref=e180]:
+            - paragraph [ref=e182]: Avoid resource intensive experimental projects. With Nova Credit, you can implement cash flow underwriting or international credit data 9–12 months faster than in-house alternatives.
+            - separator [ref=e183]
+            - button "Read More +" [ref=e184] [cursor=pointer]:
+              - generic [ref=e185]: Read More
+              - generic [ref=e186]: +
+        - generic [ref=e187]:
+          - heading "Purpose-Built for Credit Risk" [level=4] [ref=e188]
+          - generic [ref=e189]:
+            - paragraph [ref=e191]: Our solutions are designed to predict creditworthiness by transforming new data sources into proven risk insights.
+            - separator [ref=e192]
+            - button "Read More +" [ref=e193] [cursor=pointer]:
+              - generic [ref=e194]: Read More
+              - generic [ref=e195]: +
+    - generic [ref=e200]:
+      - 'link "Whitepaper Report Cash Flow Underwriting: A Practical Credit Risk Implementation Guide for Lenders Leading lenders are already using cash flow data to transform their business through smarter pricing, market growth, and portfolio management. This report shows you exactly how to integrate cash flow analysis into your lending operations, with actionable insights backed by original research and industry expertise. Download Report" [ref=e201] [cursor=pointer]':
+        - /url: https://info.novacredit.com/cash-flow-underwriting-report2025
+        - generic [ref=e203]:
+          - paragraph [ref=e204]: Whitepaper Report
+          - 'heading "Cash Flow Underwriting: A Practical Credit Risk Implementation Guide for Lenders" [level=4] [ref=e205]'
+          - paragraph [ref=e206]: Leading lenders are already using cash flow data to transform their business through smarter pricing, market growth, and portfolio management. This report shows you exactly how to integrate cash flow analysis into your lending operations, with actionable insights backed by original research and industry expertise.
+          - generic [ref=e207]: Download Report
+      - link "Case study Creating a True Picture of Income Using Bank Transaction Data How SoFi leveraged Nova Credit to verify customer income with greater efficiency Read More" [ref=e211] [cursor=pointer]:
+        - /url: /corporate-blog/nova-credit-enables-sofi-to-verify-customer-income-through-bank-transaction
+        - generic [ref=e213]:
+          - paragraph [ref=e214]: Case study
+          - heading "Creating a True Picture of Income Using Bank Transaction Data" [level=4] [ref=e215]
+          - paragraph [ref=e216]: How SoFi leveraged Nova Credit to verify customer income with greater efficiency
+          - generic [ref=e217]: Read More
+    - generic [ref=e227]:
+      - heading "Cash Flow Intelligence Summit" [level=4] [ref=e228]
+      - paragraph [ref=e229]: Accelerating the adoption of cash flow data in lending
+      - paragraph [ref=e231]: A first-of-its-kind executive summit dedicated to exploring and advancing the practice of cash flow intelligence in consumer lending. Industry leaders will share actionable use cases, explore regulatory changes, and discuss the evolution of open banking.
+      - link "Learn More" [ref=e234] [cursor=pointer]:
+        - /url: https://www.cashflowunderwritingsummit.com/
+    - generic [ref=e241]:
+      - heading "Integrate Nova Credit's Solutions Into Your Business" [level=3] [ref=e242]
+      - generic [ref=e243]:
+        - paragraph [ref=e244]: Ready to integrate Nova Credit's solutions into your lending, property management, or financial services business?
+        - paragraph [ref=e245]: Tell us about your company and use case, and our team will reach out to discuss how we can help.
+  - contentinfo [ref=e247]:
+    - generic [ref=e248]:
+      - link "Nova Credit" [ref=e250] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e253]:
+        - generic [ref=e254]:
+          - heading "Products & Solutions" [level=4] [ref=e255]
+          - separator [ref=e256]
+          - generic [ref=e258]:
+            - link "Credit Passport®" [ref=e259] [cursor=pointer]:
+              - /url: /credit-passport
+            - link "Cash Atlas™" [ref=e260] [cursor=pointer]:
+              - /url: /cash-atlas
+            - link "Income Navigator" [ref=e261] [cursor=pointer]:
+              - /url: /income-navigator
+            - link "Eligibility Compass" [ref=e262] [cursor=pointer]:
+              - /url: /eligibility-compass
+            - link "Platform" [ref=e263] [cursor=pointer]:
+              - /url: /platform
+            - link "Use Cases" [ref=e264] [cursor=pointer]:
+              - /url: /solutions-by-use-case
+            - link "Industries" [ref=e265] [cursor=pointer]:
+              - /url: /solutions-by-industry
+        - generic [ref=e266]:
+          - heading "Blog" [level=4] [ref=e267]
+          - separator [ref=e268]
+          - generic [ref=e269]:
+            - generic [ref=e270]:
+              - 'link "The Power to Underwrite Anyone: Introducing the Nova Credit Platform" [ref=e271] [cursor=pointer]':
+                - /url: /corporate-blog/the-power-to-underwrite-anyone-introducing-the-nova-credit-platform
+              - 'link "Introducing the NovaScore Cash Flow: the Future of Consumer Credit Risk Scores" [ref=e272] [cursor=pointer]':
+                - /url: /corporate-blog/introducing-the-novascore-cash-flow-the-future-of-consumer-credit-risk
+            - link "View all resources" [ref=e274] [cursor=pointer]:
+              - /url: /corporate-blog
+        - generic [ref=e275]:
+          - heading "Resources" [level=4] [ref=e276]
+          - separator [ref=e277]
+          - generic [ref=e279]:
+            - link "Company" [ref=e280] [cursor=pointer]:
+              - /url: /company
+            - link "Careers" [ref=e281] [cursor=pointer]:
+              - /url: /careers
+            - link "Get Support" [ref=e282] [cursor=pointer]:
+              - /url: https://novacredit.com/contact
+            - link "Help Center" [ref=e283] [cursor=pointer]:
+              - /url: https://novacreditsupport.zendesk.com/hc/en-us
+            - link "Disputes" [ref=e284] [cursor=pointer]:
+              - /url: /disputes
+      - generic [ref=e285]:
+        - generic [ref=e286]:
+          - link [ref=e287] [cursor=pointer]:
+            - /url: https://www.instagram.com/novacredit/
+          - link [ref=e292] [cursor=pointer]:
+            - /url: https://twitter.com/nova_credit
+          - link [ref=e295] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/nova-credit-inc./
+          - link [ref=e298] [cursor=pointer]:
+            - /url: https://www.facebook.com/novacredit
+        - generic [ref=e301]: © Copyright 2025 Nova Credit Inc.
+        - navigation [ref=e302]:
+          - list [ref=e303]:
+            - listitem [ref=e304]:
+              - link "Terms of service" [ref=e305] [cursor=pointer]:
+                - /url: /terms
+            - listitem [ref=e306]:
+              - link "Privacy policy" [ref=e307] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e308]:
+              - link "Cookie policy" [ref=e309] [cursor=pointer]:
+                - /url: /cookie-policy
+  - generic [ref=e310]:
+    - paragraph [ref=e311]:
+      - text: "Recent game-changing announcements:"
+      - link "Chase" [ref=e312] [cursor=pointer]:
+        - /url: https://www.novacredit.com/corporate-blog/nova-credit-cash-flow-solutions-to-be-utilized-by-chase
+      - text: and
+      - link "PayPal" [ref=e313] [cursor=pointer]:
+        - /url: https://www.novacredit.com/corporate-blog/paypal-selects-nova-credit-to-power-cash-flow-underwriting
+      - text: ", and"
+      - link "Yardi" [ref=e314] [cursor=pointer]:
+        - /url: https://www.novacredit.com/corporate-blog/yardi-embeds-nova-credits-cash-atlas-to-approve-credit-invisible
+      - text: choose Nova Credit. Join Our Credit Innovation Journey.
+    - button [ref=e315] [cursor=pointer]

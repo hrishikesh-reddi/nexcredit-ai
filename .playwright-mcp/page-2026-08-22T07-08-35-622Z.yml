@@ -1,0 +1,94 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img "safety-certificate" [ref=e6]
+      - text: NexCredit AI
+    - navigation [ref=e9]:
+      - button "Overview" [ref=e10] [cursor=pointer]
+      - button "Live workbench" [ref=e12] [cursor=pointer]
+    - button "Start an application arrow-right" [ref=e14] [cursor=pointer]:
+      - generic [ref=e15]: Start an application
+      - img "arrow-right" [ref=e16]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - text: SYNCHRONY HACKATHON · PROBLEM STATEMENT 3
+        - heading [level=1] [ref=e22]:
+          - text: Credit decisionswith
+          - emphasis [ref=e23]: context.
+        - paragraph [ref=e24]: NexCredit helps New-to-Credit and thin-file applicants get a fairer path forward. It combines consented alternative-data signals, a transparent underwriting policy, and accountable human review instead of a missing-score rejection.
+        - generic [ref=e25]:
+          - button "Open live workbench arrow-right" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: Open live workbench
+            - img "arrow-right" [ref=e28]
+          - button "Run a sample application" [ref=e31] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "check-circle" [ref=e34]
+          - text: Explainable ·
+          - img "check-circle" [ref=e37]
+          - text: Human review ·
+          - img "check-circle" [ref=e40]
+          - text: Audit-ready
+      - complementary [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - heading "Sample decision" [level=3] [ref=e46]
+            - generic [ref=e47]: New-to-Credit profile
+          - generic [ref=e48]:
+            - generic [ref=e49]: Aarav Mehta
+            - generic [ref=e50]: Gig worker · ₹2.4L / yr
+            - generic [ref=e51]: Routed to review
+            - generic [ref=e54]:
+              - generic [ref=e55]:
+                - generic [ref=e56]: Mobile
+                - generic [ref=e59]: "72"
+              - generic [ref=e60]:
+                - generic [ref=e61]: Transactions
+                - generic [ref=e64]: "64"
+              - generic [ref=e65]:
+                - generic [ref=e66]: Social
+                - generic [ref=e69]: "58"
+            - text: Confidence 92% · fraud risk LOW
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - text: THE PROBLEM
+        - heading "Thin-file applicants deserve more than a missing-score rejection." [level=2] [ref=e73]
+      - paragraph [ref=e74]: Traditional bureau models often have no data on young earners, gig workers, and first-time applicants. NexCredit makes the decision path visible, uses consented prototype signals, and refers uncertain cases to a human underwriter rather than guessing.
+    - generic [ref=e75]:
+      - article [ref=e76]:
+        - heading "Contextual underwriting" [level=3] [ref=e77]
+        - paragraph [ref=e78]: Combine income, behaviour, and alternative data into one understandable decision profile.
+      - article [ref=e79]:
+        - heading "Responsible by design" [level=3] [ref=e80]
+        - paragraph [ref=e81]: Bias guardrails, confidence thresholds, reviewer escalation, and explicit reasoning.
+      - article [ref=e82]:
+        - heading "Evidence at every step" [level=3] [ref=e83]
+        - paragraph [ref=e84]: Decision traces and audit history make each workflow event inspectable.
+    - generic [ref=e85]:
+      - text: HOW IT WORKS
+      - heading "From signal to accountable action." [level=2] [ref=e86]
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - generic [ref=e89]: "1"
+          - heading "Consent-led intake" [level=4] [ref=e90]
+          - paragraph [ref=e91]: The application captures income, employment type, and three alternative-data indicators.
+        - generic [ref=e92]:
+          - generic [ref=e93]: "2"
+          - heading "Decisioning API" [level=4] [ref=e94]
+          - paragraph [ref=e95]: Spring Boot applies a transparent underwriting policy to return a decision, confidence, and fraud label.
+        - generic [ref=e96]:
+          - generic [ref=e97]: "3"
+          - heading "Guardrails & review" [level=4] [ref=e98]
+          - paragraph [ref=e99]: Low-confidence or high-risk outcomes route to a reviewer, not a false certainty.
+        - generic [ref=e100]:
+          - generic [ref=e101]: "4"
+          - heading "Evidence & accountability" [level=4] [ref=e102]
+          - paragraph [ref=e103]: PostgreSQL keeps the application and its decision history for audit.
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - heading "See the full underwriting workflow." [level=2] [ref=e106]
+        - paragraph [ref=e107]: Open the portfolio, review a case, and watch the audit trail update.
+      - button "Explore NexCredit arrow-right" [ref=e108] [cursor=pointer]:
+        - generic [ref=e109]: Explore NexCredit
+        - img "arrow-right" [ref=e110]
+  - generic [ref=e113]: NexCredit AI · Synchrony Hackathon 2026

@@ -1,0 +1,263 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e118]:
+    - generic [ref=f1e119]:
+      - generic [ref=f1e120]:
+        - button "NexCredit NexCredit AI" [ref=f1e121] [cursor=pointer]:
+          - generic [ref=f1e122]:
+            - img "NexCredit" [ref=f1e123]
+            - generic [ref=f1e127]:
+              - text: NexCredit
+              - generic [ref=f1e128]: AI
+        - generic [ref=f1e129]: CREDIT OPERATIONS
+      - button "file-search Search ⌘K" [ref=f1e131] [cursor=pointer]:
+        - img "file-search" [ref=f1e132]
+        - generic [ref=f1e135]: Search
+        - generic [ref=f1e136]: ⌘K
+    - main [ref=f1e137]:
+      - generic [ref=f1e138]:
+        - navigation "Workbench navigation" [ref=f1e139]:
+          - button "Command Center" [ref=f1e140] [cursor=pointer]
+          - button "Underwriting Studio" [active] [ref=f1e141] [cursor=pointer]
+          - button "Evidence Intelligence" [ref=f1e142] [cursor=pointer]
+          - button "Cash-flow Intelligence" [ref=f1e143] [cursor=pointer]
+          - button "Review & Governance" [ref=f1e144] [cursor=pointer]
+          - button "Strategy Lab" [ref=f1e145] [cursor=pointer]
+          - button "Platform Architecture" [ref=f1e146] [cursor=pointer]
+        - generic [ref=f1e432]:
+          - generic [ref=f1e434]:
+            - heading "Underwriting Studio" [level=1] [ref=f1e435]
+            - paragraph [ref=f1e436]: Review the portfolio, inspect any applicant, and run deterministic credit decisions. Select a row to preview details inline.
+          - generic [ref=f1e437]:
+            - generic [ref=f1e438]: Auto approval requires at least 70% model confidence and fraud risk Medium or lower
+            - generic [ref=f1e442]: Applicants under 21, declined cases escalate for human review
+            - generic [ref=f1e448]: Income mismatch above 30% between documents and stated income is referred for review
+          - generic [ref=f1e451]:
+            - generic [ref=f1e452]:
+              - generic [ref=f1e453]:
+                - generic [ref=f1e454]:
+                  - heading "Application portfolio" [level=3] [ref=f1e455]
+                  - generic [ref=f1e456]:
+                    - button "All" [ref=f1e457] [cursor=pointer]
+                    - button "Approved" [ref=f1e458] [cursor=pointer]
+                    - button "In review" [ref=f1e459] [cursor=pointer]
+                    - button "Rejected" [ref=f1e460] [cursor=pointer]
+                - table [ref=f1e468]:
+                  - rowgroup [ref=f1e470]:
+                    - row [ref=f1e471]:
+                      - columnheader "Applicant" [ref=f1e472]
+                      - columnheader "Type" [ref=f1e473]
+                      - columnheader "Income" [ref=f1e474]
+                      - columnheader "Decision" [ref=f1e475]
+                      - columnheader "Confidence" [ref=f1e476]
+                      - columnheader "Fraud" [ref=f1e477]
+                  - rowgroup [ref=f1e478]:
+                    - row [ref=f1e479] [cursor=pointer]:
+                      - cell [ref=f1e480]:
+                        - button "Vikram Rathore" [ref=f1e481]
+                      - cell "SALARIED" [ref=f1e482]
+                      - cell "₹10,00,000" [ref=f1e483]
+                      - cell "Approved" [ref=f1e484]
+                      - cell [ref=f1e487]:
+                        - strong [ref=f1e489]: 96%
+                      - cell "LOW" [ref=f1e490]
+                    - row [ref=f1e491] [cursor=pointer]:
+                      - cell [ref=f1e492]:
+                        - button "Aarav Mehta" [ref=f1e493]
+                      - cell "GIG WORKER" [ref=f1e494]
+                      - cell "₹5,40,000" [ref=f1e495]
+                      - cell "Approved" [ref=f1e496]
+                      - cell [ref=f1e499]:
+                        - strong [ref=f1e501]: 96%
+                      - cell "LOW" [ref=f1e502]
+                    - row [ref=f1e503] [cursor=pointer]:
+                      - cell [ref=f1e504]:
+                        - button "Meera Iyer" [ref=f1e505]
+                      - cell "SELF EMPLOYED" [ref=f1e506]
+                      - cell "₹3,00,000" [ref=f1e507]
+                      - cell "Approved" [ref=f1e508]
+                      - cell [ref=f1e511]:
+                        - strong [ref=f1e513]: 70%
+                      - cell "LOW" [ref=f1e514]
+              - generic [ref=f1e515]:
+                - heading "Decision distribution" [level=3] [ref=f1e517]
+                - generic [ref=f1e519]:
+                  - generic [ref=f1e520]:
+                    - img [ref=f1e521]:
+                      - generic [ref=f1e526]: "3"
+                      - generic [ref=f1e527]: TOTAL
+                    - generic [ref=f1e528]:
+                      - generic [ref=f1e529]:
+                        - text: Approved
+                        - generic [ref=f1e531]: "3"
+                      - generic [ref=f1e532]:
+                        - text: In review
+                        - generic [ref=f1e534]: "0"
+                      - generic [ref=f1e535]:
+                        - text: Rejected
+                        - generic [ref=f1e537]: "0"
+                  - application [ref=f1e541]:
+                    - generic [ref=f1e550]:
+                      - generic [ref=f1e551]: Approved
+                      - generic [ref=f1e553]: In Review
+                      - generic [ref=f1e555]: Rejected
+            - generic [ref=f1e557]:
+              - generic [ref=f1e558]:
+                - heading "Selected applicant" [level=3] [ref=f1e559]
+                - generic [ref=f1e560]: click a row
+              - generic [ref=f1e561]:
+                - paragraph [ref=f1e562]: Vikram Rathore
+                - paragraph [ref=f1e563]: SALARIED · ₹10,00,000 / yr · age 38
+                - generic [ref=f1e564]: Approved
+                - generic [ref=f1e567]:
+                  - text: MULTI-SIGNAL PROFILE
+                  - heading "Credit signal radar" [level=3] [ref=f1e568]
+                  - img "Credit signal radar chart" [ref=f1e569]:
+                    - generic [ref=f1e574]: Mobile
+                    - generic [ref=f1e576]: Transactions
+                    - generic [ref=f1e579]: Social
+                    - generic [ref=f1e582]: Income
+                    - generic [ref=f1e585]: Fraud resilience
+                  - paragraph [ref=f1e589]: Income stability and fraud resilience are transparent prototype-derived indicators.
+                - button "Open full decision drawer" [ref=f1e591] [cursor=pointer]
+          - generic [ref=f1e593]:
+            - generic [ref=f1e595]:
+              - heading "◉ Applicant Profile & Multi-Modal Data" [level=3] [ref=f1e596]:
+                - generic [ref=f1e597]: ◉
+                - text: Applicant Profile & Multi-Modal Data
+              - generic [ref=f1e598]: Composite view across traditional bureau and alternative data, live, not mock
+            - generic [ref=f1e599]:
+              - generic [ref=f1e600]:
+                - generic [ref=f1e601]: VR
+                - generic [ref=f1e602]:
+                  - generic [ref=f1e603]: Vikram Rathore
+                  - generic [ref=f1e604]: Age 38 · SALARIED · ID NTC-00039 · NexCredit Starter
+              - generic [ref=f1e605]:
+                - generic [ref=f1e606]:
+                  - generic [ref=f1e607]: Traditional Credit
+                  - generic [ref=f1e608]: Bureau FICO-style assessment
+                  - generic [ref=f1e610]:
+                    - generic [ref=f1e611]: "695"
+                    - generic [ref=f1e612]: Bureau score available
+                  - generic [ref=f1e613]: FICO-equivalent
+                  - generic [ref=f1e614]: Per bureau file on record
+                - generic [ref=f1e615]:
+                  - generic [ref=f1e616]: ML Prediction
+                  - generic [ref=f1e617]: Backend model inference output
+                  - generic [ref=f1e619]:
+                    - generic [ref=f1e620]: 4.0%
+                    - generic [ref=f1e621]: DEFAULT PROB.
+                  - generic [ref=f1e622]: Predicted Default Probability
+                  - generic [ref=f1e623]: "Model confidence: 96%"
+                  - generic [ref=f1e624]: APPROVED
+                - generic [ref=f1e626]:
+                  - generic [ref=f1e627]: Alternative Data Sources
+                  - generic [ref=f1e628]: Aggregate scores (0–100) · consented · live from applicant record
+                  - generic [ref=f1e629]:
+                    - generic [ref=f1e630]:
+                      - generic [ref=f1e631]: "70"
+                      - generic [ref=f1e636]: Utility & Telecom
+                      - generic [ref=f1e637]: 12 months on-time mobile + broadband
+                    - generic [ref=f1e640]:
+                      - generic [ref=f1e641]: "78"
+                      - generic [ref=f1e647]: Rent Payment History
+                      - generic [ref=f1e648]: sustained tenancy · zero late months
+                    - generic [ref=f1e651]:
+                      - generic [ref=f1e652]:
+                        - generic [ref=f1e653]: ₹
+                        - generic [ref=f1e655]: "66"
+                      - generic [ref=f1e656]: Cash Flow / Banking
+                      - generic [ref=f1e657]: salary regularity · low return rate
+                    - generic [ref=f1e660]:
+                      - generic [ref=f1e661]: "62"
+                      - generic [ref=f1e668]: Digital Footprint
+                      - generic [ref=f1e669]: verified identity · stable device & email age
+          - generic [ref=f1e672]:
+            - generic [ref=f1e673]:
+              - generic [ref=f1e674]:
+                - heading "AI Operations Center" [level=3] [ref=f1e675]
+                - generic [ref=f1e676]: Governed workspace for review questions, agent supervision and audit, same light system you already use
+              - generic [ref=f1e677]: Workspace synced
+            - generic [ref=f1e679]:
+              - generic [ref=f1e680]:
+                - generic [ref=f1e681]:
+                  - generic [ref=f1e682]:
+                    - generic [ref=f1e683]: AI
+                    - text: Underwriting Copilot, governed assistant
+                  - generic [ref=f1e684]: Good morning. I am monitoring the new-to-credit queue and policy controls. What would you like to inspect?
+                  - generic [ref=f1e685]:
+                    - button "Why was this decision made?" [ref=f1e686] [cursor=pointer]
+                    - button "Show strongest alternative signals" [ref=f1e687] [cursor=pointer]
+                    - button "What needs human review?" [ref=f1e688] [cursor=pointer]
+                  - generic [ref=f1e689]:
+                    - textbox "Ask about a decision, cohort, or control…" [ref=f1e690]
+                    - button "Open Lab" [ref=f1e691] [cursor=pointer]
+                - generic [ref=f1e693]:
+                  - generic [ref=f1e694]: Atlas ensemble, governed runtime
+                  - generic [ref=f1e695]:
+                    - generic [ref=f1e696]:
+                      - generic [ref=f1e697]: CONFIDENCE
+                      - generic [ref=f1e698]: 87%
+                    - generic [ref=f1e699]:
+                      - generic [ref=f1e700]: ESCALATION RATE
+                      - generic [ref=f1e701]: 0%
+                  - generic [ref=f1e704]: Confidence threshold 80% · 87% current
+              - generic [ref=f1e705]:
+                - generic [ref=f1e706]:
+                  - generic [ref=f1e707]: Active agent roster
+                  - generic [ref=f1e708]: 4 supervised agents
+                  - generic [ref=f1e709]:
+                    - generic [ref=f1e710]:
+                      - generic [ref=f1e714]:
+                        - generic [ref=f1e715]: Intake Orchestrator
+                        - generic [ref=f1e716]: Application triage · Atlas 8.2
+                      - generic [ref=f1e717]: WORKING
+                    - generic [ref=f1e718]:
+                      - generic [ref=f1e723]:
+                        - generic [ref=f1e724]: Evidence Synthesizer
+                        - generic [ref=f1e725]: Multi-modal analysis · Atlas 8.2
+                      - generic [ref=f1e726]: WORKING
+                    - generic [ref=f1e727]:
+                      - generic [ref=f1e732]:
+                        - generic [ref=f1e733]: Policy Sentinel
+                        - generic [ref=f1e734]: Control monitoring · Guardrail 2.6
+                      - generic [ref=f1e735]: STANDBY
+                    - generic [ref=f1e736]:
+                      - generic [ref=f1e743]:
+                        - generic [ref=f1e744]: Review Concierge
+                        - generic [ref=f1e745]: Human handoff · Assist 1.9
+                      - generic [ref=f1e746]: STANDBY
+                - generic [ref=f1e747]:
+                  - generic [ref=f1e748]: Recent activity
+                  - generic [ref=f1e749]: Last 5 events from audit ledger
+                  - generic [ref=f1e750]:
+                    - generic [ref=f1e756]:
+                      - generic [ref=f1e757]: Vikram Rathore · APPROVED
+                      - generic [ref=f1e758]: Default-risk model trained on real Home Credit loans estimated a 2% prob
+                    - generic [ref=f1e759]: 15:20:53
+                  - generic [ref=f1e760]:
+                    - generic [ref=f1e766]:
+                      - generic [ref=f1e767]: Vikram Rathore · APPROVED
+                      - generic [ref=f1e768]: Default-risk model trained on real Home Credit loans estimated a 2% prob
+                    - generic [ref=f1e769]: 15:17:16
+                  - generic [ref=f1e770]:
+                    - generic [ref=f1e776]:
+                      - generic [ref=f1e777]: Vikram Rathore · APPROVED
+                      - generic [ref=f1e778]: Default-risk model trained on real Home Credit loans estimated a 2% prob
+                    - generic [ref=f1e779]: 15:15:43
+                  - generic [ref=f1e780]:
+                    - generic [ref=f1e786]:
+                      - generic [ref=f1e787]: Vikram Rathore · APPROVED
+                      - generic [ref=f1e788]: Default-risk model trained on real Home Credit loans estimated a 2% prob
+                    - generic [ref=f1e789]: 15:07:42
+                  - generic [ref=f1e790]:
+                    - generic [ref=f1e796]:
+                      - generic [ref=f1e797]: Vikram Rathore · APPROVED
+                      - generic [ref=f1e798]: Default-risk model trained on real Home Credit loans estimated a 2% prob
+                    - generic [ref=f1e799]: 15:05:54
+          - generic [ref=f1e801]:
+            - generic [ref=f1e802]:
+              - heading "Cash-flow second look, in context" [level=3] [ref=f1e803]
+              - generic [ref=f1e804]: the consented bank-data overlay that decides thin-file cases
+            - generic [ref=f1e805]: Open Cash-flow Intelligence from the top nav to connect a statement, watch the live overlay, and simulate adverse events on any applicant in the portfolio.
+    - generic [ref=f1e431]: NexCredit AI · Synchrony Hackathon 2026
+  - generic [ref=f1e806]: Approved
